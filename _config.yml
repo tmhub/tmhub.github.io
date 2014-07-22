@@ -1,9 +1,7 @@
 markdown: kramdown
-# kramdown:
-#   input: GFM
 pygments: true
 
 title_tag_text: TMHub docs
 h1_tag_text: TMHub docs
 
-exclude: ["Procfile", "Gruntfile.js", "README.md", "package.json", "CNAME", "node_modules"]
+exclude: ["README.md"]
