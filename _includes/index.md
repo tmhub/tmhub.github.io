@@ -109,7 +109,7 @@ AllowOverride All
 <Directory "D:/www/public">
 DirectoryIndex index.php index.html
 ErrorLog "D:/www/logs/apache_error.log"
-    {% endhighlight %}
+{% endhighlight %}
 
 3. Add the following settings to the bottom of the file:
 
@@ -117,7 +117,7 @@ ErrorLog "D:/www/logs/apache_error.log"
 LoadModule php5_module "c:/php/php5apache2_2.dll"
 AddType application/x-httpd-php .php
 PHPIniDir "C:/php"
-    {% endhighlight %}
+{% endhighlight %}
 
 ### Git
 [Download and install](http://git-scm.com/)
@@ -153,7 +153,7 @@ Add `www/dev/satis/bin` folder to system PATH variable.
 
     {% highlight bash %}
 npm install -g gulp
-    {% endhighlight %}
+{% endhighlight %}
 
 ## Magento installation
 
@@ -167,7 +167,7 @@ cd htdocs
 git checkout magento-ce-1.9.0.1
 echo '*' > .gitignore
 cp errors/local.xml.sample errors/local.xml
-    {% endhighlight %}
+{% endhighlight %}
 
 2. Install sample data and Magento as usual.
 3. Navigate to backend `System > Configuration > Developer > Template Settings`
@@ -182,7 +182,7 @@ cp errors/local.xml.sample errors/local.xml
     {% highlight bash %}
 cd www/public/magento
 composer install
-    {% endhighlight %}
+{% endhighlight %}
 
     All modules will be automatically downloaded to the `www/public/magento/vendor/tm`
     folder and symlinked into `www/public/magento/htdocs`. So you can edit files
@@ -195,7 +195,7 @@ cd www/public/magento/vendor/tm
 git init
 for module in *; do git submodule add "./$module"; done;
 git commit -m "Initial commit"
-    {% endhighlight %}
+{% endhighlight %}
 
 ## Workflow
 
@@ -291,7 +291,7 @@ TCP or UDP: TCP
 Specific local ports: 80
 Allow the connection: Domain, Private, Public
 Name: Apache
-    {% endhighlight %}
+{% endhighlight %}
 
 ### Start and stop VPN quickly
 1. Install and setup VPN application
@@ -305,14 +305,14 @@ Name: StartVPN
 Run with highest privileges: Checked
 Actions:
     Start a Program: path\to\ToggleVPN.bat
-    {% endhighlight %}
+{% endhighlight %}
 
 4. Create a shortcut on the desktop:
 
     {% highlight bash %}
 Name: Start VPN
 Target: C:\Windows\System32\schtasks.exe /run /tn "StartVPN"
-    {% endhighlight %}
+{% endhighlight %}
 
 ### Terminal
 [ConEmu](http://www.fosshub.com/ConEmu.html) is nice one.
