@@ -91,7 +91,7 @@ extension=php_mysqli.dll
 extension=php_openssl.dll
 extension=php_pdo_mysql.dll
 date.timezone = 'America/Los_Angeles'
-    {% endhighlight %}
+{% endhighlight %}
 
 4. Add `C:\php` folder to system PATH
 
