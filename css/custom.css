@@ -1,19 +1,8 @@
-code {
-    padding: 0;
-}
 pre, code {
     display: inline-block;
     font: 14px/1.8em Menlo, Consolas, "Courier New", Courier, "Liberation Mono", monospace;
     padding: 0 0.5em;
     margin: 0;
-}
-h1:hover .header-link,
-h2:hover .header-link,
-h3:hover .header-link,
-h4:hover .header-link,
-h5:hover .header-link,
-h6:hover .header-link {
-    opacity: 1;
 }
 .highlight {
     background: #eee;
@@ -22,6 +11,9 @@ h6:hover .header-link {
     padding: 10px 0;
     width: 100%;
 }
+.container {
+    max-width: 33rem;
+}
 .header-link {
     font-size: 0.8em;
     left: 0.5em;
@@ -29,6 +21,11 @@ h6:hover .header-link {
     position: relative;
     transition: opacity 0.2s ease-in-out 0.1s;
 }
-.container {
-    max-width: 33rem;
+h1:hover .header-link,
+h2:hover .header-link,
+h3:hover .header-link,
+h4:hover .header-link,
+h5:hover .header-link,
+h6:hover .header-link {
+    opacity: 1;
 }
