@@ -120,12 +120,23 @@ PHPIniDir "C:/php"
 {% endhighlight %}
 
 ### Git
-[Download and install](http://git-scm.com/)
+1. [Download and install](http://git-scm.com/)
 
-Notes:
+    Notes:
 
-- Add the git to the system PATH during installation
-- Select checkout as-is and commit as-is option
+    - Add the git to the system PATH during installation
+    - Select checkout as-is and commit as-is option
+
+2. Setup git
+
+    {% highlight bash %}
+git config --global user.name "FirstName LastName"
+git config --global user.email "your_email@example.com"
+git config --global core.autocrlf false
+git config --global push.default simple
+{% endhighlight %}
+
+3. Setup [github](https://github.com/) account and [generate ssh key](https://help.github.com/articles/generating-ssh-keys)
 
 ### Composer
 - [Windows installation](https://getcomposer.org/Composer-Setup.exe)
