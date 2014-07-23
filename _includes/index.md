@@ -25,6 +25,7 @@
  - [Access the site within local network](#access-the-site-within-local-network)
  - [Start and stop vpn quickly](#start-and-stop-vpn-quickly)
  - [Terminal](#terminal)
+ - [Sublime text editor](#sublime-text-editor)
 
 ## Before start
 
@@ -326,3 +327,18 @@ GitBash with admin privileges:
 {% highlight bash %}
 "C:\Program Files (x86)\Git\bin\sh.exe" --login -i -new_console:a
 {% endhighlight %}
+
+### Sublime text editor
+
+1. Install [Package Control](https://sublime.wbond.net/installation)
+2. Configure Sublime.
+
+    You can download ready to use settings and merge with yours inside
+    `%APPDATA%/Sublime Text 3/Packages/User` folder.
+
+    - [Configuration](https://github.com/tmhub/tmhub.github.io/raw/master/_res/sublime/Preferences.sublime-settings)
+    - [Plugins list](https://github.com/tmhub/tmhub.github.io/raw/master/_res/sublime/Package Control.sublime-settings)
+    - [Windows keymap](https://github.com/tmhub/tmhub.github.io/raw/master/_res/sublime/Default (Windows).sublime-keymap)
+
+3. Syncing. If you would like to sync the sublime settings on multiple workstations,
+read the [tutorial](https://sublime.wbond.net/docs/syncing)

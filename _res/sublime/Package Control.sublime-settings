@@ -1,0 +1,29 @@
+{
+	"installed_packages":
+	[
+		"Alignment",
+		"All Autocomplete",
+		"ApacheConf.tmLanguage",
+		"BracketHighlighter",
+		"Calculate",
+		"DocBlockr",
+		"Emmet",
+		"File History",
+		"GitGutter",
+		"Github Tools",
+		"INI",
+		"Inline Google Translate",
+		"IpAddress",
+		"Local History",
+		"Markdown Extended",
+		"Monokai Extended",
+		"SFTP",
+		"SideBarEnhancements",
+		"Sublime Bookmarks",
+		"SublimeLinter",
+		"SublimeLinter-jshint",
+		"SublimeLinter-json",
+		"SublimeLinter-php",
+		"SublimeLinter-xmllint"
+	]
+}
