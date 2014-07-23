@@ -225,7 +225,7 @@ git commit -m "Initial commit"
     *Optional step.* **This step is required before making release.**
 
 ### Tracking the changes in tm modules without entering into each module folder
-1. [Create git repository inside `vendor/tm`](#tm-modules-installation) folder
+1. [Create git repository inside `vendor/tm`](#tm-modules) folder
 2. Use the `git status` command inside `www/public/magento/vendor/tm` folder.
 3. After the changes where published to github, call `git add changed_module`
     and `git commit -m "Module update"` commands.
