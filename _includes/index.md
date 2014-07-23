@@ -208,21 +208,7 @@ for module in *; do git submodule add "./$module"; done;
 git commit -m "Initial commit"
 {% endhighlight %}
 
-## Workflow
-
-### Commiting the changes
-1. `cd www/public/magento/vendor/tm/cache`
-2. edit example.php
-3. `git add example.php`
-4. `commit -m "Commit msg"`
-5. `git push`
-6. `cd ../`
-7. `git status` Will show you all modified modules
-8. `git add cache`
-9. `git commit -m "Cache updated"`
-10. `git status` Doesn't show you the cache module now
-11. [Update TM packages repository](#updating-tm-packages-repository) -
-    *Optional step.* **This step is required before making release.**
+## Module development
 
 ### Tracking the changes in tm modules without entering into each module folder
 1. [Create git repository inside `vendor/tm`](#tm-modules) folder
@@ -238,7 +224,6 @@ file to your repository**
 - [Cache](https://github.com/tmhub/cache/tree/master/build) demo and full version
 - [EasyCatalogImg](https://github.com/tmhub/easycatalogimg/tree/master/build)
 - [Firecheckout](https://github.com/tmhub/firecheckout/tree/master/build)
-
 
 ### Keep the modules up to date
 There are two ways of updating the modules. You can update them with `git pull`
