@@ -339,6 +339,7 @@ GitBash with admin privileges:
     - [Configuration](https://github.com/tmhub/tmhub.github.io/raw/master/_res/sublime/Preferences.sublime-settings)
     - [Plugins list](https://github.com/tmhub/tmhub.github.io/raw/master/_res/sublime/Package Control.sublime-settings)
     - [Windows keymap](https://github.com/tmhub/tmhub.github.io/raw/master/_res/sublime/Default (Windows).sublime-keymap)
+    - [OSX keymap](https://github.com/tmhub/tmhub.github.io/raw/master/_res/sublime/Default (OSX).sublime-keymap)
 
 3. Syncing. If you would like to sync the sublime settings on multiple workstations,
 read the [tutorial](https://sublime.wbond.net/docs/syncing)
