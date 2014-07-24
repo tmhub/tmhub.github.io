@@ -220,13 +220,29 @@ git commit -m "Initial commit"
     and `git commit -m "Module update"` commands.
 
 ### Making release
-Use the following modules as example. **Make sure that you added `.gitignore`
-file to your repository**
+We use [gulp](#nodejs-and-gulpjs) to make release.
 
-- [AjaxPro](https://github.com/tmhub/ajaxpro/tree/master/build)
-- [Cache](https://github.com/tmhub/cache/tree/master/build) demo and full version
-- [EasyCatalogImg](https://github.com/tmhub/easycatalogimg/tree/master/build)
-- [Firecheckout](https://github.com/tmhub/firecheckout/tree/master/build)
+1. Create `build` directory inside project root folder
+2. Add the following content to `.gitingore`:
+
+    {% highlight bash %}
+build/*
+!build/composer.json
+!build/gulpfile.js
+!build/package.json
+!build/README.md
+{% endhighlight %}
+
+3. Copy these files from one of example modules. Modify them according to your
+    project name and needs.
+
+    - [AjaxPro](https://github.com/tmhub/ajaxpro/tree/master/build)
+    - [Cache](https://github.com/tmhub/cache/tree/master/build) demo and full version
+    - [EasyCatalogImg](https://github.com/tmhub/easycatalogimg/tree/master/build)
+    - [Firecheckout](https://github.com/tmhub/firecheckout/tree/master/build)
+
+4. Follow the `build/README.md` instructions
+5. Upload the generated archive to github release
 
 ### Keep the modules up to date
 There are two ways of updating the modules. You can update them with `git pull`
