@@ -5,10 +5,10 @@
  - [Mysql](#mysql)
  - [Php](#php)
  - [Apache](#apache)
- - [Git](#git) to download and write modules
- - [Composer](#composer) to manage magento modules dependencies
- - [Satis](#satis) to update packages repository
- - [Node.js and gulp.js](#nodejs-and-gulpjs) to run release maker script
+ - [Git](#git)
+ - [Composer](#composer)
+ - [Satis](#satis)
+ - [Node.js and gulp.js](#nodejs-and-gulpjs)
 
 ## Magento installation
  - [Magento](#magento)
@@ -170,7 +170,7 @@ npm install -g gulp
 ## Magento installation
 
 ### Magento
-1. Clone [Speedupmate Magento repository](https://github.com/speedupmate/Magento-CE-Mirror)
+1. Clone [Speedupmate Magento repository](https://github.com/speedupmate/Magento-CE-Mirror):
 
     {% highlight bash %}
 cd www/public/magento
@@ -181,10 +181,12 @@ echo '*' > .gitignore
 cp errors/local.xml.sample errors/local.xml
 {% endhighlight %}
 
-2. Install sample data and Magento as usual.
-3. Navigate to backend `System > Configuration > Developer > Template Settings`
-    and set `Allow Symlinks` option to "Yes".
-4. Enable logs at `System > Configuration > Developer > Log Settings` configuration.
+2. Install [magento sample data](http://www.magentocommerce.com/download)
+3. Open `192.168.1.xxx/magento/htdocs` address in browser and install Magento
+4. Navigate to backend `System > Configuration > Developer > Template Settings`
+    and set `Allow Symlinks` option to "Yes"
+5. Enable logs at `System > Configuration > Developer > Log Settings` configuration
+6. Disable cache at `System > Cache Management`
 
 ### TM modules
 1. Download [composer.json](https://github.com/tmhub/tmhub.github.io/raw/master/_res/composer.json)
@@ -234,16 +236,16 @@ command for each modules or `composer update` to update all modules at once.
 
 1. Commit all of your changes to github
 2. [Update packages](#updating-tm-packages-repository) repository
-3. Run `composer update` command inside `www/public/magento` folder. **Do not run
-    this command if you didn't complete first or second step!**
+3. Run `composer update` command with admin privileges inside `www/public/magento`
+    folder. **Do not run this command if you didn't complete first or second step!**
 
 > See the [Manual module deployment](#manual-module-deployment) section in case if
 module wasn't deployed into `www/public/magento` folder.
 
 ### Manual module deployment
 There is a chance that something will went wrong during `composer update` command.
-In case if all modules are downloaded by composer but not deployed to magento folder,
-use the following command:
+In case if all modules are downloaded by composer but not deployed to the magento
+folder, use the following command:
 
 {% highlight bash %}
 cd www/public/magento
