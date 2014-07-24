@@ -266,6 +266,7 @@ Update the repository and push changes:
 
 {% highlight bash %}
 cd www/public/packages
+git pull
 satis build satis.json .
 git add .
 git commit -m "satis build satis.json ."
