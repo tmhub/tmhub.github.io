@@ -15,6 +15,7 @@
  - [TM modules](#tm-modules)
 
 ## Module development
+ - [Module sort order](#module-sort-order)
  - [Tracking the changes in tm modules easely](#tracking-the-changes-in-tm-modules-easely)
  - [Making release](#making-release)
  - [Keep the modules up to date](#keep-the-modules-up-to-date)
@@ -212,6 +213,22 @@ git commit -m "Initial commit"
 {% endhighlight %}
 
 ## Module development
+
+### Module sort order
+Use the [sortorder gist](https://gist.github.com/vovayatsyuk/8668928#file-sortorder-js)
+to determine the module sort order for system.xml and adminhtml.xml files.
+Invoke the script in firebug console with your module code.
+
+For example:
+
+Module Name|Code for [sortorder.js](https://gist.github.com/vovayatsyuk/8668928#file-sortorder-js) script
+:----------|:-----------
+AjaxLayeredNavigation|aln
+AjaxPro|apr
+EasyBanners|eb
+EasyTabs|et
+Full Page Cache|fpc
+Firecheckout|fir
 
 ### Tracking the changes in tm modules easely
 1. [Create git repository inside `vendor/tm`](#tm-modules) folder
