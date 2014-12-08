@@ -16,7 +16,6 @@
 
 ## Module development
  - [Module sort order](#module-sort-order)
- - [Tracking the changes in tm modules easely](#tracking-the-changes-in-tm-modules-easely)
  - [Making release](#making-release)
  - [Keep the modules up to date](#keep-the-modules-up-to-date)
  - [Manual module deployment](#manual-module-deployment)
@@ -203,15 +202,6 @@ composer install
     folder and symlinked into `www/public/magento/htdocs`. So you can edit files
     in both `vendor/tm` and `htdocs` folders.
 
-3. Create submodule repository to track the changes in each module
-
-    {% highlight bash %}
-cd www/public/magento/vendor/tm
-git init
-for module in *; do git submodule add "./$module"; done;
-git commit -m "Initial commit"
-{% endhighlight %}
-
 ## Module development
 
 ### Module sort order
@@ -229,89 +219,6 @@ EasyBanners|eb
 EasyTabs|et
 Full Page Cache|fpc
 Firecheckout|fir
-
-### Tracking the changes in tm modules easely
-1. [Create git repository inside `vendor/tm`](#tm-modules) folder
-2. Use the `git status` command inside `www/public/magento/vendor/tm` folder.
-
-    Output example:
-
-    {% highlight bash %}
-user@USER-PC /d/www/public/magento/vendor/tm (master)
-$ git status
-On branch master
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git checkout -- <file>..." to discard changes in working directory)
-  (commit or discard the untracked or modified content in submodules)
-
-        modified:   ajaxlayerednavigation (modified content)
-        modified:   cache (modified content, untracked content)
-        modified:   firecheckout (new commits)
-{% endhighlight %}
-
-    An overview of what each of these means and how to correctly commit it:
-<table>
-  <col width="30%"/>
-  <col width="70%"/>
-  <thead>
-    <tr>
-      <th>Message</th>
-      <th>Description / How to commit</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>
-        ajaxlayerednavigation (modified content)
-      </td>
-      <td>
-Content is modified but not committed.
-{% highlight bash %}
-cd ajaxlayerednavigation
-git add modified_files
-git commit -m "Message"
-git push
-cd ../
-git add ajaxlayerednavigation
-git commit -m "Update"
-{% endhighlight %}
-      </td>
-    </tr>
-    <tr>
-      <td>
-        cache (untracked content)
-      </td>
-      <td>
-New not staged files are found.
-{% highlight bash %}
-cd cache
-git add untracked_files
-git commit -m "Message"
-git push
-cd ../
-git add cache
-git commit -m "Update"
-{% endhighlight %}
-      </td>
-    </tr>
-    <tr>
-      <td>
-        firecheckout (new commits)
-      </td>
-      <td>
-New commits (possibly not pushed to remote) are available.
-{% highlight bash %}
-cd firecheckout
-git push
-cd ../
-git add firecheckout
-git commit -m "Update"
-{% endhighlight %}
-      </td>
-    </tr>
-  </tbody>
-</table>
 
 ### Making release
 We use [gulp](#nodejs-and-gulpjs) to make release.
