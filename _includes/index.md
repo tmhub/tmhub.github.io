@@ -205,20 +205,22 @@ composer install
 ## Module development
 
 ### Module sort order
-Use the [sortorder gist](https://gist.github.com/vovayatsyuk/8668928#file-sortorder-js)
-to determine the module sort order for system.xml and adminhtml.xml files.
-Invoke the script in firebug console with your module code.
+Use the three letters of module code to determine the module sort.
+
+<input type="text" name="module_code" id="module_code" placeholder="Module Code"/>
+<code id="module_sortorder"></code>
 
 For example:
 
-Module Name|Code for [sortorder.js](https://gist.github.com/vovayatsyuk/8668928#file-sortorder-js) script
-:----------|:-----------
+Module Name          |Code for [sortorder.js](https://gist.github.com/vovayatsyuk/8668928#file-sortorder-js) script
+:--------------------|:-----------
 AjaxLayeredNavigation|aln
-AjaxPro|apr
-EasyBanners|eb
-EasyTabs|et
-Full Page Cache|fpc
-Firecheckout|fir
+AjaxPro              |apr
+EasyBanners          |eba
+EasyColorSwatches    |eco
+EasyTabs             |eta
+Full Page Cache      |fpc
+Firecheckout         |fir
 
 ### Making release
 We use [gulp](#nodejs-and-gulpjs) to make release.
