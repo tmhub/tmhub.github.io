@@ -209,7 +209,10 @@ Use two or three letters of module code to determine the module sort order. It's
 recommended to use the two letters, bacause the third letter calculation is not
 accurate.
 
-{% include sortorder.html %}
+{% raw %}
+<input type="text" name="module_code" id="module_code" placeholder="Module Code"/>
+<code id="module_sortorder">0</code>
+{% endraw %}
 
 For example:
 
