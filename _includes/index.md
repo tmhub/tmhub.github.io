@@ -205,10 +205,11 @@ composer install
 ## Module development
 
 ### Module sort order
-Use the three letters of module code to determine the module sort.
+Use two or three letters of module code to determine the module sort order. It's
+recommended to use the two letters, bacause the third letter calculation is not
+accurate.
 
-<input type="text" name="module_code" id="module_code" placeholder="Module Code"/>
-<code id="module_sortorder"></code>
+{% include sortorder.html %}
 
 For example:
 
