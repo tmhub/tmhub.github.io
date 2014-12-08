@@ -1,5 +1,5 @@
 markdown: kramdown
-pygments: true
+highlighter: pygments
 
 title_tag_text: TMHub docs
 h1_tag_text: TMHub docs
