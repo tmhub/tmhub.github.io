@@ -205,19 +205,21 @@ composer install
 ## Module development
 
 ### Module sort order
-Use two or three letters of module code to determine the module sort order. It's
+Use **two or three letters** of module code to determine the module sort order. It's
 recommended to use the two letters, bacause the third letter calculation is not
 accurate.
 
 {% raw %}
-<input type="text" name="module_code" id="module_code" placeholder="Module Code"/>
-<code id="module_sortorder">0</code>
+<div class="sortorder-wrapper">
+  <input type="text" name="module_code" id="module_code" placeholder="Module Code" maxlength="3"/>
+  <code id="module_sortorder">0</code>
+</div>
 {% endraw %}
 
 For example:
 
-Module Name          |Code for [sortorder.js](https://gist.github.com/vovayatsyuk/8668928#file-sortorder-js) script
-:--------------------|:-----------
+Module Name          |Code for sortorder script
+:--------------------|:------------------------
 AjaxLayeredNavigation|aln
 AjaxPro              |apr
 EasyBanners          |eba
