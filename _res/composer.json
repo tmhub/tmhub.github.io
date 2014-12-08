@@ -6,6 +6,7 @@
         "tm/ajaxlayerednavigation": "*",
         "tm/argento": "*",
         "tm/argento_mage2cloud": "*",
+        "tm/argento_tm": "*",
         "tm/cache": "*",
         "tm/easylightbox": "*",
         "tm/easynavigation": "*",
@@ -16,7 +17,8 @@
         "tm/smartsuggest": "*",
         "tm/templatef001": "*",
         "tm/templatef002": "*",
-        "tm/templatem001": "*"
+        "tm/templatem001": "*",
+        "tm/testimonials": "*"
     },
     "repositories": [
         {
