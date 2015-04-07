@@ -107,16 +107,19 @@ date.timezone = 'America/Los_Angeles'
 3. Add `C:\php` folder to system PATH
 
 ### Apache
-1. [Download and install Apache](http://www.whoishostingthis.com/mirrors/apache//httpd/binaries/win32/httpd-2.2.25-win32-x86-openssl-0.9.8y.msi)
-2. Find the following settings in `httpd.conf` and change them as shown below:
+1. [Download](http://www.apachelounge.com/download/VC11/binaries/httpd-2.4.12-win32-VC11.zip)
+and unpack binaries to `/c/Apache24`
+2. Find the following settings in `conf/httpd.conf` and change them as shown below:
 
     {% highlight apacheconf %}
-Listen *:80
+ServerRoot "c:/Apache24"
+Listen 80
 # LoadModule cgi_module modules/mod_cgi.so
 LoadModule rewrite_module modules/mod_rewrite.so
 ServerName your_local_ip_address:80
 DocumentRoot "D:/www/public"
 AllowOverride All
+Require all granted
 <Directory "D:/www/public">
 DirectoryIndex index.php index.html
 ErrorLog "D:/www/logs/apache_error.log"
@@ -125,7 +128,7 @@ ErrorLog "D:/www/logs/apache_error.log"
 3. Add the following settings to the bottom of the file:
 
     {% highlight apacheconf %}
-LoadModule php5_module "c:/php/php5apache2_2.dll"
+LoadModule php5_module "c:/php/php5apache2_4.dll"
 AddType application/x-httpd-php .php
 PHPIniDir "C:/php"
 {% endhighlight %}
