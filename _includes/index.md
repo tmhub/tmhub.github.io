@@ -72,14 +72,23 @@ www/public/phpmyadmin|PhpMyAdmin
     directory
 
 ### Php
-1. Download the [php binaries](http://windows.php.net/downloads/releases/php-5.3.28-Win32-VC9-x86.zip)
-2. Unpack the archive to `C:/php` folder
-3. Create `php.ini` file based on php.ini-development with the following changes:
+
+1. Download and unpack binaries:
+
+    {% highlight bash %}
+cd /c/
+curl --remote-name http://windows.php.net/downloads/releases/php-5.5.23-Win32-VC11-x86.zip
+unzip php-5.5.23-Win32-VC11-x86.zip -d php
+cd php
+cp php.ini-development php.ini
+{% endhighlight %}
+
+2. Apply the following changes to `php.ini`:
 
     {% highlight ini %}
 max_execution_time = 600
 memory_limit = 512M
-error_reporting = E_ALL | E_STRICT
+error_reporting = E_ALL
 error_log = "D:\www\logs\php_error.log"
 post_max_size = 256M
 doc_root = d:\www\public
@@ -87,6 +96,7 @@ extension_dir = "ext"
 upload_max_filesize = 256M
 extension=php_curl.dll
 extension=php_gd2.dll
+extension=php_intl.dll
 extension=php_mbstring.dll
 extension=php_mysqli.dll
 extension=php_openssl.dll
@@ -94,7 +104,7 @@ extension=php_pdo_mysql.dll
 date.timezone = 'America/Los_Angeles'
 {% endhighlight %}
 
-4. Add `C:\php` folder to system PATH
+3. Add `C:\php` folder to system PATH
 
 ### Apache
 1. [Download and install Apache](http://www.whoishostingthis.com/mirrors/apache//httpd/binaries/win32/httpd-2.2.25-win32-x86-openssl-0.9.8y.msi)
