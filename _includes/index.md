@@ -375,13 +375,6 @@ GitBash with admin privileges:
 2. Install [Package Control](https://sublime.wbond.net/installation)
 3. Configure Sublime.
 
-    You can download ready to use settings and merge with yours inside
+    You can [download](https://gist.github.com/vovayatsyuk/e8257a707b841c78a794) 
+    ready to use settings and place the files to
     `%APPDATA%/Sublime Text 3/Packages/User` folder.
-
-    - [Configuration](https://github.com/tmhub/tmhub.github.io/raw/master/_res/sublime/Preferences.sublime-settings)
-    - [Plugins list](https://github.com/tmhub/tmhub.github.io/raw/master/_res/sublime/Package Control.sublime-settings)
-    - [Windows keymap](https://github.com/tmhub/tmhub.github.io/raw/master/_res/sublime/Default (Windows).sublime-keymap)
-    - [OSX keymap](https://github.com/tmhub/tmhub.github.io/raw/master/_res/sublime/Default (OSX).sublime-keymap)
-
-4. Syncing. If you would like to sync the sublime settings on multiple workstations,
-read the [tutorial](https://sublime.wbond.net/docs/syncing)
