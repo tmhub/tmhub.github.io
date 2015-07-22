@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+  {% include head.html %}
+  <body>
+    <div class="mdl-layout">
+      <main class="mdl-layout__content">
+        {{ content }}
+      </main>
+    </div>
+
+    <script src="{{ "/bower_components/material-design-lite/material.min.js" | prepend: site.baseurl }}"></script>
+  </body>
+</html>

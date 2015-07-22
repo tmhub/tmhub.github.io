@@ -1,7 +1,33 @@
+encoding: utf-8
+title: Templates-Master docs
+email: support@templates-master.com
+description: > # this means to ignore newlines until "baseurl:"
+  Templates-Master extensions, themes and development documentation
+baseurl: ""
+url: "http://tmhub.github.io"
+
+# Outputting
+permalink: none
+
+# Build settings
+safe: true
+lsi: false
+# highlighter: pygments
+
 markdown: kramdown
-highlighter: pygments
+kramdown:
+  input: GFM
+  hard_wrap: false
+  # syntax_highlighter: pygments
+  enable_coderay: false
 
-title_tag_text: TMHub docs
-h1_tag_text: TMHub docs
-
-exclude: ["README.md"]
+# markdown: redcarpet
+# redcarpet:
+#   extensions:
+#     - no_intra_emphasis
+#     - tables
+#     - fenced_code_blocks
+#     - autolink
+#     - strikethrough
+#     - superscript
+#     - with_toc_data

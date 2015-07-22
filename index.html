@@ -1,6 +1,114 @@
 ---
-layout: default
+layout: home
 ---
 
-{% capture index %}{% include index.md %}{% endcapture %}
-{{ index | markdownify }}
+<div class="jumbotron mdl-color--white">
+  <div class="mdl-grid">
+    <div class="mdl-cell mdl-cell--12-col">
+      <div class="mdl-typography--font-light mdl-typography--display-3">
+        Docs
+      </div>
+      <div class="mdl-typography--font-light mdl-color-text--grey-700 mdl-typography--headline">
+        Templates-Master extensions documentation
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="mdl-color--grey-100 mdl-color-text--grey-700">
+  <div class="mdl-grid">
+    <div class="mdl-cell mdl-cell--12-col">
+      <div class="docs-search">
+        <div class="mdl-textfield mdl-js-textfield">
+          <label class="mdl-button mdl-js-button mdl-button--icon" for="search">
+            <i class="material-icons">search</i>
+          </label>
+          <div class="textfield-search">
+            <input class="mdl-textfield__input" type="text" id="search" />
+            <label class="mdl-textfield__label" for="search">Search (UNDER DEVELOPMENT)...</label>
+          </div>
+        </div>
+      </div>
+      {% for group in site.data.products %}
+        <div class="clearfix products-group">
+          <h3>
+            {{ group.title }}
+            {% if group.url %}
+              <a title="{{ group.title }}" href="{{ group.url | prepend: site.baseurl }}">&#8658;</a>
+            {% endif %}
+          </h3>
+          {% assign items_by_column = group.items | sort: "column" | group_by: "column" %}
+          {% for column in items_by_column %}
+            <ul class="list-products">
+              {% assign products = column.items | sort: "title" %}
+              {% for product in products %}
+                <li>
+                  {% assign dataBadge = "" %}
+                  {% if product.badge %}
+                    {% capture dataBadge %} data-badge="{{ product.badge }}"{% endcapture %}
+                  {% elsif product.free %}
+                    {% capture dataBadge %} data-badge="free"{% endcapture %}
+                  {% elsif product.hot %}
+                    {% capture dataBadge %} data-badge="hot"{% endcapture %}
+                  {% endif %}
+
+                  {% capture className %} class="{% if product.hot %}hot mdl-badge {% endif %}{% if product.free %}free mdl-badge {% endif %}{% if product.badge %}mdl-badge {% endif %}{{ product.class }}"{% endcapture %}
+                  <a href="{{ product.url | prepend: site.baseurl }}" title="{{ product.title }}"{{ className }}{{ dataBadge }}>{{ product.title }}</a>
+                </li>
+              {% endfor %}
+            </ul>
+          {% endfor %}
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+<div class="jumbotron mdl-color--white">
+  <div class="mdl-grid">
+    <div class="mdl-cell mdl-cell--12-col">
+      <div class="mdl-typography--font-light mdl-typography--display-3">
+        Dev docs
+      </div>
+      <div class="mdl-typography--font-light mdl-color-text--grey-700 mdl-typography--headline">
+        Documentation for TM developers <a href="/development/" title="Dev docs">&#8658;</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="mdl-color--grey-100 mdl-color-text--grey-700">
+  <div class="mdl-grid">
+    <div class="mdl-cell mdl-cell--12-col">
+      <h3>Before start</h3>
+      <ul>
+        <li><a href="{{ "/development#directory-structure" | prepend: site.baseurl }}">Directory Structure</a></li>
+      </ul>
+      <h3>Required software</h3>
+      <ul>
+        <li><a href="{{ "/development#mysql" | prepend: site.baseurl }}">Mysql</a></li>
+        <li><a href="{{ "/development#php" | prepend: site.baseurl }}">PHP</a></li>
+        <li><a href="{{ "/development#apache" | prepend: site.baseurl }}">Apache</a></li>
+        <li><a href="{{ "/development#git" | prepend: site.baseurl }}">Git</a></li>
+        <li><a href="{{ "/development#composer" | prepend: site.baseurl }}">Composer</a></li>
+        <li><a href="{{ "/development#satis" | prepend: site.baseurl }}">Satis</a></li>
+        <li><a href="{{ "/development#nodejs-and-gulpjs" | prepend: site.baseurl }}">Node.js and Gulp</a></li>
+      </ul>
+      <h3>Magento installation</h3>
+      <ul>
+        <li><a href="{{ "/development#magento" | prepend: site.baseurl }}">Magento</a></li>
+        <li><a href="{{ "/development#tm-modules" | prepend: site.baseurl }}">TM Modules</a></li>
+      </ul>
+      <h3>Module development</h3>
+      <ul>
+        <li><a href="{{ "/development#module-sort-order" | prepend: site.baseurl }}">Module sort order</a></li>
+        <li><a href="{{ "/development#making-release" | prepend: site.baseurl }}">Making release</a></li>
+      </ul>
+      <h3>Miscellaneous</h3>
+      <ul>
+        <li><a href="{{ "/development#terminal" | prepend: site.baseurl }}">Terminal</a></li>
+        <li><a href="{{ "/development#sublime-text-editor" | prepend: site.baseurl }}">Sublime text editor</a></li>
+      </ul>
+    </div>
+  </div>
+</div>

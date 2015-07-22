@@ -1,0 +1,49 @@
+- title: Extensions
+  items:
+    - title: Configurable Swatches
+      url: /catalog-configurable-swatches/
+      column: 1
+      free: 1
+
+    - title: Crawler
+      url: /crawler/
+      column: 1
+
+    - title: Firecheckout
+      url: /firecheckout/
+      column: 1
+
+    - title: Order Attachments
+      url: /order-attachments/
+      column: 1
+
+# - title: Argento themes
+#   url: /argento/
+#   items:
+#     - title: Argento
+#       url: /argento/argento/
+#       column: 1
+
+#     - title: Mall
+#       url: /argento/mall/
+#       column: 1
+
+#     - title: Pure
+#       url: /argento/pure/
+#       column: 2
+
+#     - title: Flat
+#       url: /argento/flat/
+#       column: 2
+
+- title: Themes
+  items:
+    - title: Absolute Theme
+      url: /f001-absolute-theme/
+      column: 1
+      free: 1
+
+    - title: Classic Theme
+      url: /f002-classic-theme/
+      column: 2
+      free: 1

@@ -1,21 +1,30 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ site.title_tag_text }}</title>
-  <link href='//fonts.googleapis.com/css?family=Roboto:400,400italic,700' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/syntax.css">
-  <link rel="stylesheet" href="css/solo.css">
-{% include head.html %}
-</head>
-<body>
-  <div class="container">
-    <h1><a href="./">{{ site.h1_tag_text }}</a></h1>
-    {{ content }}
-  </div>
-{% include scripts.html %}
-</body>
+<html class="no-js" lang="en">
+  {% include head.html %}
+  <body class="mdl-color--grey-100 mdl-color-text--grey-700">
+    <div class="mdl-layout">
+      {% if page.sidebar %}
+        <div class="mdl-layout__drawer sidebar">
+          {% capture sidebar %}{% include_relative {{page.sidebar}} %}{% endcapture %}
+          {{ sidebar | markdownify }}
+        </div>
+      {% endif %}
+
+      <main class="mdl-layout__content">
+        <div class="mdl-grid">
+          <div class="page-content mdl-color--white mdl-shadow--2dp mdl-color-text--grey-800 mdl-cell mdl-cell--12-col">
+            {% include breadcrumbs.html %}
+            {{ content }}
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <script src="{{ "/bower_components/material-design-lite/material.min.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/bower_components/prism/prism.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/bower_components/prism/components/prism-apacheconf.min.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/bower_components/prism/components/prism-php.min.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/bower_components/prism/components/prism-ini.min.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/js/app.js" | prepend: site.baseurl }}"></script>
+  </body>
 </html>
