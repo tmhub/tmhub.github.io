@@ -1,0 +1,10 @@
+---
+layout: default
+title: Bitpay Bitcoins integration
+permalink: /firecheckout/supported-modules/bitpay-bitcoins.html
+---
+
+# Bitpay Bitcoins
+
+Navigate to `System > Configuration > Firecheckout > Ajax save and reload rules`
+and add `Payment Method` to `Order total (Review) depends on` option.

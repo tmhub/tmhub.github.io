@@ -24,16 +24,11 @@ Firecheckout includes a huge amount of configurable additional possibilities:
 and much more. See the [configuration](#configuration) section for more information.
 
 ### Contents
-1. [Frontend](#frontend)
- - [Checkout page](#checkout-page)
- - [Order success page](#order-success-page)
- - [Order view page](#order-view-page)
- - [Email integration](#email-integration)
-2. [Backend](#backend)
- - [Configuration](#configuration)
- - [Order edit page](#order-edit-page)
-3. [Additional checkout fields](#additional-checkout-fields)
- - [Get fields programmatically](#get-fields-programmatically)
-4. [Supported modules](#supported-modules)
- - [Magento built-in modules](#built-in-modules)
- - [Third-party modules](/firecheckout/third-party-modules.html)
+
+1. [Usps address verification](/firecheckout/usps-address-verification.html)
+2. [Supported modules](/firecheckout/supported-modules/)
+ - [Magento built-in modules](/firecheckout/supported-modules#magento-built-in-modules)
+ - [Third-party modules](/firecheckout/supported-modules#third-party-modules)
+3. Additional possibilities
+ - [House number field](/firecheckout/housenumber.html)
+ - [Show custom popup window](/firecheckout/popup-window.html)
