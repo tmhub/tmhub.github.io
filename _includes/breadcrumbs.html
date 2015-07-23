@@ -8,7 +8,8 @@
  {% else %}
   <a href="{{ "/" | prepend: site.baseurl }}">TM Docs</a> &gt;
 
-  {% for unused in page.content limit:num_parts %}
+  {% assign url_parts_array = url_parts | split: " " %}
+  {% for unused in url_parts_array limit:num_parts %}
    {% capture first_word %}{{ url_parts | truncatewords:1 | remove:"..."}}{% endcapture %}
    {% capture previous %}{{ previous }}/{{ first_word }}{% endcapture %}
 
