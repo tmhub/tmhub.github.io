@@ -1,27 +1,6 @@
-var anchorForId = function (id) {
-  var anchor = document.createElement("a");
-  anchor.className = "anchor";
-  anchor.href      = "#" + id;
-  anchor.innerHTML = "<span class=\"icon-anchor\"></span>";
-  return anchor;
-};
-
-var linkifyAnchors = function (level, containingElement) {
-  var headers = containingElement.getElementsByTagName("h" + level);
-  for (var h = 0; h < headers.length; h++) {
-    var header = headers[h];
-
-    if (typeof header.id !== "undefined" && header.id !== "") {
-      header.insertBefore(anchorForId(header.id), header.firstChild);
-    }
-  }
-};
-
 document.addEventListener("readystatechange", function () {
   if (this.readyState === "complete") {
-    for (var level = 1; level <= 6; level++) {
-      linkifyAnchors(level, document.body);
-    }
+    anchors.add();
   }
 });
 

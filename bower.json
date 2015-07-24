@@ -2,6 +2,7 @@
   "name": "tmwiki",
   "dependencies": {
     "material-design-lite": "~1.0.0",
-    "prism": "~1.0.0"
+    "prism": "~1.0.0",
+    "anchor-js": "~1.2.1"
   }
 }
