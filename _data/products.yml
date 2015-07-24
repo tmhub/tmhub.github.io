@@ -21,19 +21,19 @@
   url: /argento/
   items:
     - title: Argento Argento
-      url: /argento/argento/
+      url: /argento/argento.html
       column: 1
 
     - title: Argento Flat
-      url: /argento/flat/
+      url: /argento/flat.html
       column: 2
 
     - title: Argento Mall
-      url: /argento/mall/
+      url: /argento/mall.html
       column: 3
 
     - title: Argento Pure
-      url: /argento/pure/
+      url: /argento/pure.html
       column: 4
 
 - title: Themes
