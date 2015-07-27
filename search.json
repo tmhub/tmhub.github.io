@@ -1,0 +1,17 @@
+---
+---
+
+[
+  {% for page in site.pages %}
+    {
+      {% if page.title != nil %}
+        "id"         : "{% increment variable %}",
+        "title"      : "{{ page.title | escape }}",
+        "description": "{{ page.description | escape }}",
+        "keywords"   : "{{ page.keywords | escape }}",
+        "category"   : "{{ page.category | escape }}",
+        "url"        : "{{ page.url | prepend: site.baseurl }}"
+      {% endif %}
+    } {% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]

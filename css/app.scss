@@ -90,7 +90,36 @@ pre, pre[class*="language-"] {
         width: 600px;
         max-width: 100%;
     }
+
+    .textfield-wrapper {
+        width: 600px;
+        max-width: 100%;
+        position: relative;
+        margin: 0 auto;
+    }
 }
+#search-results {
+    display: none;
+    margin: 0;
+    padding: 10px 15px 12px;
+    list-style: none;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    text-align: left;
+    background: #fff;
+    box-sizing: border-box;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    margin-top: -25px;
+
+    li {
+        padding: 2px 0;
+    }
+}
+.is-dirty + #search-results {
+    display: block;
+}
+
 .products-group h3 a {
     font-size: 29px;
 }

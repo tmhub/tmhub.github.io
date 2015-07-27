@@ -3,6 +3,8 @@
   "dependencies": {
     "material-design-lite": "~1.0.0",
     "prism": "~1.0.0",
-    "anchor-js": "~1.2.1"
+    "anchor-js": "~1.2.1",
+    "lunr.js": "~0.5.11",
+    "mustache": "~2.1.3"
   }
 }

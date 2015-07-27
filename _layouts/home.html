@@ -9,5 +9,15 @@
     </div>
 
     <script src="{{ "/bower_components/material-design-lite/material.min.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/bower_components/mustache/mustache.min.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/bower_components/lunr.js/lunr.min.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/js/search.js" | prepend: site.baseurl }}"></script>
+    <script>
+      new Search({
+        searchInput: document.getElementById('search'),
+        resultsContainer: document.getElementById('search-results'),
+        json: '{{ "/search.json" | prepend: site.baseurl }}'
+      });
+    </script>
   </body>
 </html>
