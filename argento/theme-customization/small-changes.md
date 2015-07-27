@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Small changes
+title: Argento theme small changes
 permalink: /argento/theme-customization/small-changes.html
 description: How to apply small changes to argento theme
 keywords: argento, argento design, argento customization, customize argento
