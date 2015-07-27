@@ -2,9 +2,12 @@
 layout: default
 title: Ebizmarts MageMonkey integration
 permalink: /firecheckout/supported-modules/ebizmarts-magemonkey.html
+description: Firecheckout integration with Ebizmarts MageMonkey
+keywords: Ebizmarts_MageMonkey
+category: Firecheckout
 ---
 
-## Ebizmarts MageMonkey
+# Ebizmarts MageMonkey
 
  1. Open `app/code/community/Ebizmarts/MageMonkey/etc/config.xml` and find the following lines:
 

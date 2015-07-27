@@ -2,6 +2,9 @@
 layout: default
 title: Complex changes
 permalink: /argento/theme-customization/complex-changes.html
+description: How to apply complex changes to argento theme
+keywords: argento, argento design, argento customization, customize argento
+category: Argento
 ---
 
 # Complex changes

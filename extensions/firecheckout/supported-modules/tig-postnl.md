@@ -2,6 +2,9 @@
 layout: default
 title: TIG_PostNL integration
 permalink: /firecheckout/supported-modules/tig-postnl.html
+description: Firecheckout integration with TIG PostNL
+keywords: TIG_PostNL
+category: Firecheckout
 ---
 
 # TIG_PostNL

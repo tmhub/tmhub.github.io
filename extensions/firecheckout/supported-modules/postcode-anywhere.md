@@ -2,6 +2,9 @@
 layout: default
 title: PostcodeAnywhere integration
 permalink: /firecheckout/supported-modules/postcode-anywhere.html
+description: Firecheckout integration with PostcodeAnywhere
+keywords: PostcodeAnywhere
+category: Firecheckout
 ---
 
 # PostcodeAnywhere

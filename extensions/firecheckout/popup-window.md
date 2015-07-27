@@ -2,6 +2,9 @@
 layout: default
 title: Custom Popup Window
 permalink: /firecheckout/popup-window.html
+description: Creating custom popup on firecheckout page
+keywords: popup window
+category: Firecheckout
 ---
 
 # Custom Popup Window

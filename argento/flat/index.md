@@ -2,6 +2,9 @@
 layout: default
 title: Argento Flat
 permalink: /argento/flat.html
+description: ArgentoFlat theme documentation
+keywords: ArgentoFlat, flat
+category: Argento
 ---
 
 # Argento Flat

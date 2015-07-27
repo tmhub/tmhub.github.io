@@ -2,6 +2,9 @@
 layout: default
 title: Housenumber field
 permalink: /firecheckout/housenumber.html
+description: Converting second street line into househumber field
+keywords: housenumber
+category: Firecheckout
 ---
 
 # Housenumber field

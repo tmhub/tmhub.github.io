@@ -2,6 +2,9 @@
 layout: default
 title: Webshopapps_Wsafreightcommon integration
 permalink: /firecheckout/supported-modules/webshopapps-wsafreightcommon.html
+description: Firecheckout integration with Webshopapps Wsafreightcommon
+keywords: Webshopapps_Wsafreightcommon
+category: Firecheckout
 ---
 
 # Webshopapps_Wsafreightcommon

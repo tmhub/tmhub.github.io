@@ -4,6 +4,7 @@ title: Magento Absolute Theme (F001)
 permalink: /f001-absolute-theme/
 description: Magento absolute theme documentation
 keywords: Magento Absolute Theme, f001, free magento theme
+category: f001
 ---
 
 # Magento Absolute Theme (F001)

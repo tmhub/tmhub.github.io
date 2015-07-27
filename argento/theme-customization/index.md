@@ -2,6 +2,9 @@
 layout: default
 title: Argento theme customization
 permalink: /argento/theme-customization/
+description: Argento theme customization
+keywords: argento, argento design, argento customization, customize argento
+category: Argento
 ---
 
 # Argento theme customization

@@ -2,6 +2,9 @@
 layout: default
 title: Emjainteractive ShippingOption integration
 permalink: /firecheckout/supported-modules/emjainteractive-shippingoption.html
+description: Firecheckout integration with Emjainteractive ShippingOption
+keywords: Emjainteractive_ShippingOption
+category: Firecheckout
 ---
 
 # Emjainteractive ShippingOption

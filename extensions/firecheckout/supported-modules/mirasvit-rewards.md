@@ -2,6 +2,9 @@
 layout: default
 title: Mirasvit Rewards integration
 permalink: /firecheckout/supported-modules/mirasvit-rewards.html
+description: Firecheckout integration with Mirasvit Rewards
+keywords: Mirasvit_Rewards
+category: Firecheckout
 ---
 
 # Mirasvit Rewards

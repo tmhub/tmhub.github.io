@@ -2,6 +2,9 @@
 layout: default
 title: Fumo JapanPost integration
 permalink: /firecheckout/supported-modules/fumo-japanpost.html
+description: Firecheckout integration with Fumo_JapanPost
+keywords: Fumo_JapanPost
+category: Firecheckout
 ---
 
 # Fumo JapanPost

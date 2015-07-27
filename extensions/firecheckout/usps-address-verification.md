@@ -2,6 +2,9 @@
 layout: default
 title: Usps Address Verification
 permalink: /firecheckout/usps-address-verification.html
+description: Setting up Usps Address Verification
+keywords: address verification
+category: Firecheckout
 ---
 
 # Usps Address Verification

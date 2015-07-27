@@ -2,6 +2,9 @@
 layout: default
 title: AW Points integration
 permalink: /firecheckout/supported-modules/aw-points.html
+description: Firecheckout integration with AheadWorks Points
+keywords: AW_Points
+category: Firecheckout
 ---
 
 # AW Points

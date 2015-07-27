@@ -2,6 +2,9 @@
 layout: default
 title: Amasty Promo integration
 permalink: /firecheckout/supported-modules/amasty-promo.html
+description: Firecheckout integration with Amasty Promo
+keywords: Amasty_Promo
+category: Firecheckout
 ---
 
 # Amasty Promo

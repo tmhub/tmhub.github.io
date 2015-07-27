@@ -2,6 +2,8 @@
 layout: default
 title: Supported modules
 permalink: /firecheckout/supported-modules/
+description: Firecheckout and third-party modules
+category: Firecheckout
 ---
 
 ## Magento built-in modules

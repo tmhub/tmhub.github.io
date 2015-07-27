@@ -2,6 +2,9 @@
 layout: default
 title: Crawler
 permalink: /crawler/
+description: Page Crawler documentation
+keywords: crawler
+category: FullPageCache
 ---
 
 # Crawler

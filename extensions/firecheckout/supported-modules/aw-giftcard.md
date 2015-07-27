@@ -2,6 +2,9 @@
 layout: default
 title: AW Giftcard integration
 permalink: /firecheckout/supported-modules/aw-giftcard.html
+description: Firecheckout integration with AheadWorks GiftCard
+keywords: AW_Giftcard
+category: Firecheckout
 ---
 
 # AW Giftcard

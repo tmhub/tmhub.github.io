@@ -2,6 +2,9 @@
 layout: default
 title: Braintree integration
 permalink: /firecheckout/supported-modules/braintree.html
+description: Firecheckout integration with Braintree
+keywords: Braintree
+category: Firecheckout
 ---
 
 # Braintree

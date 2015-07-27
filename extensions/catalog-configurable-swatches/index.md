@@ -1,7 +1,10 @@
 ---
 layout: default
-title: Configurable Swatches
+title: Configurable Swatches integration module
 permalink: /catalog-configurable-swatches/
+description: Configurable Swatches integration module
+keywords: configurable swatches
+category: ConfigurableSwatches
 ---
 
 # Magento 1.9.1 Configurable Swatches integration module

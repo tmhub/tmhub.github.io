@@ -2,6 +2,9 @@
 layout: default
 title: Payone_Core integration
 permalink: /firecheckout/supported-modules/payone-core.html
+description: Firecheckout integration with Payone Core
+keywords: Payone
+category: Firecheckout
 ---
 
 # Payone Core

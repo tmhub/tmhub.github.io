@@ -2,6 +2,9 @@
 layout: default
 title: Smartpost integration
 permalink: /firecheckout/supported-modules/smartpost.html
+description: Firecheckout integration with Smartpost
+keywords: Smartpost
+category: Firecheckout
 ---
 
 ## Smartpost

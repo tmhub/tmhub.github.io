@@ -2,6 +2,8 @@
 layout: default
 title: Argento
 permalink: /argento/
+description: Argento documentation
+category: Argento
 ---
 
 # Argento

@@ -1,7 +1,10 @@
 ---
 layout: default
-title: Argento FAQ
+title: Argento Frequently Asked Questions
 permalink: /argento/faq.html
+description: Argento Frequently Asked Questions
+keywords: argento faq, short header, floatbar, collapsed category description, layout, argento logo
+category: Argento
 ---
 
 # Argento FAQ

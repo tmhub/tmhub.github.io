@@ -2,6 +2,9 @@
 layout: default
 title: Order Attachments
 permalink: /order-attachments/
+description: Magento Order Attachments documentation
+keywords: order attachments
+category: Firecheckout
 ---
 
 # Order Attachments
