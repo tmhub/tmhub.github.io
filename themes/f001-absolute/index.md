@@ -2,7 +2,8 @@
 layout: default
 title: Magento Absolute Theme (F001)
 permalink: /f001-absolute-theme/
-excerpt: Magento absolute theme documentation
+description: Magento absolute theme documentation
+keywords: Magento Absolute Theme, f001, free magento theme
 ---
 
 # Magento Absolute Theme (F001)

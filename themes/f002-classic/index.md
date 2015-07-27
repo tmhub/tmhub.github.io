@@ -2,7 +2,8 @@
 layout: default
 title: Magento Absolute Theme (F001)
 permalink: /f002-classic-theme/
-excerpt: Magento classic theme documentation
+description: Magento classic theme documentation
+keywords: Magento Classic Theme, f002, free magento theme
 ---
 
 # Magento Classic Theme (F002)

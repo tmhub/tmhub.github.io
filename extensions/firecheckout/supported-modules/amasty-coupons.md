@@ -2,6 +2,9 @@
 layout: default
 title: Amasty Coupons integration
 permalink: /firecheckout/supported-modules/amasty-coupons.html
+description: Firecheckout integration with Amasty Coupons
+keywords: Amasty_Coupons
+category: Firecheckout
 ---
 
 # Amasty Coupons
