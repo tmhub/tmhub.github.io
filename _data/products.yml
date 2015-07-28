@@ -17,6 +17,10 @@
       url: /order-attachments/
       column: 1
 
+    - title: Testimonials
+      url: /testimonials/
+      column: 1
+
 - title: Argento themes
   url: /argento/
   items:
