@@ -19,7 +19,11 @@
 
     - title: Testimonials
       url: /testimonials/
-      column: 1
+      column: 2
+
+    - title: Rich Snippets
+      url: /richsnippets/
+      column: 2
 
 - title: Argento themes
   url: /argento/
