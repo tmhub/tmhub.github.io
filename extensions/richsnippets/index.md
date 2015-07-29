@@ -13,7 +13,7 @@ category: Richsnippets
 3. Fill needed data
 4. 
    - Choose **"JSON Format"** for invisible block with your store snippets
-   - Choose **"Microdata Format"** for visible block: ![Microdata Format](http://i.imgur.com/jxz4a84.png)
+   - Choose **"Microdata Format"** for visible block: ![Microdata Format](http://i.imgur.com/IjEbpz3.png)
       * If you use **TM_EasyTabs** extension it will appear in the bottom of **"Review"** Tab
       * If you use default product page layout it will appear in the bottom of **"Additional Information"** block
 
@@ -44,7 +44,7 @@ category: Richsnippets
 7. Fill needed data
 8. 
    - Choose "JSON Format" for invisible block with your store snippets
-   - Choose "Microdata Format" for visible block: ![Microdata Format](http://i.imgur.com/jxz4a84.png)
+   - Choose "Microdata Format" for visible block: ![Microdata Format](http://i.imgur.com/IjEbpz3.png)
       * If you use TM_EasyTabs extension it will appear in the bottom of "Review" Tab
       * If you use default product page layout it will appear in the bottom of "Additional Information" block
 
