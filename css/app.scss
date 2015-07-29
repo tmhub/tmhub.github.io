@@ -43,6 +43,11 @@ pre, pre[class*="language-"] {
     }
 }
 
+blockquote p {
+    margin: 0;
+    display: inline;
+}
+
 /* Badges */
 .mdl-badge.mdl-badge--no-border-radius[data-badge]::after {
     border-radius: 0;
