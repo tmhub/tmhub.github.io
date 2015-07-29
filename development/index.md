@@ -5,7 +5,7 @@ permalink: /development/
 ;sidebar: sidebar.md
 ---
 
-# Development documentation
+# Dev docs
 
 [**Before start**](#before-start)
 
