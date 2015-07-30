@@ -17,6 +17,8 @@ category: Argento
 
 #### [Theme customization](theme-customization)
 
+#### [Argento Top Navigation Setup](navigation-setup.html)
+
 #### [Enterprise Edition Integration](magento-ee-integration.html)
 
 #### [FAQ](faq.html)
