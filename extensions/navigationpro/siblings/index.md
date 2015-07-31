@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Navigationpro Siblings
-permalink: /navigationpro/siblings.html
+permalink: /navigationpro/siblings/
 description: How to use siblings in navigationpro module
 keywords: nanigationpro, menu, siblings
 searchterms: status exceptions
@@ -14,6 +14,12 @@ Siblings - are the previous and next items around single category item:
 
 ![Siblings on the frontend](https://cldup.com/hvdEiUQwrF-3000x3000.png)
 
+## Contents
+- [Backend Interface](#backend)
+  - [Status Exceptions](#status-exceptions)
+- Use Cases:
+  - [Create "Shop By" sibling with dropdown content](sibling-with-dropdown-content.html)
+
 ### Backend
 
 Siblings tab gives you control over previous and next items around single category
@@ -24,11 +30,11 @@ pages before or after any category.
 
 **Available options:**
 
+ - [Status](#status)
+   - [Exceptions](#status-exceptions)
  - Content
  - Dropdown Content
  - Sort Order
- - [Status](#status)
-   - [Exceptions](#status-exceptions)
  - Dropdown css styles
 
 #### Status

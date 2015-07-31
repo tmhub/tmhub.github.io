@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Navigationpro Dropdown Columns
-permalink: /navigationpro/dropdown-columns.html
-description: How to dropdown columns in navigationpro module
+permalink: /navigationpro/dropdown-columns/
+description: How to use dropdown columns in navigationpro module
 keywords: nanigationpro, menu, dropdown columns
 searchterms: status exceptions, subcategories, direction, vertical, horizontal
 category: Navigationpro
@@ -15,6 +15,17 @@ category. By default, dropdown columns has subcategory column only. But you may
 add [additional columns](#widget-or-plain-html) aside of subcategory listing, or
 even replace [subcategory column](#subcategories) with custom block.
 
+## Contents
+- [Backend Interface](#backend)
+  - [Status Exceptions](#status-exceptions)
+  - Column types:
+    - [Subcategories](#subcategories)
+    - [Widget or Plain Html](#widget-or-plain-html)
+- Use Cases:
+  - [Replace standard subcategories dropdown with Easy Catalog Images widget](easycatalogimages-widget.html)
+
+### Backend
+
 Each type of dropdown column provide configuration options that can be used to
 customize menu according to your needs.
 
@@ -24,14 +35,14 @@ Subcategories column | Widget Column
 
 **General options:**
 
+ - [Status](#status)
+   - [Exceptions](#status-exceptions)
  - Column Type
    - [Subcategories](#subcategories)
    - [Widget or Plain Html](#widget-or-plain-html)
  - Title
  - Width
  - Sort Order
- - [Status](#status)
-   - [Exceptions](#status-exceptions)
  - Css Id
  - Css class
  - Css styles
@@ -51,7 +62,9 @@ perfomance on phones, but show it for tablet devices.
 > When client UserAgent matches multiple expressions - the last matched rule
 will be used
 
-### Subcategories
+### Column types
+
+#### Subcategories
 Subcategories dropdown is used to render and configure child categories look
 and feel.
 
@@ -84,5 +97,3 @@ This mode is recommended to use, when each category has different subcategory
 children count.
 
 ![frontend-vertical](https://cloud.githubusercontent.com/assets/306080/8001411/3a283580-0b6e-11e5-9213-04f6cd04173f.png)
-
-

@@ -12,13 +12,15 @@ category: Navigationpro
 NavigationPro is a powerfull Magento module, that allows to create outstanding
 menu's without html and css knowledge.
 
-The main parts of every menu in NavigatioPro are:
-
-- [Siblings](siblings.html)
-- Dropdown top and bottom content
-- [Dropdown columns](dropdown-columns.html)
-
-With these three parts of NavigatioPro menu you can create dropdowns with
-unlimited possibilities.
-
 ![Fronend navigation](https://cldup.com/ilpzHHCngW-2000x2000.png)
+
+### Contents
+ 1. [Siblings](siblings/)
+    - [Backend Interface](siblings/#backend)
+    - Use Cases:
+      - [Create sibling with dropdown content](siblings/sibling-with-dropdown-content.html)
+ 2. Dropdown top and bottom content
+ 3. [Dropdown columns](dropdown-columns/)
+    - [Backend Interface](dropdown-columns/#backend)
+    - Use Cases:
+      - [Replace standard subcategories dropdown with Easy Catalog Images widget](dropdown-columns/easycatalogimages-widget.html)
