@@ -10,7 +10,7 @@ category: Navigationpro
 
 # Siblings
 
-Siblings - is a previous and next items around single category item:
+Siblings - are the previous and next items around single category item:
 
 ![Siblings on the frontend](https://cldup.com/hvdEiUQwrF-3000x3000.png)
 
