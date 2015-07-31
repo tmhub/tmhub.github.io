@@ -27,11 +27,11 @@ and much more. See the [configuration](#configuration) section for more informat
 
 ### Contents
 
-1. [Usps address verification](/firecheckout/usps-address-verification.html)
-2. [Supported modules](/firecheckout/supported-modules/)
- - [Magento built-in modules](/firecheckout/supported-modules#magento-built-in-modules)
- - [Third-party modules](/firecheckout/supported-modules#third-party-modules)
+1. [Usps address verification](usps-address-verification.html)
+2. [Supported modules](supported-modules/)
+ - [Magento built-in modules](supported-modules#magento-built-in-modules)
+ - [Third-party modules](supported-modules#third-party-modules)
 3. Additional possibilities
- - [House number field](/firecheckout/housenumber.html)
- - [Show custom popup window](/firecheckout/popup-window.html)
+ - [House number field](housenumber.html)
+ - [Show custom popup window](popup-window.html)
  - [Hide totals in review section](hide-totals-in-review-section.html)
