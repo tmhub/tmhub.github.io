@@ -1,5 +1,9 @@
 - title: Extensions
   items:
+    - title: Cache
+      url: /cache/
+      column: 1
+
     - title: Configurable Swatches
       url: /catalog-configurable-swatches/
       column: 1
@@ -15,7 +19,7 @@
 
     - title: Order Attachments
       url: /order-attachments/
-      column: 1
+      column: 2
 
     - title: Testimonials
       url: /testimonials/
