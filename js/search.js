@@ -10,6 +10,7 @@ var Search = function(options) {
       this.field('category', {boost: 3});
       this.field('description');
       this.field('keywords');
+      this.field('searchterms');
       this.ref('id');
     });
 

@@ -3,7 +3,8 @@ layout: default
 title: When cache is automatically refreshed?
 permalink: /cache/when-cache-is-automatically-refreshed.html
 description: When cache is automatically refreshed
-keywords: cache, fpc, full page cache, refresh, cleared
+keywords: cache, fpc, full page cache, invalidate
+searchterms: refresh, cleared
 category: Cache
 ---
 
