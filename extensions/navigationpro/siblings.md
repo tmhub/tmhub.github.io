@@ -1,0 +1,47 @@
+---
+layout: default
+title: Navigationpro Siblings
+permalink: /navigationpro/siblings.html
+description: How to use siblings in navigationpro module
+keywords: nanigationpro, menu, siblings
+searchterms: status exceptions
+category: Navigationpro
+---
+
+# Siblings
+
+Siblings - is a previous and next items around single category item:
+
+![Siblings on the frontend](https://cldup.com/hvdEiUQwrF-3000x3000.png)
+
+### Backend
+
+Siblings tab gives you control over previous and next items around single category
+item. With the help of this tab you can add link to the homepage and any other custom
+pages before or after any category.
+
+![Siblings](https://cldup.com/ct6_Pie7rq-3000x3000.png)
+
+**Available options:**
+
+ - Content
+ - Dropdown Content
+ - Sort Order
+ - [Status](#status)
+   - [Exceptions](#status-exceptions)
+ - Dropdown css styles
+
+#### Status
+Status option allows to disable sibling.
+
+###### Status exceptions
+Status exceptions allows you to configure sibling visibility per device. You can
+disable some siblings to provide best experience for your mobile customers.
+
+The screenshot below shows how you can hide sibling with large dropdown content,
+to improve site perfomance on phones, but show it for tablet devices.
+
+![Status Exceptions](https://cldup.com/mHxtgh7m8a-3000x3000.png)
+
+> When client UserAgent matches multiple expressions - the last matched rule
+will be used

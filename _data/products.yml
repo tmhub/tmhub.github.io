@@ -17,6 +17,10 @@
       url: /firecheckout/
       column: 1
 
+    - title: Navigation Pro
+      url: /navigationpro/
+      column: 2
+
     - title: Order Attachments
       url: /order-attachments/
       column: 2
