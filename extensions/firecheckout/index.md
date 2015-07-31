@@ -34,3 +34,4 @@ and much more. See the [configuration](#configuration) section for more informat
 3. Additional possibilities
  - [House number field](/firecheckout/housenumber.html)
  - [Show custom popup window](/firecheckout/popup-window.html)
+ - [Hide totals in review section](hide-totals-in-review-section.html)
