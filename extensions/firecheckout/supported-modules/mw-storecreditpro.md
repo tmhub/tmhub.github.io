@@ -3,7 +3,7 @@ layout: default
 title: MW_Storecreditpro integration
 permalink: /firecheckout/supported-modules/mw-storecreditpro/
 description: Firecheckout integration with Storecreditpro
-keywords: MW_Storecreditpro
+keywords: MW_Storecreditpro, credit
 category: Firecheckout
 ---
 

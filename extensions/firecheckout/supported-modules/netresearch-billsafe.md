@@ -3,7 +3,7 @@ layout: default
 title: Netresearch PaymentFee integration
 permalink: /firecheckout/supported-modules/netresearch-paymentfee/
 description: Firecheckout integration with Netresearch PaymentFee
-keywords: Netresearch_PaymentFee
+keywords: Netresearch_PaymentFee, billsafe
 category: Firecheckout
 ---
 

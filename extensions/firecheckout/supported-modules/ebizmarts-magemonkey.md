@@ -3,7 +3,7 @@ layout: default
 title: Ebizmarts MageMonkey integration
 permalink: /firecheckout/supported-modules/ebizmarts-magemonkey/
 description: Firecheckout integration with Ebizmarts MageMonkey
-keywords: Ebizmarts_MageMonkey
+keywords: Ebizmarts_MageMonkey, mailchimp
 category: Firecheckout
 ---
 
