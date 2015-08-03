@@ -18,7 +18,9 @@ menu's without html and css knowledge.
  1. [Siblings](siblings/)
     - [Backend Interface](siblings/#backend)
     - Use Cases:
-      - [Create sibling with dropdown content](siblings/sibling-with-dropdown-content/)
+      - ["Shop By" sibling with subcategories dropdown content](siblings/shop-by-with-dropdown-content/)
+      - ["Brands" sibling with dropdown content](siblings/brands-with-dropdown-content/)
+      - ["Browse By" sibling with attributepages list](siblings/browse-by-with-attributepages-list/)
  2. Dropdown top and bottom content
  3. [Dropdown columns](dropdown-columns/)
     - [Backend Interface](dropdown-columns/#backend)
