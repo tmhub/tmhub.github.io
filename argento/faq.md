@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Argento Frequently Asked Questions
-permalink: /argento/faq.html
+permalink: /argento/faq/
 description: Argento Frequently Asked Questions
 keywords: argento faq, short header, floatbar, collapsed category description, layout, argento logo
 category: Argento
@@ -22,7 +22,7 @@ category: Argento
 
 *This feature is available since Argento 1.5.2.*
 
- 1. [Create](/argento/theme-customization/small-changes.html#custom-layout-update-file)
+ 1. [Create](/argento/theme-customization/small-changes/#custom-layout-update-file)
  `custom.xml` layout file
  2. Add the following code:
 
@@ -39,7 +39,7 @@ category: Argento
 
 ### How to add additional item to the floatbar navigation?
 
- 1. [Create](/argento/theme-customization/small-changes.html#custom-layout-update-file)
+ 1. [Create](/argento/theme-customization/small-changes/#custom-layout-update-file)
  `custom.xml` layout file
  2. Add the following code:
 
@@ -80,7 +80,7 @@ document.observe('bottomnavbar:init', function() {
 
 ### How to disable category description collapse?
 
- 1. [Create](/argento/theme-customization/small-changes.html#custom-layout-update-file)
+ 1. [Create](/argento/theme-customization/small-changes/#custom-layout-update-file)
  `custom.xml` layout file
  2. Add the following code inside:
 

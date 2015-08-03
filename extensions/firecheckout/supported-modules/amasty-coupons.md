@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Amasty Coupons integration
-permalink: /firecheckout/supported-modules/amasty-coupons.html
+permalink: /firecheckout/supported-modules/amasty-coupons/
 description: Firecheckout integration with Amasty Coupons
 keywords: Amasty_Coupons
 category: Firecheckout

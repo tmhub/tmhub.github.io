@@ -1,7 +1,7 @@
 ---
 layout: default
 title: MageWorx MultiFees integration
-permalink: /firecheckout/supported-modules/mageworx-multifees.html
+permalink: /firecheckout/supported-modules/mageworx-multifees/
 description: Firecheckout integration with MageWorx MultiFees
 keywords: MageWorx_MultiFees
 category: Firecheckout

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Braintree integration
-permalink: /firecheckout/supported-modules/braintree.html
+permalink: /firecheckout/supported-modules/braintree/
 description: Firecheckout integration with Braintree
 keywords: Braintree
 category: Firecheckout

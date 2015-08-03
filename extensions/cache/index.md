@@ -20,8 +20,8 @@ without any additional setup
 - Flexible configuration that allows to add third-party dynamic blocks without
 code editing
 
-1. [External cache model setup](external-cache-model-setup.html)
- * [Using Magento's local.xml file to use the model globally](external-cache-model-setup.html#using-magento-localxml-file)
- * [Using tmcache.xml file to use model for full page cache only](external-cache-model-setup.html#using-tmcachexml-file)
- * [Using the Cm_Cache_Backend_File model](external-cache-model-setup.html#using-the-cmcachebackendfile)
-2. [When cache is automatically refreshed?](when-cache-is-automatically-refreshed.html)
+1. [External cache model setup](external-cache-model-setup/)
+ * [Using Magento's local.xml file to use the model globally](external-cache-model-setup/#using-magento-localxml-file)
+ * [Using tmcache.xml file to use model for full page cache only](external-cache-model-setup/#using-tmcachexml-file)
+ * [Using the Cm_Cache_Backend_File model](external-cache-model-setup/#using-the-cmcachebackendfile)
+2. [When cache is automatically refreshed?](when-cache-is-automatically-refreshed/)

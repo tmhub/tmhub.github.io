@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Mirasvit Rewards integration
-permalink: /firecheckout/supported-modules/mirasvit-rewards.html
+permalink: /firecheckout/supported-modules/mirasvit-rewards/
 description: Firecheckout integration with Mirasvit Rewards
 keywords: Mirasvit_Rewards
 category: Firecheckout

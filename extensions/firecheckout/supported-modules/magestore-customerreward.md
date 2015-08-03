@@ -1,7 +1,7 @@
 ---
 layout: default
 title: MageStore Customerreward integration
-permalink: /firecheckout/supported-modules/magestore-customerreward.html
+permalink: /firecheckout/supported-modules/magestore-customerreward/
 description: Firecheckout integration with MageStore Customerreward
 keywords: MageStore_Customerreward
 category: Firecheckout

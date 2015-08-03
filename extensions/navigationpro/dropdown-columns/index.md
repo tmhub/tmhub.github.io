@@ -22,7 +22,7 @@ even replace [subcategory column](#subcategories) with custom block.
     - [Subcategories](#subcategories)
     - [Widget or Plain Html](#widget-or-plain-html)
 - Use Cases:
-  - [Replace standard subcategories dropdown with Easy Catalog Images widget](easycatalogimages-widget.html)
+  - [Replace standard subcategories dropdown with Easy Catalog Images widget](easycatalogimages-widget/)
 
 ### Backend
 

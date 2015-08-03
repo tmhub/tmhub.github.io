@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Argento Top Navigation Setup
-permalink: /argento/navigation-setup.html
+permalink: /argento/navigation-setup/
 description: How to make Argento-like top navigation menu
 category: Argento
 ---
@@ -21,7 +21,7 @@ category: Argento
 
 ### Home Link
 - Go to `Admin>TemplatesMaster>NavigationPro>top`
-- Choose first category (i.e. TV & Video) 
+- Choose first category (i.e. TV & Video)
 
 ![First Category](http://i.imgur.com/KePmbGL.png)
 
@@ -39,7 +39,7 @@ category: Argento
 ![Shopby](http://i.imgur.com/gZOgXcx.png)
 
 - Go to `Admin>TemplatesMaster>NavigationPro>top`
-- Choose first category (i.e. TV & Video) 
+- Choose first category (i.e. TV & Video)
 
 ![First Category](http://i.imgur.com/KePmbGL.png)
 
@@ -63,7 +63,7 @@ or in Widget interface:
 ![Categories](http://i.imgur.com/KpsrzRE.png)
 
 - Go to `Admin>TemplatesMaster>NavigationPro>top`
-- Choose first category (i.e. TV & Video) 
+- Choose first category (i.e. TV & Video)
 
 ![First Category](http://i.imgur.com/KePmbGL.png)
 
@@ -87,13 +87,13 @@ or in Widget interface:
 ![TvVideo](http://i.imgur.com/z5A6RXE.png)
 
 - Go to `Admin>TemplatesMaster>NavigationPro>top`
-- Choose first category (i.e. TV & Video) 
+- Choose first category (i.e. TV & Video)
 - Dropdown columns > Custom > Add New Coumn
-- Add Widget or Plain HTML 
+- Add Widget or Plain HTML
 
 ![Widget](http://i.imgur.com/gr1p3ie.png)
 
-- Content: 
+- Content:
 
 ```
 {% raw %}{{widget type="highlight/product_featured" title="Featured Product" products_count="1" column_count="1" template="tm/highlight/product/list.phtml" class_name="highlight-featured" category_filter="35"}}{% endraw %}
@@ -117,7 +117,7 @@ or in Widget interface:
 ![banner2](http://i.imgur.com/azmolkJ.png)
 
 - Go to `Admin>TemplatesMaster>NavigationPro>top`
-- Choose category (i.e. Books) 
+- Choose category (i.e. Books)
 - Go to **"Dropdown Columns"**
 - Add New Dropdown column
 - Set **Type: Widget or Plain HTML**
@@ -136,7 +136,7 @@ or in Widget interface:
 ![special](http://i.imgur.com/F9xc0ra.png)
 
 - Go to `Admin>TemplatesMaster>NavigationPro>top`
-- Choose category (i.e. Sale) 
+- Choose category (i.e. Sale)
 - Go to "Dropdown columns" tab and add choose **Mode = "Custom"**
 - Add New Dropdown column
 - Set **Type: Widget or Plain HTML**
@@ -157,14 +157,14 @@ or in Widget interface:
 
 ### Brands with AttributePages Widget
 
-![brands](http://i.imgur.com/OVvm3FV.png) 
+![brands](http://i.imgur.com/OVvm3FV.png)
 
-- Create Attribute Page (.i.e. "brands") using `TemplatesMaster>AttributePages>ManagePages` 
+- Create Attribute Page (.i.e. "brands") using `TemplatesMaster>AttributePages>ManagePages`
 
 ( Check More at [AttributePages Manual](http://templates-master.com/magento-attributes-and-brands-pages-extension-user-manual))
 
 - Go to `Admin>TemplatesMaster>NavigationPro>top`
-- Choose category (i.e. Sale) 
+- Choose category (i.e. Sale)
 - Go to "Sibling" tab and add URL to content field (i.e. "Brands") that links to your attribute page
 
 ```html

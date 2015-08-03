@@ -1,7 +1,7 @@
 ---
 layout: default
 title: AW Points integration
-permalink: /firecheckout/supported-modules/aw-points.html
+permalink: /firecheckout/supported-modules/aw-points/
 description: Firecheckout integration with AheadWorks Points
 keywords: AW_Points
 category: Firecheckout

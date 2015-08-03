@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Amasty Order Attributes integration
-permalink: /firecheckout/supported-modules/amasty-orderattr.html
+permalink: /firecheckout/supported-modules/amasty-orderattr/
 description: Firecheckout integration with Amasty Order Attributes
 keywords: Amasty_Orderattr
 category: Firecheckout

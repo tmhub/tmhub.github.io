@@ -1,7 +1,7 @@
 ---
 layout: default
 title: When cache is automatically refreshed?
-permalink: /cache/when-cache-is-automatically-refreshed.html
+permalink: /cache/when-cache-is-automatically-refreshed/
 description: When cache is automatically refreshed
 keywords: cache, fpc, full page cache, invalidate
 searchterms: refresh, cleared

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Payone_Core integration
-permalink: /firecheckout/supported-modules/payone-core.html
+permalink: /firecheckout/supported-modules/payone-core/
 description: Firecheckout integration with Payone Core
 keywords: Payone
 category: Firecheckout

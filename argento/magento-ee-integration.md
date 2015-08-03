@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Magento Enterprise Edition Integration
-permalink: /argento/magento-ee-integration.html
+permalink: /argento/magento-ee-integration/
 description: Argento integration with Magento Enterprise Edition
 keywords: Magento EE, EasyTabs, rule based products
 category: Argento

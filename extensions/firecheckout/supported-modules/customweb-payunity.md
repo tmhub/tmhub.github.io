@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Customweb PayUnityCw integration
-permalink: /firecheckout/supported-modules/customweb-payunitycw.html
+permalink: /firecheckout/supported-modules/customweb-payunitycw/
 description: Firecheckout integration with Customweb PayUnityCw
 keywords: Customweb_PayUnityCw
 category: Firecheckout

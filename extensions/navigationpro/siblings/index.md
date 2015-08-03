@@ -18,7 +18,7 @@ Siblings - are the previous and next items around single category item:
 - [Backend Interface](#backend)
   - [Status Exceptions](#status-exceptions)
 - Use Cases:
-  - [Create "Shop By" sibling with dropdown content](sibling-with-dropdown-content.html)
+  - [Create "Shop By" sibling with dropdown content](sibling-with-dropdown-content/)
 
 ### Backend
 

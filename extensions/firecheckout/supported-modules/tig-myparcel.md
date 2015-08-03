@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Tig_MyParcel integration
-permalink: /firecheckout/supported-modules/tig-myparcel.html
+permalink: /firecheckout/supported-modules/tig-myparcel/
 ---
 
 # Tig_MyParcel

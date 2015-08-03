@@ -1,7 +1,7 @@
 ---
 layout: default
 title: MW_RewardPoints integration
-permalink: /firecheckout/supported-modules/mw-rewardpoints.html
+permalink: /firecheckout/supported-modules/mw-rewardpoints/
 description: Firecheckout integration with MW_RewardPoints
 keywords: MW_RewardPoints
 category: Firecheckout

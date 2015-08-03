@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Argento theme complex changes
-permalink: /argento/theme-customization/complex-changes.html
+permalink: /argento/theme-customization/complex-changes/
 description: How to apply complex changes to argento theme
 keywords: argento, argento design, argento customization, customize argento
 category: Argento

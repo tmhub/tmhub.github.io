@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Ebizmarts MageMonkey integration
-permalink: /firecheckout/supported-modules/ebizmarts-magemonkey.html
+permalink: /firecheckout/supported-modules/ebizmarts-magemonkey/
 description: Firecheckout integration with Ebizmarts MageMonkey
 keywords: Ebizmarts_MageMonkey
 category: Firecheckout

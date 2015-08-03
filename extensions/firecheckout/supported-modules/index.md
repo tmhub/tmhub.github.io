@@ -20,22 +20,22 @@ additional modifications.
 
 - 2Checkout_Payment
 - Adyen_Payment
-- [Billmate](/firecheckout/supported-modules/billmate.html)
+- [Billmate](/firecheckout/supported-modules/billmate/)
 - Billpay
-- [Bitpay_Bitcoins](/firecheckout/supported-modules/bitpay-bitcoins.html)
-- [Braintree](/firecheckout/supported-modules/braintree.html)
+- [Bitpay_Bitcoins](/firecheckout/supported-modules/bitpay-bitcoins/)
+- [Braintree](/firecheckout/supported-modules/braintree/)
 - Craig_Tco
-- [Customweb_PayUnityCw](/firecheckout/supported-modules/customweb-payunitycw.html)
+- [Customweb_PayUnityCw](/firecheckout/supported-modules/customweb-payunitycw/)
 - Ebizmarts_SagepaymentsPro
 - Ebizmarts_SagepaySuite
 - IntellectLabs_Stripe
 - IWD_OPC_Signature
 - Klarna_KlarnaPaymentModule
-- [MultiSafePay_Msp](/firecheckout/supported-modules/multisafepay-msp.html)
+- [MultiSafePay_Msp](/firecheckout/supported-modules/multisafepay-msp/)
 - Netresearch_Billsafe
 - Netresearch_OPS
 - Paymill
-- [Payone_Core](/firecheckout/supported-modules/payone-core.html)
+- [Payone_Core](/firecheckout/supported-modules/payone-core/)
 - Phoenix_Ipayment
 - Phoenix_Wirecardcheckout
 - Radweb_Stripe
@@ -51,9 +51,9 @@ additional modifications.
 - Bpost_ShippingManager
 - Bysoft_Relaypoint
 - DPD_Shipping
-- [Emjainteractive_ShippingOption](/firecheckout/supported-modules/emjainteractive-shippingoption.html)
-- [Fumo_JapanPost](/firecheckout/supported-modules/fumo-japanpost.html)
-- [Infostrates_Tnt](/firecheckout/supported-modules/infostrates-tnt.html)
+- [Emjainteractive_ShippingOption](/firecheckout/supported-modules/emjainteractive-shippingoption/)
+- [Fumo_JapanPost](/firecheckout/supported-modules/fumo-japanpost/)
+- [Infostrates_Tnt](/firecheckout/supported-modules/infostrates-tnt/)
 - IrvineSystems_Deliverydate
 - IrvineSystems_JapanPost
 - IrvineSystems_Sagawa
@@ -62,26 +62,26 @@ additional modifications.
 - Kiala_LocateAndSelect
 - Magestore_Storepickup
 - PostcodeNl_Api
-- [SmartPost](/firecheckout/supported-modules/smartpost.html)
+- [SmartPost](/firecheckout/supported-modules/smartpost/)
 - Storepickup
-- [Tig_MyParcel](/firecheckout/supported-modules/tig-myparcel.html)
+- [Tig_MyParcel](/firecheckout/supported-modules/tig-myparcel/)
 - TIG_Postcode
-- [TIG_PostNL](/firecheckout/supported-modules/tig-postnl.html)
+- [TIG_PostNL](/firecheckout/supported-modules/tig-postnl/)
 - Webshopapps_Desttype
-- [Webshopapps_Wsafreightcommon](/firecheckout/supported-modules/webshopapps-wsafreightcommon.html)
+- [Webshopapps_Wsafreightcommon](/firecheckout/supported-modules/webshopapps-wsafreightcommon/)
 - Wyomind_Pickupatstore
 
 ### Discount Coupons
 
 - Built-in coupons
 - Magento EE coupons
-- [Amasty_Coupons](/firecheckout/supported-modules/amasty-coupons.html)
+- [Amasty_Coupons](/firecheckout/supported-modules/amasty-coupons/)
 
 ### GiftCards, GiftWraps and Certificates
 
 - Magento EE GiftCards and GiftWrap
 - Aitoc_Aitgiftwrap
-- [AW_GiftCard](/firecheckout/supported-modules/aw-giftcard.html)
+- [AW_GiftCard](/firecheckout/supported-modules/aw-giftcard/)
 - Unirgy_GiftCert
 - Webtex_Gitcards
 
@@ -89,17 +89,17 @@ additional modifications.
 
 - AW_Storecredit
 - MageWorx_CustomerCredit
-- [MW_Storecreditpro](/firecheckout/supported-modules/mw-storecreditpro.html)
+- [MW_Storecreditpro](/firecheckout/supported-modules/mw-storecreditpro/)
 
 ### RewardPoints
 
-- [AW_Points](/firecheckout/supported-modules/aw-points.html)
+- [AW_Points](/firecheckout/supported-modules/aw-points/)
 - AW_Rewards
-- [J2t_Rewardpoints](/firecheckout/supported-modules/j2t-rewardpoints.html)
+- [J2t_Rewardpoints](/firecheckout/supported-modules/j2t-rewardpoints/)
 - Magebuzz_Rewardpoint
-- [MageStore_Customerreward](/firecheckout/supported-modules/magestore-customerreward.html)
-- [Mirasvit_Rewards](/firecheckout/supported-modules/mirasvit-rewards.html)
-- [MW_RewardPoints](/firecheckout/supported-modules/mw-rewardpoints.html)
+- [MageStore_Customerreward](/firecheckout/supported-modules/magestore-customerreward/)
+- [Mirasvit_Rewards](/firecheckout/supported-modules/mirasvit-rewards/)
+- [MW_RewardPoints](/firecheckout/supported-modules/mw-rewardpoints/)
 - TBT_RewardsPoint
 
 ### Tax/Vat extensions
@@ -110,30 +110,30 @@ additional modifications.
 
 ### ShoppingCart and OrderTotals modules
 
-- [Amasty_Promo](/firecheckout/supported-modules/amasty-promo.html)
-- [Ayasoftware_SimpleProductPricing](/firecheckout/supported-modules/ayasoftware-simpleproductpricing.html)
+- [Amasty_Promo](/firecheckout/supported-modules/amasty-promo/)
+- [Ayasoftware_SimpleProductPricing](/firecheckout/supported-modules/ayasoftware-simpleproductpricing/)
 - GCMC_GiveChange
-- [MageWorx_MultiFees](/firecheckout/supported-modules/mageworx-multifees.html)
-- [Netresearch_PaymentFee](/firecheckout/supported-modules/netresearch-paymentfee.html)
+- [MageWorx_MultiFees](/firecheckout/supported-modules/mageworx-multifees/)
+- [Netresearch_PaymentFee](/firecheckout/supported-modules/netresearch-paymentfee/)
 - Symmetrics_Buyerprotect
 
 ### Address related modules
 
 - CraftyClicks
 - Juicy_Geoip
-- [MrwIberia_Mage2Mrw](/firecheckout/supported-modules/mrwiberia-mage2mrw.html)
-- [PostcodeAnywhere](/firecheckout/supported-modules/postcode-anywhere.html)
+- [MrwIberia_Mage2Mrw](/firecheckout/supported-modules/mrwiberia-mage2mrw/)
+- [PostcodeAnywhere](/firecheckout/supported-modules/postcode-anywhere/)
 - Rack_Getpostcode
 
 ### Newsletters
 
 - AW_Advancednewsletter
 - AW_Newsletter
-- [Ebizmart_Magemonkey](/firecheckout/supported-modules/ebizmarts-magemonkey.html)
+- [Ebizmart_Magemonkey](/firecheckout/supported-modules/ebizmarts-magemonkey/)
 
 ### Order Attributes
 
-- [Amasty_OrderAttr](/firecheckout/supported-modules/amasty-orderattr.html)
+- [Amasty_OrderAttr](/firecheckout/supported-modules/amasty-orderattr/)
 - RedPandaPlus_OrderAttachments
 
 ### Social

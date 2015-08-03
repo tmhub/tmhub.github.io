@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Navigationpro Sibling with dropdown content (Shop By)
-permalink: /navigationpro/siblings/sibling-with-dropdown-content.html
+permalink: /navigationpro/siblings/sibling-with-dropdown-content/
 description: Create navigation pro sibling with dropdown content
 keywords: nanigationpro, menu, siblings, dropdown content, easy catalog images
 searchterms: shop by

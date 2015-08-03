@@ -18,9 +18,9 @@ menu's without html and css knowledge.
  1. [Siblings](siblings/)
     - [Backend Interface](siblings/#backend)
     - Use Cases:
-      - [Create sibling with dropdown content](siblings/sibling-with-dropdown-content.html)
+      - [Create sibling with dropdown content](siblings/sibling-with-dropdown-content/)
  2. Dropdown top and bottom content
  3. [Dropdown columns](dropdown-columns/)
     - [Backend Interface](dropdown-columns/#backend)
     - Use Cases:
-      - [Replace standard subcategories dropdown with Easy Catalog Images widget](dropdown-columns/easycatalogimages-widget.html)
+      - [Replace standard subcategories dropdown with Easy Catalog Images widget](dropdown-columns/easycatalogimages-widget/)
