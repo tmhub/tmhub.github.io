@@ -124,6 +124,7 @@ additional modifications.
 - [MrwIberia_Mage2Mrw](/firecheckout/supported-modules/mrwiberia-mage2mrw/)
 - [PostcodeAnywhere](/firecheckout/supported-modules/postcode-anywhere/)
 - Rack_Getpostcode
+- [Webshopapps_Wsavalidation](webshopapps-wsavalidation)
 
 ### Newsletters
 
