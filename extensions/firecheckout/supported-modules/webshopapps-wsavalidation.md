@@ -37,13 +37,15 @@ category: Firecheckout
         // validate billing address
         $this->_saveBillingQuote($observer);
         $this->_saveBillingQuoteAfter($observer);
-        if ($observer->getControllerAction()->getResponse()->getBody()) { // validatiopn window is in response
+
+        $controller = $observer->getControllerAction();
+        if ($controller->getResponse()->getBody()) { // validatiopn window is in response
             $controller->setFlag('', Mage_Core_Controller_Varien_Action::FLAG_NO_DISPATCH, true);
         } else {
             // validate shipping address
             $this->_saveShippingQuote($observer);
             $this->_saveShippingQuoteAfter($observer);
-            if ($observer->getControllerAction()->getResponse()->getBody()) { // validatiopn window is in response
+            if ($controller->getResponse()->getBody()) { // validatiopn window is in response
                 $controller->setFlag('', Mage_Core_Controller_Varien_Action::FLAG_NO_DISPATCH, true);
             }
         }
