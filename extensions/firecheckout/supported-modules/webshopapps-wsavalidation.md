@@ -43,6 +43,7 @@ category: Firecheckout
             $controller->setFlag('', Mage_Core_Controller_Varien_Action::FLAG_NO_DISPATCH, true);
         } else {
             // validate shipping address
+            Mage::unregister('candidate_addresses');
             $this->_saveShippingQuote($observer);
             $this->_saveShippingQuoteAfter($observer);
             if ($controller->getResponse()->getBody()) { // validatiopn window is in response
