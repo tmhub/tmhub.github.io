@@ -28,6 +28,7 @@
     - title: Testimonials
       url: /testimonials/
       column: 2
+      free: 1
 
     - title: Rich Snippets
       url: /richsnippets/
