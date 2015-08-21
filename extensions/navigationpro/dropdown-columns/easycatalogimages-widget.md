@@ -1,9 +1,9 @@
 ---
 layout: default
 title: EasyCatalogImages inside NavigationPro Dropdown Columns
-permalink: /navigationpro/dropdown-columns/easycatalogimages-widget/
+permalink: "/navigationpro/dropdown-columns/easycatalogimages-widget/"
 description: How to use insert widget inside dropdown columns in navigationpro module
-keywords: nanigationpro, menu, dropdown columns, easy catalog images
+keywords: "nanigationpro, menu, dropdown columns, easy catalog images"
 category: Navigationpro
 ---
 
