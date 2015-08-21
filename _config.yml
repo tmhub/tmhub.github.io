@@ -6,6 +6,19 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: ""
 url: "http://tmhub.github.io"
 
+github:
+  repository_url: https://github.com/tmhub/tmhub.github.io
+
+prose:
+  siteurl: "http://tmhub.github.io/"
+  media: "media"
+  ignore:
+    - bower.json
+    - _config.yml
+    - /_includes
+    - /_layouts
+    - /_posts
+
 # Outputting
 permalink: none
 

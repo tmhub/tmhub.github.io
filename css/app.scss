@@ -157,6 +157,13 @@ blockquote p {
     margin-bottom: 30px;
     padding: 80px 56px;
 }
+#edit-page {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 900;
+    margin: 0 40px 40px 0;
+}
 @media (max-width: 839px) {
     .page-content {
         border-radius: 2px;

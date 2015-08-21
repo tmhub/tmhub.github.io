@@ -20,6 +20,13 @@
       </main>
     </div>
 
+    <a id="edit-page"
+      data-github-href="{{site.github.repository_url}}/edit/master/{{page.path}}"
+      href="http://prose.io/#{{site.github.repository_url | remove: "https://github.com/"}}/edit/master/{{page.path}}"
+      class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--accent mdl-color-text--accent-contrast"
+      target="_blank"
+    >Edit this Page</a>
+
     <script src="{{ "/bower_components/material-design-lite/material.min.js" | prepend: site.baseurl }}"></script>
     <script src="{{ "/bower_components/prism/prism.js" | prepend: site.baseurl }}"></script>
     <script src="{{ "/bower_components/prism/components/prism-apacheconf.min.js" | prepend: site.baseurl }}"></script>
