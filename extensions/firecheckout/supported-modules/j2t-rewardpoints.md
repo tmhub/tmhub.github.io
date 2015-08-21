@@ -1,9 +1,9 @@
 ---
 layout: default
 title: J2T Rewardpoints integration
-permalink: /firecheckout/supported-modules/j2t-rewardpoints/
+permalink: "/firecheckout/supported-modules/j2t-rewardpoints/"
 description: Firecheckout integration with J2T Rewardpoints
-keywords: J2T_Rewardpoints, rewards
+keywords: "J2T_Rewardpoints, rewards"
 category: Firecheckout
 ---
 

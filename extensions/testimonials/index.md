@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Testimonials
-permalink: /testimonials/
+permalink: "/testimonials/"
 description: Testimonials documentation
 category: Testimonials
 ---

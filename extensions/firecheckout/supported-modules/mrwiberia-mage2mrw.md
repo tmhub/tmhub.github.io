@@ -1,7 +1,7 @@
 ---
 layout: default
 title: MrwIberia Mage2Mrw integration
-permalink: /firecheckout/supported-modules/mrwiberia-mage2mrw/
+permalink: "/firecheckout/supported-modules/mrwiberia-mage2mrw/"
 description: Firecheckout integration with MrwIberia Mage2Mrw
 keywords: MrwIberia_Mage2Mrw
 category: Firecheckout

@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Argento Flat
-permalink: /argento/flat/
+permalink: "/argento/flat/"
 description: ArgentoFlat theme documentation
-keywords: ArgentoFlat, flat
+keywords: "ArgentoFlat, flat"
 category: Argento
 ---
 

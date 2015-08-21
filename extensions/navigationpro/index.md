@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Navigationpro
-permalink: /navigationpro/
+permalink: "/navigationpro/"
 description: Navigationpro documentation
-keywords: nanigationpro, menu
+keywords: "navigationpro, menu"
 category: Navigationpro
 ---
 

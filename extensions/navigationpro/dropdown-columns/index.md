@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Navigationpro Dropdown Columns
-permalink: /navigationpro/dropdown-columns/
+permalink: "/navigationpro/dropdown-columns/"
 description: How to use dropdown columns in navigationpro module
-keywords: nanigationpro, menu, dropdown columns
-searchterms: status exceptions, subcategories, direction, vertical, horizontal
+keywords: "navigationpro, menu, dropdown columns"
+searchterms: "status exceptions, subcategories, direction, vertical, horizontal"
 category: Navigationpro
 ---
 

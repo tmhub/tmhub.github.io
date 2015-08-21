@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Argento Top Navigation Setup
-permalink: /argento/navigation-setup/
+permalink: "/argento/navigation-setup/"
 description: How to make Argento-like top navigation menu
 category: Argento
 ---

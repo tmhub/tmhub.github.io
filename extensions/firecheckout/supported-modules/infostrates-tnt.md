@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Infostrates Tnt integration
-permalink: /firecheckout/supported-modules/infostrates-tnt/
+permalink: "/firecheckout/supported-modules/infostrates-tnt/"
 description: Firecheckout integration with Infostrates Tnt
 keywords: Infostrates_Tnt
 category: Firecheckout

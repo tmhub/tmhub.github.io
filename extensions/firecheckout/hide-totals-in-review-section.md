@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Hide totals in review section
-permalink: /firecheckout/hide-totals-in-review-section/
+permalink: "/firecheckout/hide-totals-in-review-section/"
 description: How to remove some totals from order review section
 keywords: totals
 category: Firecheckout

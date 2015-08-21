@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Using external cache model
-permalink: /cache/external-cache-model-setup/
+permalink: "/cache/external-cache-model-setup/"
 description: Using external cache model with full page cache
-keywords: external cache model, full page cache
+keywords: "external cache model, full page cache"
 category: Cache
 ---
 

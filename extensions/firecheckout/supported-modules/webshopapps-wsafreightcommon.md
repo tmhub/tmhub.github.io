@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Webshopapps_Wsafreightcommon integration
-permalink: /firecheckout/supported-modules/webshopapps-wsafreightcommon/
+permalink: "/firecheckout/supported-modules/webshopapps-wsafreightcommon/"
 description: Firecheckout integration with Webshopapps Wsafreightcommon
-keywords: Webshopapps_Wsafreightcommon, freight common
+keywords: "Webshopapps_Wsafreightcommon, freight common"
 category: Firecheckout
 ---
 

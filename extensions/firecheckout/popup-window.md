@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Custom Popup Window
-permalink: /firecheckout/popup-window/
+permalink: "/firecheckout/popup-window/"
 description: Creating custom popup on firecheckout page
 keywords: popup window
 category: Firecheckout

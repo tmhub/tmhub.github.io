@@ -1,7 +1,7 @@
 ---
 layout: default
 title: PostcodeAnywhere integration
-permalink: /firecheckout/supported-modules/postcode-anywhere/
+permalink: "/firecheckout/supported-modules/postcode-anywhere/"
 description: Firecheckout integration with PostcodeAnywhere
 keywords: PostcodeAnywhere
 category: Firecheckout

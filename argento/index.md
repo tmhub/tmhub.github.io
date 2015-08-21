@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Argento
-permalink: /argento/
+permalink: "/argento/"
 description: Argento documentation
 category: Argento
 ---

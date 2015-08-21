@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Crawler
-permalink: /cache/crawler/
+permalink: "/cache/crawler/"
 description: Page Crawler documentation
 keywords: crawler
 category: Cache

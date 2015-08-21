@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Netresearch PaymentFee integration
-permalink: /firecheckout/supported-modules/netresearch-paymentfee/
+permalink: "/firecheckout/supported-modules/netresearch-paymentfee/"
 description: Firecheckout integration with Netresearch PaymentFee
-keywords: Netresearch_PaymentFee, billsafe
+keywords: "Netresearch_PaymentFee, billsafe"
 category: Firecheckout
 ---
 

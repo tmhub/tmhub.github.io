@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Development documentation
-permalink: /development/
+permalink: "/development/"
 ;sidebar: sidebar.md
 ---
 

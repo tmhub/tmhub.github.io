@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Argento Frequently Asked Questions
-permalink: /argento/faq/
+permalink: "/argento/faq/"
 description: Argento Frequently Asked Questions
-keywords: argento faq, short header, floatbar, collapsed category description, layout, argento logo
+keywords: "argento faq, short header, floatbar, collapsed category description, layout, argento logo"
 category: Argento
 ---
 

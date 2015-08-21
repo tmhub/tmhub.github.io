@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Full Page Cache
-permalink: /cache/
+permalink: "/cache/"
 description: Full Page Cache documentation
-keywords: cache, fpc, full page cache
+keywords: "cache, fpc, full page cache"
 category: Cache
 ---
 

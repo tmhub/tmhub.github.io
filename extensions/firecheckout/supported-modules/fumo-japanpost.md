@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Fumo JapanPost integration
-permalink: /firecheckout/supported-modules/fumo-japanpost/
+permalink: "/firecheckout/supported-modules/fumo-japanpost/"
 description: Firecheckout integration with Fumo_JapanPost
 keywords: Fumo_JapanPost
 category: Firecheckout

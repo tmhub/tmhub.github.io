@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Configurable Swatches integration module
-permalink: /catalog-configurable-swatches/
+permalink: "/catalog-configurable-swatches/"
 description: Configurable Swatches integration module
 keywords: configurable swatches
 category: ConfigurableSwatches

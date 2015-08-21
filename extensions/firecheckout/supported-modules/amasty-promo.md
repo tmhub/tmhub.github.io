@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Amasty Promo integration
-permalink: /firecheckout/supported-modules/amasty-promo/
+permalink: "/firecheckout/supported-modules/amasty-promo/"
 description: Firecheckout integration with Amasty Promo
 keywords: Amasty_Promo
 category: Firecheckout

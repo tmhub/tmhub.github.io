@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Richsnippets
-permalink: /richsnippets/
+permalink: "/richsnippets/"
 description: Richsnippets documentation
 category: Richsnippets
 ---
@@ -11,7 +11,7 @@ category: Richsnippets
 1. Copy RichSnippets folder content to your store root
 2. Go to **System>Configuration>Templates Master>RichSnippets** set **"Enabled"**
 3. Fill needed data
-4. 
+4.
    - Choose **"JSON Format"** for invisible block with your store snippets
    - Choose **"Microdata Format"** for visible block: ![Microdata Format](http://i.imgur.com/IjEbpz3.png)
       * If you use **TM_EasyTabs** extension it will appear in the bottom of **"Review"** Tab
@@ -20,18 +20,18 @@ category: Richsnippets
 ### Installation in Argento 1.6.2 version or lower or upgrading from previous Rich Snippets versions
  1. Go to your theme **view.phtml** file (i.e. *app/design/frontend/argento/default/template/catalog/product/view.phtml* )
  2. **REMOVE** following lines:
-    
+
     ```html
     <div itemscope itemtype="http://schema.org/Product">
     ```
-    
+
     ```php
     <!-- Rich snippets block -->
-        <?php echo $this->getLayout() 
+        <?php echo $this->getLayout()
              ->createBlock('richsnippets/product')
              ->setTemplate('tm/richsnippets/richsnippets_view.phtml')
              ->toHtml() ?>
-    <!-- Rich snippets block --> 
+    <!-- Rich snippets block -->
     </div>
     ```
 
@@ -42,7 +42,7 @@ category: Richsnippets
 5. Copy **Rich Snippets 2.0** folder content to your store root
 6. Go to System>Configuration>Templates Master>RichSnippets set "Enabled"
 7. Fill needed data
-8. 
+8.
    - Choose "JSON Format" for invisible block with your store snippets
    - Choose "Microdata Format" for visible block: ![Microdata Format](http://i.imgur.com/IjEbpz3.png)
       * If you use TM_EasyTabs extension it will appear in the bottom of "Review" Tab
