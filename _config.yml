@@ -13,11 +13,14 @@ prose:
   siteurl: "http://tmhub.github.io/"
   media: "media"
   ignore:
+    - .gitignore
     - bower.json
     - _config.yml
+    - search.json
     - /_includes
     - /_layouts
     - /_posts
+    - /bower_components
 
 # Outputting
 permalink: none
