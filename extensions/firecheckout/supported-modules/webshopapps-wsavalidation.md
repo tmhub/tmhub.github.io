@@ -42,7 +42,12 @@ category: Firecheckout
         if ($controller->getResponse()->getBody()) { // validatiopn window is in response
             $controller->setFlag('', Mage_Core_Controller_Varien_Action::FLAG_NO_DISPATCH, true);
         } else {
-            // validate shipping address
+            // validate shipping address if needed
+            $shipping = $controller->getRequest()->getPost('shipping');
+            if (!$shipping || (isset($shipping['same_as_billing']) && $shipping['same_as_billing'])) {
+                return;
+            }
+
             Mage::unregister('candidate_addresses');
             $this->_saveShippingQuote($observer);
             $this->_saveShippingQuoteAfter($observer);
@@ -54,43 +59,66 @@ category: Firecheckout
     ```
 
  2. Open `/app/design/frontend/base/default/template/webshopapps/wsavalidation/checkout/onepage/choose_billing.phtml`
- and find the following lines **in two places** (~120-122) and (~133-135):
+ and find the following lines (~133-135):
 
     ```javascript
-    //get_save_billing_function(url_save_billing, url_set_methods, true, true)();
-    billing.save();
-    $j("#billing-continue").trigger("click");
-    ```
+    "Use Original Address": function() {
+        $("billing:address_valid").value = 1;
+        $j( this ).dialog( "close" );
+        $("billing:dest_type").value = 1;
 
-    Replace them with:
-
-    ```javascript
-    if (typeof FireCheckout !== 'undefined') {
-        checkout.save();
-    } else {
         //get_save_billing_function(url_save_billing, url_set_methods, true, true)();
         billing.save();
         $j("#billing-continue").trigger("click");
     }
     ```
- 3. Open `/app/design/frontend/base/default/template/webshopapps/wsavalidation/checkout/onepage/choose_shipping.phtml`
- and find the following lines **in two places** (~133-135) and (~147-149):
+
+    Replace them with:
 
     ```javascript
-    //get_save_billing_function(url_save_billing, url_set_methods, true, true)();
-    shipping.save();
-    $j("#shipping-continue").trigger("click");
+    "Use Original Address": function() {
+        $("billing:address_valid").value = 1;
+        $j( this ).dialog( "close" );
+        $("billing:dest_type").value = 1;
+
+        if (typeof FireCheckout !== 'undefined') {
+            checkout.save();
+        } else {
+            //get_save_billing_function(url_save_billing, url_set_methods, true, true)();
+            billing.save();
+            $j("#billing-continue").trigger("click");
+        }
+    }
+    ```
+ 3. Open `/app/design/frontend/base/default/template/webshopapps/wsavalidation/checkout/onepage/choose_shipping.phtml`
+ and find the following lines (~147-149):
+
+    ```javascript
+    "Use Original Address": function() {
+        $("shipping:address_valid").value = 1;
+        $j( this ).dialog( "close" );
+        $("billing:dest_type").value = 1;
+        //get_save_billing_function(url_save_billing, url_set_methods, true, true)();
+        shipping.save();
+        $j("#shipping-continue").trigger("click");
+    }
     ```
 
     Replace them with:
 
     ```javascript
-    if (typeof FireCheckout !== 'undefined') {
-        checkout.save();
-    } else {
-        //get_save_billing_function(url_save_billing, url_set_methods, true, true)();
-        shipping.save();
-        $j("#shipping-continue").trigger("click");
+    "Use Original Address": function() {
+        $("shipping:address_valid").value = 1;
+        $j( this ).dialog( "close" );
+        $("billing:dest_type").value = 1;
+
+        if (typeof FireCheckout !== 'undefined') {
+            checkout.save();
+        } else {
+            //get_save_billing_function(url_save_billing, url_set_methods, true, true)();
+            shipping.save();
+            $j("#shipping-continue").trigger("click");
+        }
     }
     ```
 
