@@ -13,9 +13,14 @@
       url: /crawler/
       column: 1
 
+    - title: Email
+      url: /email/
+      column: 1
+      free: 1
+
     - title: Firecheckout
       url: /firecheckout/
-      column: 1
+      column: 2
 
     - title: Navigation Pro
       url: /navigationpro/
@@ -32,7 +37,7 @@
 
     - title: Rich Snippets
       url: /richsnippets/
-      column: 2
+      column: 3
 
 - title: Argento themes
   url: /argento/
