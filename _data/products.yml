@@ -13,10 +13,14 @@
       url: /crawler/
       column: 1
 
-    - title: Email
-      url: /email/
+    - title: EasyCatalogImages
+      url: /easycatalogimages/
       column: 1
       free: 1
+
+    - title: Email
+      url: /email/
+      column: 2
 
     - title: Firecheckout
       url: /firecheckout/
@@ -32,7 +36,7 @@
 
     - title: Testimonials
       url: /testimonials/
-      column: 2
+      column: 3
       free: 1
 
     - title: Rich Snippets
