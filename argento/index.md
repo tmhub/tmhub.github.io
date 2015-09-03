@@ -10,10 +10,10 @@ category: Argento
 
 #### Argento Themes
 
-* [Argento Argento](argento/)
+* Argento Argento
 * [Argento Flat](flat/)
-* [Argento Mall](mall/)
-* [Argento Pure](pure/)
+* Argento Mall
+* Argento Pure
 
 #### [Theme customization](theme-customization)
 
