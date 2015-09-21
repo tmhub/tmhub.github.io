@@ -3,7 +3,7 @@ layout: default
 title: Navigationpro
 permalink: "/navigationpro/"
 description: Navigationpro documentation
-keywords: "navigationpro, menu"
+keywords: "navigationpro, menu, structure"
 category: Navigationpro
 ---
 
@@ -12,9 +12,8 @@ category: Navigationpro
 NavigationPro is a powerfull Magento module, that allows to create outstanding
 menu's without html and css knowledge.
 
-![Fronend navigation](https://cldup.com/ilpzHHCngW-2000x2000.png)
-
 ### Contents
+ 1. [Navigation structure on the screenshot](#navigation-structure)
  1. [Siblings](siblings/)
     - [Backend Interface](siblings/#backend)
     - Use Cases:
@@ -28,3 +27,7 @@ menu's without html and css knowledge.
       - [Replace standard subcategories dropdown with Easy Catalog Images widget](dropdown-columns/easycatalogimages-widget/)
  4. Customization
     - [Open accordion on category click](open-accordion-on-category-click)
+
+### Navigation structure
+
+![Fronend navigation](https://cldup.com/ilpzHHCngW-2000x2000.png)
