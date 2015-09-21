@@ -26,3 +26,5 @@ menu's without html and css knowledge.
     - [Backend Interface](dropdown-columns/#backend)
     - Use Cases:
       - [Replace standard subcategories dropdown with Easy Catalog Images widget](dropdown-columns/easycatalogimages-widget/)
+ 4. Customization
+    - [Open accordion on category click](open-accordion-on-category-click)
