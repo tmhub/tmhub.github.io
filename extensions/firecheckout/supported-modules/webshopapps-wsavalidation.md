@@ -90,6 +90,47 @@ category: Firecheckout
         }
     }
     ```
+
+    Find the following lines:
+
+    ```javascript
+    "Continue": function() {
+        if(candidateSwitcherBilling()) {
+            if($("billing-address-select")) {
+                changeSelectByValue('billing-address-select','',true);
+            }
+            $j( this ).dialog( "close" );
+
+            //get_save_billing_function(url_save_billing, url_set_methods, true, true)();
+            billing.save();
+            $j("#billing-continue").trigger("click");
+        }
+    },
+    ```
+
+    Replace them with:
+
+    ```javascript
+    "Continue": function() {
+        if(candidateSwitcherBilling()) {
+            if($("billing-address-select")) {
+                changeSelectByValue('billing-address-select','',true);
+            }
+            $j( this ).dialog( "close" );
+
+            //get_save_billing_function(url_save_billing, url_set_methods, true, true)();
+            if (typeof FireCheckout !== 'undefined') {
+                if($("billing-address-select")) {
+                    candidateSwitcherBilling(); // firecheckout resets address on changeSelectByValue
+                }
+                $('shipping-method').scrollTo();
+            }
+            billing.save();
+            $j("#billing-continue").trigger("click");
+        }
+    },
+    ```
+
  3. Open `/app/design/frontend/base/default/template/webshopapps/wsavalidation/checkout/onepage/choose_shipping.phtml`
  and find the following lines (~147-149):
 
