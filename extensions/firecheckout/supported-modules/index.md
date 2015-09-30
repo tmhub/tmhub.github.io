@@ -87,7 +87,7 @@ additional modifications.
 
 ### StoreCredit
 
-- AW_Storecredit
+- [AW_Storecredit](/firecheckout/supported-modules/aw-storecredit/)
 - MageWorx_CustomerCredit
 - [MW_Storecreditpro](/firecheckout/supported-modules/mw-storecreditpro/)
 
