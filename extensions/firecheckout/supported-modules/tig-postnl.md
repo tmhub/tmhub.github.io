@@ -94,4 +94,18 @@ category: Firecheckout
     if ('undefined' !== typeof deliveryOptions && deliveryOptions.options.isOsc) {
     ```
 
- 4. Save the files and clear the cache.
+ 4. Open `app/design/frontend/base/default/template/TIG/PostNL/delivery_options/addphonenumber.phtml`
+ and find the following line:
+
+    ```javascript
+    window.deliveryOptions.saveOscOptions();
+    ```
+
+    Replace it with:
+
+    ```javascript
+    window.deliveryOptions.saveSelectedOption();
+    // window.deliveryOptions.saveOscOptions();
+    ```
+
+ 5. Save the files and clear the cache.
