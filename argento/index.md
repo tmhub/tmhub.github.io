@@ -14,6 +14,7 @@ category: Argento
 * [Argento Flat](flat/)
 * Argento Mall
 * Argento Pure
+* [Argento Pure 2.0](pure2/)
 
 #### [Theme customization](theme-customization)
 
