@@ -27,15 +27,11 @@ category: Argento
 - [Navigation](header/#navigation)
 - [Sticky navigation](header/#sticky-navigation)
 
-##### Footer
+##### [Footer](footer/)
 
-- Social icons
-- Company information links
-- Call us
-- Newsletter
-- Payment methods image
-- Copyright information
-- Links
+- [Social icons](footer/#social-icons)
+- [Company information, Call Us](footer/#company-information-call-us)
+- [Short footer layout](footer/#short-footer-layout)
 
 ##### Homepage
 
