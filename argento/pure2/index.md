@@ -20,12 +20,12 @@ category: Argento
 - [Page title and sidebar fonts](configuration/#page-title-and-sidebar-fonts)
 - [Additional css styles and includes](configuration/#additional-css-styles-and-includes)
 
-##### Header
+##### [Header](header/)
 
-- Logo
-- Search
-- Navigation
-- Sticky navigation
+- [Logo](header/#logo)
+- [Search](header/#search)
+- [Navigation](header/#navigation)
+- [Sticky navigation](header/#sticky-navigation)
 
 ##### Footer
 
