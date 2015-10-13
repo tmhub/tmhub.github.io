@@ -33,13 +33,13 @@ category: Argento
 - [Company information, Call Us](footer/#company-information-call-us)
 - [Short footer layout](footer/#short-footer-layout)
 
-##### Homepage
+##### [Homepage](homepage/)
 
-- Slider
-- Categories block
-- Tabs
-- Blands Slider
-- Free Delivery Banner
+- [Slider](homepage/#slider)
+- [Categories block](homepage/#categories)
+- [Tabs](homepage/#tabs)
+- [Brands Slider](homepage/#brands-slider)
+- [Free Delivery Banner](homepage/#free-delivery-banner)
 
 ##### Category Page
 
