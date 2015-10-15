@@ -41,11 +41,17 @@ category: Argento
 - [Brands Slider](homepage/#brands-slider)
 - [Free Delivery Banner](homepage/#free-delivery-banner)
 
-##### Category Page
+##### [Category Page](category-page/)
 
-- Layout
-- Columns count
-- Sticky sidebar
+ -  [Layout](category-page/#layout)
+ -  [Category description](category-page/#description)
+ -  [Product Listing](category-page/#products-listing)
+    - [Columns count](category-page/#columns-count)
+    - [Image size](category-page/#image-size)
+ -  [Sidebar](category-page/#sidebar)
+    - [Sticky sidebar](category-page/#sticky-sidebar)
+    - [Layered navigation](category-page/#layered-navigation)
+    - [Testimonials](category-page/#testimonials)
 
 ##### Product Page
 
