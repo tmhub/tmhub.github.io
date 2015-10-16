@@ -34,11 +34,11 @@ page_one_column
 #### Brand information
 
 {::options parse_block_html="true" /}
-<div class="mdl-grid"><div class="mdl-cell mdl-cell--3-col mdl-cell--2-col-tablet mdl-cell--1-col-phone">
+<div class="mdl-grid"><div class="mdl-cell mdl-cell--3-col mdl-cell--2-col-tablet">
 
 ![Brand Information](images/brand_information.png)
 
-</div><div class="mdl-cell mdl-cell--9-col mdl-cell--6-col-tablet mdl-cell--3-col-phone">
+</div><div class="mdl-cell mdl-cell--9-col mdl-cell--6-col-tablet">
 
 Brand information block is powered by AttributePages module and displays
 image linked with product `manufacturer` attribute.
@@ -64,11 +64,11 @@ Replace `attribute_code="manufacturer"` with `attribute_code="attribute_code"`
 #### Services sidebar
 
 {::options parse_block_html="true" /}
-<div class="mdl-grid"><div class="mdl-cell mdl-cell--3-col mdl-cell--2-col-tablet mdl-cell--1-col-phone">
+<div class="mdl-grid"><div class="mdl-cell mdl-cell--3-col mdl-cell--2-col-tablet">
 
 ![Services Sidebar](images/services_sidebar.png)
 
-</div><div class="mdl-cell mdl-cell--9-col mdl-cell--6-col-tablet mdl-cell--3-col-phone">
+</div><div class="mdl-cell mdl-cell--9-col mdl-cell--6-col-tablet">
 
 Services sidebar block is a simple cms block powered with FontAwesome icons.
 
@@ -92,11 +92,11 @@ Here is the sample of how the delivery icon is coded:
 #### Images
 
 {::options parse_block_html="true" /}
-<div class="mdl-grid"><div class="mdl-cell mdl-cell--3-col mdl-cell--2-col-tablet mdl-cell--1-col-phone">
+<div class="mdl-grid"><div class="mdl-cell mdl-cell--3-col mdl-cell--2-col-tablet">
 
 ![Product Image](images/images.jpg)
 
-</div><div class="mdl-cell mdl-cell--9-col mdl-cell--6-col-tablet mdl-cell--3-col-phone">
+</div><div class="mdl-cell mdl-cell--9-col mdl-cell--6-col-tablet">
 
 Product image and gallery is powered by LightboxPro module, that has a lot of
 configuration optins at `System > Configuration > Template-Master > LightboxPro`
@@ -114,11 +114,11 @@ It allow you to configure the following options:
 #### Colorswatches
 
 {::options parse_block_html="true" /}
-<div class="mdl-grid"><div class="mdl-cell mdl-cell--3-col mdl-cell--2-col-tablet mdl-cell--1-col-phone">
+<div class="mdl-grid"><div class="mdl-cell mdl-cell--3-col mdl-cell--2-col-tablet">
 
 ![Catalog Configurable Swatches](images/colorswatches.png)
 
-</div><div class="mdl-cell mdl-cell--9-col mdl-cell--6-col-tablet mdl-cell--3-col-phone">
+</div><div class="mdl-cell mdl-cell--9-col mdl-cell--6-col-tablet">
 
 Catalog Configurable Swatches - is a standard Magento feature since 1.9.1, which
 is fully integrated with the following Argento modules:
