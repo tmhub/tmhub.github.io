@@ -14,7 +14,9 @@ exclude:
   - bower_components/material-design-lite/utils/
   - bower_components/mustache/bin/
   - bower_components/mustache/hooks/
+  - bower_components/mustache/spec/
   - bower_components/mustache/wrappers/
+  - bower_components/prism/examples/
   - bower_components/prism/plugins/
   - bower_components/prism/tests/
   - bower_components/prism/vendor/
