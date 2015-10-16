@@ -53,13 +53,19 @@ category: Argento
     - [Layered navigation](category-page/#layered-navigation)
     - [Testimonials](category-page/#testimonials)
 
-##### Product Page
+##### [Product Page](product-page/)
 
-- Layout
-- Brand information
-- Services sidebar
-- Tabs
-- Soldtogether blocks
+ -  [Layout](product-page/#layout)
+ -  [Sidebar](product-page/#sidebar)
+    - [Brand information](product-page/#brand-information)
+    - [Services sidebar](product-page/#services-sidebar)
+ -  [Content](product-page/#content)
+    - [Images](product-page/#images)
+    - [Colorswatches](product-page/#colorswatches)
+    - [Tabs](product-page/#tabs)
+    - [Soldtogether blocks](product-page/#soldtogether-blocks)
+        - [Frequently bought together](product-page/#frequently-bought-together)
+        - [Customers who bought this item also bought](product-page/#customers-who-bought-this-item-also-bought)
 
 ##### Checkout Page
 
