@@ -11,23 +11,26 @@ category: Argento
 
 ### Layout
 
-Pure 2.0 is using `2columns-right` layout for the category page. To change it to
-another one, create [custom.xml][custom_xml]
-file with following instruction:
+Pure 2.0 is using `page_two_columns_right` layout for the category page. To
+change it to another one, create [custom.xml][custom_xml] file with following
+instruction:
 
 ```xml
-<reference name="root">
-    <action method="setTemplate"><template>page/2columns-right.phtml</template></action>
-</reference>
+<catalog_category_default>
+    <update handle="page_two_columns_right"/>
+</catalog_category_default>
+<catalog_category_layered>
+    <update handle="page_two_columns_right"/>
+</catalog_category_layered>
 ```
 
-Possible values for template variable:
+Possible values for handle variable:
 
 ```
-page/2columns-left.phtml
-page/2columns-right.phtml
-page/3columns.phtml
-page/1column.phtml
+page_two_columns_left
+page_two_columns_right
+page_three_columns
+page_one_column
 ```
 
 ### Category Description
