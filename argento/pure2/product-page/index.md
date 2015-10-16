@@ -128,7 +128,7 @@ is fully integrated with the following Argento modules:
 - LightboxPro
 
 You can read this
-[great tutorial](colorswatches) by [sherodesigns](http://sherodesigns.com) about
+[great tutorial][colorswatches] by [sherodesigns](http://sherodesigns.com) about
 color swatches configuration.
 
 </div></div>
