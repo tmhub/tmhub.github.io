@@ -6,6 +6,19 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: ""
 url: "http://tmhub.github.io"
 
+exclude:
+  - bower_components/lunr.js/example/
+  - bower_components/lunr.js/lib/
+  - bower_components/lunr.js/test/
+  - bower_components/material-design-lite/src/
+  - bower_components/material-design-lite/utils/
+  - bower_components/mustache/bin/
+  - bower_components/mustache/hooks/
+  - bower_components/mustache/wrappers/
+  - bower_components/prism/plugins/
+  - bower_components/prism/tests/
+  - bower_components/prism/vendor/
+
 github:
   repository_url: https://github.com/tmhub/tmhub.github.io
 
