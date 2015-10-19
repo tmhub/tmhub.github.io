@@ -67,6 +67,6 @@ category: Argento
         - [Frequently bought together](product-page/#frequently-bought-together)
         - [Customers who bought this item also bought](product-page/#customers-who-bought-this-item-also-bought)
 
-##### Checkout Page
+##### [Checkout Page](checkout-page/)
 
-- Short header and footer layout
+- [Short header and footer layout](checkout-page/#short-header-and-footer-layout)
