@@ -71,6 +71,10 @@ additional modifications.
 - [Webshopapps_Wsafreightcommon](/firecheckout/supported-modules/webshopapps-wsafreightcommon/)
 - Wyomind_Pickupatstore
 
+### Shipping and Payment related modules
+
+- [Ship and pay combo](mymonki-ship2pay/)
+
 ### Discount Coupons
 
 - Built-in coupons
