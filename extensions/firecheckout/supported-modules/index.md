@@ -86,6 +86,7 @@ additional modifications.
 - Magento EE GiftCards and GiftWrap
 - Aitoc_Aitgiftwrap
 - [AW_GiftCard](/firecheckout/supported-modules/aw-giftcard/)
+- [Magestore_Giftvoucher](magestore-giftvoucher/)
 - Unirgy_GiftCert
 - Webtex_Gitcards
 
