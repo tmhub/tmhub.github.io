@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Magento Mobile Star Theme (M001)
-permalink: "/m001-mobile-star-theme/"
 description: Magento mobile star theme documentation
 keywords: "Magento Mobile Star Theme, m001"
 category: m001
