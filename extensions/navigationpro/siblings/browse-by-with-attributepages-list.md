@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Browse by sibling with attributepages dropdown
-permalink: "/navigationpro/siblings/browse-by-with-attributepages-list/"
 description: Create navigation pro sibling with attributepages list dropdown
 keywords: "navigationpro, menu, siblings, dropdown content, attributepages"
 category: Navigationpro

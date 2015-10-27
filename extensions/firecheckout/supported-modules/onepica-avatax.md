@@ -1,7 +1,6 @@
 ---
 layout: default
 title: OnePica AvaTax integration
-permalink: "/firecheckout/supported-modules/onepica-avatax/"
 description: Firecheckout integration with OnePica AvaTax
 keywords: "OnePica_AvaTax"
 category: Firecheckout

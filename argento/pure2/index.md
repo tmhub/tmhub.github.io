@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Argento Pure 2.0
-permalink: "/argento/pure2/"
 description: ArgentoPure 2.0 theme documentation
 keywords: "ArgentoPure, pure"
 category: Argento

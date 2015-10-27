@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Full Page Cache
-permalink: "/cache/"
 description: Full Page Cache documentation
 keywords: "cache, fpc, full page cache"
 category: Cache
@@ -13,7 +12,7 @@ Full page cache makes your store faster.
 
 - Full page cache dashboard shows you the impact of cache module
 - Powerfull logs to analyze cache usage stats
-- [Page crawler](crawler) is included to provide the best shopping experience
+- [Page crawler](/extensions/crawler/) is included to provide the best shopping experience
 to all of the visitors
 - "hole-punch" support that allows to use fast cache with dynamic blocks
 without any additional setup

@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Navigationpro Siblings
-permalink: "/navigationpro/siblings/"
 description: How to use siblings in navigationpro module
 keywords: "navigationpro, menu, siblings"
 searchterms: status exceptions

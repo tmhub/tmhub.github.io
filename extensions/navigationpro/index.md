@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Navigationpro
-permalink: "/navigationpro/"
 description: Navigationpro documentation
 keywords: "navigationpro, menu, structure"
 category: Navigationpro

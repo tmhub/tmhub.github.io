@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Webshopapps_Wsavalidation integration
-permalink: "/firecheckout/supported-modules/webshopapps-wsavalidation/"
 description: Firecheckout integration with Webshopapps Wsavalidation
 keywords: "Webshopapps_Wsavalidation, validation, desttype"
 category: Firecheckout

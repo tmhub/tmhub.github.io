@@ -1,9 +1,8 @@
 ---
 layout: default
 title: Ship and pay combo integration
-permalink: "/firecheckout/supported-modules/mymonki-ship2pay/"
 description: Firecheckout integration with Ship2Pay
-keywords: "Ship2Pay, Mymonki"
+keywords: "Ship2Pay, mymonki"
 category: Firecheckout
 ---
 

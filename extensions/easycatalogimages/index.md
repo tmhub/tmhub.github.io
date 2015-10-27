@@ -1,7 +1,6 @@
 ---
 layout: default
 title: EasyCatalogImages
-permalink: "/easycatalogimages/"
 description: Categories and subcategories listing with images or thumbnails
 keywords: "easycatalogimages, category, subcategory"
 category: EasyCatalogImages

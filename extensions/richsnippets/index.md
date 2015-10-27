@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Richsnippets
-permalink: "/richsnippets/"
 description: Richsnippets documentation
 category: Richsnippets
 ---

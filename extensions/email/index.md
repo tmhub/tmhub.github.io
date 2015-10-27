@@ -1,9 +1,8 @@
 ---
 layout: default
 title: Email
-permalink: /email/
 description: Email documentation
-keywords: email, mail
+keywords: "email, mail"
 category: Email
 ---
 

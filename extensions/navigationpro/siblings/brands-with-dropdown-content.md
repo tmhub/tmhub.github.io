@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Brands sibling with dropdown content
-permalink: "/navigationpro/siblings/brands-with-dropdown-content/"
 description: Create navigation pro sibling with brands dropdown content
 keywords: "navigationpro, menu, siblings, dropdown content, attributepages"
 searchterms: Brands

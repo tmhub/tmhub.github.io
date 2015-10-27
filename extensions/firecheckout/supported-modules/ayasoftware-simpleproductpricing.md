@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Ayasoftware Simple Product Pricing integration
-permalink: "/firecheckout/supported-modules/ayasoftware-simpleproductpricing/"
 description: Firecheckout integration with Ayasoftware SimpleProductPricing
 keywords: "Ayasoftware_SimpleProductPricing, zero subtotal, zero total"
 category: Firecheckout

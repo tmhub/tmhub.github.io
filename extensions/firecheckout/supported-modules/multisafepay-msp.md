@@ -1,7 +1,6 @@
 ---
 layout: default
 title: MultiSafePay_Msp integration
-permalink: "/firecheckout/supported-modules/multisafepay-msp/"
 description: Firecheckout integration with MultiSafePay Msp
 keywords: "MultiSafePay_Msp, safepay"
 category: Firecheckout

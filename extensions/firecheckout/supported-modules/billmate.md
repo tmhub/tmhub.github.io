@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Billmate integration
-permalink: "/firecheckout/supported-modules/billmate/"
 description: Firecheckout integration with Billmate
 keywords: Billmate
 category: Firecheckout

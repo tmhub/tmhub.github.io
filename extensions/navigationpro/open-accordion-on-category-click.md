@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Open accordion on category click
-permalink: "/navigationpro/open-accordion-on-category-click/"
 description: Open accordion on category click
 keywords: "navigationpro, menu, accordion, click on category"
 category: Navigationpro

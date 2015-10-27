@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Usps Address Verification
-permalink: "/firecheckout/usps-address-verification/"
 description: Setting up Usps Address Verification
 keywords: address verification
 category: Firecheckout

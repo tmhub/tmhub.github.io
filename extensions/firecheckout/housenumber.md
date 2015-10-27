@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Housenumber field
-permalink: "/firecheckout/housenumber/"
 description: Converting second street line into househumber field
 keywords: housenumber
 category: Firecheckout

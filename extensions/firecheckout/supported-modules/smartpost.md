@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Smartpost integration
-permalink: "/firecheckout/supported-modules/smartpost/"
 description: Firecheckout integration with Smartpost
 keywords: Smartpost
 category: Firecheckout

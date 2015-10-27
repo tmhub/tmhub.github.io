@@ -1,7 +1,6 @@
 ---
 layout: default
-title: Magento Absolute Theme (F001)
-permalink: "/f002-classic-theme/"
+title: Magento Classic Theme (F001)
 description: Magento classic theme documentation
 keywords: "Magento Classic Theme, f002, free magento theme"
 category: f002

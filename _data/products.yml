@@ -1,47 +1,37 @@
 - title: Extensions
   items:
     - title: Cache
-      url: /cache/
-      column: 1
+      url: /extensions/cache/
 
     - title: Configurable Swatches
-      url: /catalog-configurable-swatches/
-      column: 1
+      url: /extensions/catalog-configurable-swatches/
       free: 1
 
     - title: Crawler
-      url: /crawler/
-      column: 1
+      url: /extensions/crawler/
 
     - title: EasyCatalogImages
-      url: /easycatalogimages/
-      column: 1
+      url: /extensions/easycatalogimages/
       free: 1
 
     - title: Email
-      url: /email/
-      column: 2
+      url: /extensions/email/
 
     - title: Firecheckout
-      url: /firecheckout/
-      column: 2
+      url: /extensions/firecheckout/
 
     - title: Navigation Pro
-      url: /navigationpro/
-      column: 2
+      url: /extensions/navigationpro/
 
     - title: Order Attachments
-      url: /order-attachments/
-      column: 2
+      url: /extensions/order-attachments/
 
     - title: Testimonials
-      url: /testimonials/
-      column: 3
+      url: /extensions/testimonials/
       free: 1
 
     - title: Rich Snippets
-      url: /richsnippets/
-      column: 3
+      url: /extensions/richsnippets/
 
 - title: Argento themes
   url: /argento/
@@ -69,15 +59,12 @@
 - title: Themes
   items:
     - title: Absolute Theme
-      url: /f001-absolute-theme/
-      column: 1
+      url: /themes/f001-absolute/
       free: 1
 
     - title: Classic Theme
-      url: /f002-classic-theme/
-      column: 2
+      url: /themes/f002-classic/
       free: 1
 
     - title: Mobile Star Theme
-      url: /m001-mobile-star-theme/
-      column: 3
+      url: /themes/m001-mobile-star/

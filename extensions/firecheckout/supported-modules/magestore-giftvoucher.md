@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Magestore Giftvoucher integration
-permalink: "/firecheckout/supported-modules/magestore-giftvoucher/"
 description: Firecheckout integration with Magestore Giftvoucher
 keywords: Magestore_Giftvoucher
 category: Firecheckout

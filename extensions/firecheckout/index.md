@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Firecheckout
-permalink: "/firecheckout/"
 description: Firecheckout documentation
 category: Firecheckout
 ---

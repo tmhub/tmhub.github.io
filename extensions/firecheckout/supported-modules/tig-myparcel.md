@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Tig_MyParcel integration
-permalink: "/firecheckout/supported-modules/tig-myparcel/"
 keywords: "Tig_MyParcel, parcel"
 category: Firecheckout
 ---

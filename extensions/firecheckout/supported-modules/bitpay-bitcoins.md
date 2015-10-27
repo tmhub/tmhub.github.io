@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Bitpay Bitcoins integration
-permalink: "/firecheckout/supported-modules/bitpay-bitcoins/"
 description: Firecheckout integration with Bitpay Bitcoins
 keywords: Bitpay_Bitcoins
 category: Firecheckout

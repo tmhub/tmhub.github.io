@@ -38,7 +38,7 @@ prose:
     - /bower_components
 
 # Outputting
-permalink: none
+permalink: pretty
 
 # Build settings
 safe: true

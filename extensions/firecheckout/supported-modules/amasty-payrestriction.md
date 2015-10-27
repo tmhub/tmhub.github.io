@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Amasty Payrestriction integration
-permalink: "/firecheckout/supported-modules/amasty-payrestriction/"
 description: Firecheckout integration with Amasty Payrestriction
 keywords: Amasty_Payrestriction
 category: Firecheckout

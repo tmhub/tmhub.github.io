@@ -1,7 +1,6 @@
 ---
 layout: default
 title: AW StoreCredit integration
-permalink: "/firecheckout/supported-modules/aw-storecredit/"
 description: Firecheckout integration with AheadWorks StoreCredit
 keywords: AW_StoreCredit
 category: Firecheckout

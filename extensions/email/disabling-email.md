@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Disabling Email extension
-permalink: /email/disabling-email/
 description: Disabling Email extension
 keywords: disabling email
 category: Email

@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Amasty Rules integration
-permalink: "/firecheckout/supported-modules/amasty-rules/"
 description: Firecheckout integration with Amasty Rules
 keywords: Amasty_Rules
 category: Firecheckout
