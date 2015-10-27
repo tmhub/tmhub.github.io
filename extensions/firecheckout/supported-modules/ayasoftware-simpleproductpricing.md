@@ -3,24 +3,34 @@ layout: default
 title: Ayasoftware Simple Product Pricing integration
 permalink: "/firecheckout/supported-modules/ayasoftware-simpleproductpricing/"
 description: Firecheckout integration with Ayasoftware SimpleProductPricing
-keywords: Ayasoftware_SimpleProductPricing
+keywords: "Ayasoftware_SimpleProductPricing, zero subtotal, zero total"
 category: Firecheckout
 ---
 
 # Ayasoftware SimpleProductPricing
 
- 1. Open `/app/code/local/Ayasoftware/SimpleProductPricing/Catalog/Model/Product/Type/Configurable/Price.php
-` file and find the following line:
+Open `app/code/local/Ayasoftware/SimpleProductPricing/Catalog/Model/Product/Type/Configurable/Price.php`
+file and apply the following patch:
 
-    ```php
-    if ($this->strContains($currentUrl, "onestepcheckout/") || $this->strContains($currentUrl, "checkout/cart/") || $this->strContains($currentUrl, "checkout/onepage/") || $this->strContains($currentUrl, "paypal/express/") || $this->strContains($currentUrl, "checkout/multishipping/")  || $this->strContains($currentUrl, "authorizenet/directpost_payment")  ) {
-    ```
+```diff
+--- a/app/code/local/Ayasoftware/SimpleProductPricing/Catalog/Model/Product/Type/Configurable/Price.php
++++ b/app/code/local/Ayasoftware/SimpleProductPricing/Catalog/Model/Product/Type/Configurable/Price.php
+@@ -85,6 +85,15 @@
+                 break;
+             }
+         }
++
++        $currentRoute = Mage::app()->getRequest()->getRouteName();
++        $disabledRoutes = array(
++            'firecheckout'
++        );
++        if (in_array($currentRoute, $disabledRoutes)) {
++            $useSimpleProductPricing = true;
++        }
++
+         if($useSimpleProductPricing) {
+             if (is_null($qty) && ! is_null($product->getCalculatedFinalPrice())) {
+                 return $product->getCalculatedFinalPrice();
+```
 
- 2. Replace it with:
-
-    ```php
-    if ($this->strContains($currentUrl, "firecheckout/") || $this->strContains($currentUrl, "onestepcheckout/") || $this->strContains($currentUrl, "checkout/cart/") || $this->strContains($currentUrl, "checkout/onepage/") || $this->strContains($currentUrl, "paypal/express/") || $this->strContains($currentUrl, "checkout/multishipping/")  || $this->strContains($currentUrl, "authorizenet/directpost_payment")  ) {
-    ```
- and save file.
-
- 3. Disable compilation mode and clear Magento cache.
+Save the file, disable compilation mode if needed.
