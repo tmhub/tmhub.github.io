@@ -11,7 +11,7 @@ category: Argento
 #### [Small changes](small-changes/)
 
 * [Backend configurator](small-changes/#backend-configurator)
-* [Custom styles and javascript](small-changes/#customcss-and-customjs)
+* [Custom styles and javascript](small-changes/#custom-styles-and-javascript)
 * [Custom layout update file](small-changes/#custom-layout-update-file)
 
 #### [Complex changes](complex-changes/)

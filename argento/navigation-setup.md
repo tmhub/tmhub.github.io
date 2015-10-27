@@ -5,176 +5,163 @@ description: How to make Argento-like top navigation menu
 category: Argento
 ---
 
-## Argento dropdowns with widgets included
+# Argento Top Navigation
 
 ### Contents
 
-1. [Home Link](#home-link)
-2. [Shop By subcategories dropdown](#shop-by-subcategories-dropdown)
-3. [Categories dropdown](#categories-dropdown)
-4. [TV & Video Featured Block](#tv--video-featured-block)
-5. [Books EasyBanner in Dropdown](#books-easybanner-in-dropdown)
-6. [Sale with Highlight:Special block dropdown](#sale-with-highlightspecial-block-dropdown)
-7. [Brands with AttributePages Widget](#brands-with-attributepages-widget)
-
+- [Home Link](#home-link)
+- [Shop By dropdown](#shop-by-dropdown)
+- [Categories dropdown](#categories-dropdown)
+- [Featured Product dropdown](#featured-product-dropdown)
+- [EasyBanner dropdown](#easybanner-dropdown)
+- [Special Products dropdown](#special-products-dropdown)
+- [Brands dropdown](#brands-dropdown)
 
 ### Home Link
-- Go to `Admin>TemplatesMaster>NavigationPro>top`
-- Choose first category (i.e. TV & Video)
 
-![First Category](http://i.imgur.com/KePmbGL.png)
+ 1. Navigate to `Templates-Master > NavigationPro` and expand top menu in left tree
+ 2. Choose first visible category
 
-- Go to "Sibling" tab and add **code** for content field:
+    ![Selected category](http://i.imgur.com/KePmbGL.png)
 
-```html
-<a href="{% raw %}{{store url='home'}}{% endraw %}" title="Home" class="nav-a">Home</a>
-```
-- Set negative SortOrder to put **Home** before current category (i.e. -30)
+ 3. Switch to `Siblings` tab and add new sibling with following values:
 
-![Sibling](http://i.imgur.com/nxrczcE.png)
+    ```
+    Content: <a href="{% raw %}{{store url='home'}}{% endraw %}" title="Home" class="nav-a">Home</a>
+    Sort Order: -30
+    ```
 
-### Shop By subcategories dropdown
+    ![Sibling](http://i.imgur.com/nxrczcE.png)
+
+### Shop By dropdown
 
 ![Shopby](http://i.imgur.com/gZOgXcx.png)
 
-- Go to `Admin>TemplatesMaster>NavigationPro>top`
-- Choose first category (i.e. TV & Video)
+ 1. Navigate to `Templates-Master > NavigationPro` and expand top menu in left tree
+ 2. Select first visible category
 
-![First Category](http://i.imgur.com/KePmbGL.png)
+    ![Selected category](http://i.imgur.com/KePmbGL.png)
 
-- Go to "Sibling" tab and add **Shop By** to content field
-- Set negative SortOrder to put **ShopBy** before current category (i.e. -20)
-- Set "Dropdown CSS styles" (i. e. "width: 960px;padding: 10px 0;")
+ 3. Switch to `Siblings` tab and add new sibling with following values:
 
-![Shop By](http://i.imgur.com/fxNPQts.png)
+    ```
+    Content: Shop By
+    Sort Order: -20
+    Dropdown CSS styles: width: 960px; padding: 10px 0;
+    Dropdown content: Insert Easy Catalog Images widget using WYSIWYG editor
+    ```
 
-- Go to **"Dropdown content"** field and insert following code:
+    Don't forget to set `Root category` field for Easy Catalog Images widget
 
-```
-{% raw %}{{widget type="easycatalogimg/widget_list" category_id="category/3" category_count="100" subcategory_count="2" column_count="4" show_image="1" image_width="170" image_height="170" template="tm/easycatalogimg/list.phtml"}}{% endraw %}
-```
-or in Widget interface:
-
-![ECI ](http://i.imgur.com/qWG4Q1X.png)
+    ![Shop By](http://i.imgur.com/fxNPQts.png)
 
 ### Categories dropdown
 
 ![Categories](http://i.imgur.com/KpsrzRE.png)
 
-- Go to `Admin>TemplatesMaster>NavigationPro>top`
-- Choose first category (i.e. TV & Video)
+ 1. Navigate to `Templates-Master > NavigationPro` and expant top menu in left tree
+ 2. Choose first visible category
 
-![First Category](http://i.imgur.com/KePmbGL.png)
+    ![Selected category](http://i.imgur.com/KePmbGL.png)
 
-- Go to "Sibling" tab and add **Categories** to content field
-- Set negative SortOrder to put **Categories** before current category (i.e. -10)
-- Set "Dropdown CSS styles" (i. e. "width: 660px;padding: 10px 0;text-align:left;")
+ 3. Switch to `Siblings` tab and new sibling with following values:
 
-![Categories](http://i.imgur.com/vozeysA.png)
+    ```
+    Content: Categories
+    Sort Order: -10
+    Dropdown css styles: width: 660px; padding: 10px 0; text-align:left;
+    Dropdown Content: Insert Easy Catalog Images widget using WYSIWYG editor
+    ```
 
-- Go to **"Dropdown content"** field and insert following code:
+    ![Categories](http://i.imgur.com/vozeysA.png)
 
-```
-{% raw %}{{widget type="easycatalogimg/list" enabled_for_anchor="1" enabled_for_default="1" category_id="category/3" category_count="100" subcategory_count="100" column_count="3" show_image="0" template="tm/easycatalogimg/list.phtml" category_to_hide="39,42"}}{% endraw %}
-```
-or in Widget interface:
+### Featured Product dropdown
 
-![EasyCatalogImages](http://i.imgur.com/clbWCrO.png)
+![Featured Product dropdown](http://i.imgur.com/z5A6RXE.png)
 
-### TV & Video Featured Block
+ 1. Make sure that you have set at least one product as featured (Check the
+    `featured` attribute value at product edit page)
+ 2. Navigate to `Templates-Master > NavigationPro` and expand top menu in left tree
+ 3. Choose category you wish to edit
 
-![TvVideo](http://i.imgur.com/z5A6RXE.png)
+    ![Selected category](http://i.imgur.com/KePmbGL.png)
 
-- Go to `Admin>TemplatesMaster>NavigationPro>top`
-- Choose first category (i.e. TV & Video)
-- Dropdown columns > Custom > Add New Coumn
-- Add Widget or Plain HTML
+ 4. Switch to `Dropdown columns` tab, select `Custom` mode and add new column
+    with following values:
 
-![Widget](http://i.imgur.com/gr1p3ie.png)
+    ```
+    Type: Widget or Plain HTML
+    Content: Insert Hightlight: Featured Products widget using WYSIWYG editor
+    Width: 450px
+    ```
 
-- Content:
+    ![Widget](http://i.imgur.com/gr1p3ie.png)
 
-```
-{% raw %}{{widget type="highlight/product_featured" title="Featured Product" products_count="1" column_count="1" template="tm/highlight/product/list.phtml" class_name="highlight-featured" category_filter="35"}}{% endraw %}
-```
-- Or insert it in **Widget** interface
-
-![widget](http://i.imgur.com/uVgeAbG.png)
-
-- Set width (i.e. 450px;)
-
-- Make sure that you have set any products as **Featured**
-
-### Books EasyBanner in Dropdown
+### EasyBanner dropdown
 
 ![books](http://i.imgur.com/6dNSUd8.png)
 
-- Go to `TemplatesMaster>EasyBanners>ManageBanners`
-- Create EasyBanner (i. e. "books-category")
+ 1. Navigate to `Templates-Master > EasyBanners > Manage Banners` and add new banner
+    that will be shown in dropdown.
+ 2. Navigate to to `Templates-Master > NavigationPro` and expand top menu in left tree
+ 3. Choose category to edit
 
-![banner1](http://i.imgur.com/CsDQJep.png)
-![banner2](http://i.imgur.com/azmolkJ.png)
+    ![Selected category](http://i.imgur.com/KePmbGL.png)
 
-- Go to `Admin>TemplatesMaster>NavigationPro>top`
-- Choose category (i.e. Books)
-- Go to **"Dropdown Columns"**
-- Add New Dropdown column
-- Set **Type: Widget or Plain HTML**
-- Set **Width** (i.e. 220px)
-- Set positive **Sort Order** to show right after categories content (i.e. 50)
+ 4. Switch to `Dropdown columns` tab, select `Custom` mode and add new column
+    with following values:
 
-![widget-settings](http://i.imgur.com/2hHyjVR.png)
+    ```
+    Type: Widget or Plain HTML
+    Content: Insert EasyBanner widget using WYSIWYG editor
+    Width: 220px
+    Sort Order: 50
+    ```
 
-- Use WYSIWYG editor to insert **EasyBanner Widget**  to content field (i.e. "books-category" )
+    ![Easybanner column settings](http://i.imgur.com/2hHyjVR.png)
 
-![widget-insert](http://i.imgur.com/QHJniGt.png)
-
-
-### Sale with Highlight:Special block dropdown
+### Special Products dropdown
 
 ![special](http://i.imgur.com/F9xc0ra.png)
 
-- Go to `Admin>TemplatesMaster>NavigationPro>top`
-- Choose category (i.e. Sale)
-- Go to "Dropdown columns" tab and add choose **Mode = "Custom"**
-- Add New Dropdown column
-- Set **Type: Widget or Plain HTML**
-- Set **Width** (i.e. 650px)
-- Set positive **Sort Order** (i.e. 55)
+ 1. Navigate to to `Templates-Master > NavigationPro` and expand top menu in left tree
+ 2. Choose category to edit
 
-![specialSettings](http://i.imgur.com/s2gns5r.png)
+    ![Selected category](http://i.imgur.com/KePmbGL.png)
 
-- Use WYSIWYG editor to insert **Highlight: Special Products**  to content field
+ 3. Switch to `Dropdown columns` tab, select `Custom` mode and add new column
+    with following values:
 
-![specialWidget](http://i.imgur.com/DmdVZpI.png)
+    ```
+    Type: Widget or Plain HTML
+    Content: Insert Hightlight: Special Products widget using WYSIWYG editor
+    Width: 650px
+    Sort Order: 55
+    ```
 
-- Or add following **code**
+    ![Highlight dropdown settings](http://i.imgur.com/s2gns5r.png)
 
-```
-{% raw %}{{widget type="highlight/product_special" title="Special Products" products_count="3" column_count="3" template="highlight/grid-short.phtml" class_name="highlight-special-navpro" }}{% endraw %}
-```
+### Brands dropdown
 
-### Brands with AttributePages Widget
+![Brands dropdown](http://i.imgur.com/OVvm3FV.png)
 
-![brands](http://i.imgur.com/OVvm3FV.png)
+ 1. Create Attribute Page using `Templates-Master > AttributePages > ManagePages`
+    if didn't create it before.
 
-- Create Attribute Page (.i.e. "brands") using `TemplatesMaster>AttributePages>ManagePages`
+    Check More at [AttributePages Manual](http://templates-master.com/magento-attributes-and-brands-pages-extension-user-manual)
 
-( Check More at [AttributePages Manual](http://templates-master.com/magento-attributes-and-brands-pages-extension-user-manual))
+ 2. Navigate to `Templates-Master > NavigationPro` and expand top menu in left tree
+ 3. Choose category to edit
 
-- Go to `Admin>TemplatesMaster>NavigationPro>top`
-- Choose category (i.e. Sale)
-- Go to "Sibling" tab and add URL to content field (i.e. "Brands") that links to your attribute page
+    ![Selected category](http://i.imgur.com/KePmbGL.png)
 
-```html
-<a class="nav-a hidden-tablet" href="{% raw %}{{store url="brands"}}{% endraw %}">Brands</a>
-```
+ 4. Switch to `Siblings` tab and add new sibling with following values:
 
-- Set positive **SortOrder** to put **Brands** sibling after current category (i.e. 50)
-- Set **Dropdown css styles** some width for your dropdown (i.e. 950px)
+    ```
+    Content: <a class="nav-a hidden-tablet" href="{% raw %}{{store url="brands"}}{% endraw %}">Brands</a>
+    Sort Order: 50
+    Dropdown css styles: 950px
+    Dropdown content: Insert Attribute Page: Option List widget using WYSIWYG editor
+    ```
 
-![brandsDropdown](http://i.imgur.com/5QZtNxf.png)
-
-- Use WYSIWYG editor to insert **AttributePages: Options List**  to **Dropdown content** field
-
-![brandsWidget](http://i.imgur.com/oIMWdnm.png)
+    ![Attribute Page widget settings](http://i.imgur.com/5QZtNxf.png)
