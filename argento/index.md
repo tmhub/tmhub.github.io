@@ -7,21 +7,21 @@ category: Argento
 
 # Argento
 
-- Argento Argento
-- [Argento Flat](flat/)
-    - [Brand logo on product page](flat/#brand-logo-on-product-page)
-    - [Services block on product page](flat/#services-block-on-product-page)
-    - [Jumbotrons](flat/#jumbotrons)
-- Argento Mall
-- Argento Pure
-- [Argento Pure 2.0](pure2/)
-    - [Backend Configuration](pure2/configuration/)
-    - [Header](pure2/header/)
-    - [Footer](pure2/footer/)
-    - [Homepage](pure2/homepage/)
-    - [Category Page](pure2/category-page/)
-    - [Product Page](pure2/product-page/)
-    - [Checkout Page](pure2/checkout-page/)
+#### [Argento Flat](flat/)
+
+- [Brand logo on product page](flat/#brand-logo-on-product-page)
+- [Services block on product page](flat/#services-block-on-product-page)
+- [Jumbotrons](flat/#jumbotrons)
+
+#### [Argento Pure 2.0](pure2/)
+
+- [Backend Configuration](pure2/configuration/)
+- [Header](pure2/header/)
+- [Footer](pure2/footer/)
+- [Homepage](pure2/homepage/)
+- [Category Page](pure2/category-page/)
+- [Product Page](pure2/product-page/)
+- [Checkout Page](pure2/checkout-page/)
 
 #### [Theme customization](theme-customization)
 
