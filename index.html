@@ -33,34 +33,31 @@ layout: home
         </div>
       </div>
       {% for group in site.data.products %}
-        <div class="clearfix products-group">
+        <div class="clearfix products-group group-{{ group.title | downcase | replace: ' ', '-' }}">
           <h3>
             {{ group.title }}
             {% if group.url %}
               <a title="{{ group.title }}" href="{{ group.url | prepend: site.baseurl }}">&#8658;</a>
             {% endif %}
           </h3>
-          {% assign items_by_column = group.items | sort: "column" | group_by: "column" %}
-          {% for column in items_by_column %}
-            <ul class="list-products">
-              {% assign products = column.items | sort: "title" %}
-              {% for product in products %}
-                <li>
-                  {% assign dataBadge = "" %}
-                  {% if product.badge %}
-                    {% capture dataBadge %} data-badge="{{ product.badge }}"{% endcapture %}
-                  {% elsif product.free %}
-                    {% capture dataBadge %} data-badge="free"{% endcapture %}
-                  {% elsif product.hot %}
-                    {% capture dataBadge %} data-badge="hot"{% endcapture %}
-                  {% endif %}
+          <ul class="list-products">
+            {% assign products = group.items | sort: "title" %}
+            {% for product in products %}
+              <li>
+                {% assign dataBadge = "" %}
+                {% if product.badge %}
+                  {% capture dataBadge %} data-badge="{{ product.badge }}"{% endcapture %}
+                {% elsif product.free %}
+                  {% capture dataBadge %} data-badge="free"{% endcapture %}
+                {% elsif product.hot %}
+                  {% capture dataBadge %} data-badge="hot"{% endcapture %}
+                {% endif %}
 
-                  {% capture className %} class="{% if product.hot %}hot mdl-badge {% endif %}{% if product.free %}free mdl-badge {% endif %}{% if product.badge %}mdl-badge {% endif %}{{ product.class }}"{% endcapture %}
-                  <a href="{{ product.url | prepend: site.baseurl }}" title="{{ product.title }}"{{ className }}{{ dataBadge }}>{{ product.title }}</a>
-                </li>
-              {% endfor %}
-            </ul>
-          {% endfor %}
+                {% capture className %} class="{% if product.hot %}hot mdl-badge {% endif %}{% if product.free %}free mdl-badge {% endif %}{% if product.badge %}mdl-badge {% endif %}{{ product.class }}"{% endcapture %}
+                <a href="{{ product.url | prepend: site.baseurl }}" title="{{ product.title }}"{{ className }}{{ dataBadge }}>{{ product.title }}</a>
+              </li>
+            {% endfor %}
+          </ul>
         </div>
       {% endfor %}
     </div>
