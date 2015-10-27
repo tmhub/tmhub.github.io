@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Argento Pure 2.0 Footer
-permalink: "/argento/pure2/footer/"
 description: ArgentoPure 2.0 footer configuration
 keywords: "ArgentoPure, pure, pure2, footer, social icons, links, call us"
 category: Argento
@@ -9,7 +8,7 @@ category: Argento
 
 # Argento Pure 2.0 Footer
 
-![Pure 2.0 footer](images/footer.png)
+![Pure 2.0 footer](/images/argento/pure2/footer/footer.png)
 
 ### Social icons
 

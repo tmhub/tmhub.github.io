@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Argento Pure 2.0 Category Page
-permalink: "/argento/pure2/category-page/"
 description: ArgentoPure 2.0 category page
 keywords: "ArgentoPure, pure, pure2, category, listing, sticky sidebar, columns count"
 category: Argento
@@ -35,7 +34,7 @@ page_one_column
 
 ### Category Description
 
-![Collapsed category description](images/collapsed_description.png)
+![Collapsed category description](/images/argento/pure2/category-page/collapsed_description.png)
 
 Category description is shown as collapsed block, when its height is longer than
 250px. If you would like to disable description collapsing, you can add the following
@@ -47,7 +46,7 @@ code to [custom.xml][custom_xml]:
 
 ## Product Listing
 
-![Product Listing](images/product_listing.png)
+![Product Listing](/images/argento/pure2/category-page/product_listing.png)
 
 #### Columns count
 

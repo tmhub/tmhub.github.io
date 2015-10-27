@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Argento Pure 2.0 Homepage
-permalink: "/argento/pure2/homepage/"
 description: ArgentoPure 2.0 homepage
 keywords: "ArgentoPure, pure, pure2, homepage, slider, easycatalogimages, tabs, highlight, brands, banner"
 category: Argento
@@ -13,7 +12,7 @@ Homepage content is editable at `Cms > Pages` interface.
 
 ### Slider
 
-![Slider](images/slider.jpg)
+![Slider](/images/argento/pure2/homepage/slider.jpg)
 
 Slider is powered by EasySlider module. You can manage each slide and animation
 effects at `Templates-Master > Easyslide` backend page.
@@ -31,7 +30,7 @@ the slider on the homepage:
 
 ### Categories
 
-![Categories](images/easycatalogimages.png)
+![Categories](/images/argento/pure2/homepage/easycatalogimages.png)
 
 Categories block is powered by [EasyCatalogImages](/easycatalogimages/) module.
 
@@ -53,7 +52,7 @@ is used to show block on the homepage:
 
 ### Tabs
 
-![Tabs](images/tabs.png)
+![Tabs](/images/argento/pure2/homepage/tabs.png)
 
 Homepage tabs - is a highlight blocks, transformed into tabs with javascript.
 
@@ -85,7 +84,7 @@ The following code is used to show tabs on the homepage:
 
 ### Brands Slider
 
-![Brands Slider](images/brandsslider.png)
+![Brands Slider](/images/argento/pure2/homepage/brandsslider.png)
 
 Brands slider is a simple cms content, powered with javascript to make slider.
 
@@ -117,7 +116,7 @@ Code, used for brands slider:
 
 ### Free Delivery Banner
 
-![Banner](images/banner.png)
+![Banner](/images/argento/pure2/homepage/banner.png)
 
 Free delivery banner is powered by EasyBanner module. Banners are editable at
 `Templates-Master > Easybanner` page.

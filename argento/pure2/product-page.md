@@ -36,7 +36,7 @@ page_one_column
 {::options parse_block_html="true" /}
 <div class="mdl-grid"><div class="mdl-cell mdl-cell--3-col mdl-cell--2-col-tablet">
 
-![Brand Information](images/brand_information.png)
+![Brand Information](/images/argento/pure2/product-page/brand_information.png)
 
 </div><div class="mdl-cell mdl-cell--9-col mdl-cell--6-col-tablet">
 
@@ -66,7 +66,7 @@ Replace `attribute_code="manufacturer"` with `attribute_code="attribute_code"`
 {::options parse_block_html="true" /}
 <div class="mdl-grid"><div class="mdl-cell mdl-cell--3-col mdl-cell--2-col-tablet">
 
-![Services Sidebar](images/services_sidebar.png)
+![Services Sidebar](/images/argento/pure2/product-page/services_sidebar.png)
 
 </div><div class="mdl-cell mdl-cell--9-col mdl-cell--6-col-tablet">
 
@@ -94,7 +94,7 @@ Here is the sample of how the delivery icon is coded:
 {::options parse_block_html="true" /}
 <div class="mdl-grid"><div class="mdl-cell mdl-cell--3-col mdl-cell--2-col-tablet">
 
-![Product Image](images/images.jpg)
+![Product Image](/images/argento/pure2/product-page/images.jpg)
 
 </div><div class="mdl-cell mdl-cell--9-col mdl-cell--6-col-tablet">
 
@@ -116,7 +116,7 @@ It allow you to configure the following options:
 {::options parse_block_html="true" /}
 <div class="mdl-grid"><div class="mdl-cell mdl-cell--3-col mdl-cell--2-col-tablet">
 
-![Catalog Configurable Swatches](images/colorswatches.png)
+![Catalog Configurable Swatches](/images/argento/pure2/product-page/colorswatches.png)
 
 </div><div class="mdl-cell mdl-cell--9-col mdl-cell--6-col-tablet">
 
@@ -135,7 +135,7 @@ color swatches configuration.
 
 #### Tabs
 
-![Tabs](images/tabs.png)
+![Tabs](/images/argento/pure2/product-page/tabs.png)
 
 Argento tabs is powered by EasyTabs module. You can add or remove additional tabs
 from `Templates-Master > Easy Tabs` page.
@@ -169,13 +169,13 @@ Configuration provides the following options:
 
 `System > Configuration > Tempaltes-Master > SoldTogether > Frequently Bought Together`
 
-![Frequently bought together](images/frequently_bought_together.png)
+![Frequently bought together](/images/argento/pure2/product-page/frequently_bought_together.png)
 
 ##### Customers who bought this item also bought
 
 `System > Configuration > Tempaltes-Master > SoldTogether > Customer Bought Together`
 
-![Customers who bought this item also bought](images/customer_who_bought_this_also_bought.png)
+![Customers who bought this item also bought](/images/argento/pure2/product-page/customer_who_bought_this_also_bought.png)
 
 [custom_xml]: /argento/theme-customization/small-changes/#custom-layout-update-file "custom.xml layout"
 [fontawesome]: http://fontawesome.io/icons/ "FontAwesome Icons"

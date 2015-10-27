@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Argento Pure 2.0 Configuration
-permalink: "/argento/pure2/configuration/"
 description: ArgentoPure 2.0 configuration
 keywords: "ArgentoPure, pure, configuration"
 category: Argento
@@ -15,7 +14,7 @@ You can find theme settings at `System > Configuration > TM Argento Themes > Pur
 
 These options allows you to control status of sticky header and sidebar.
 
-![Sticky header and sidebar](images/sticky_elements.png)
+![Sticky header and sidebar](/images/argento/pure2/configuration/sticky_elements.png)
 
 Plase note, that there is an internal logic for enabling sticky elements on
 Pure 2.0 theme. **Sticky elements are disabled for small screens** to prevent bad
@@ -32,13 +31,13 @@ Pure 2.0 theme supports both boxed and full screen layout types. Boxed layout is
 used to make visible body background aside of the site content. Full width layout
 is used to make the extra wide site or to use wide jumbotrons among the site.
 
-![Layout settings](images/layout.png)
+![Layout settings](/images/argento/pure2/configuration/layout.png)
 
 **Screenshots**
 
 Wide jumbotrons layout (default) | Full width layout | Boxed layout
 ---------------------------------|-------------------|-------------
-![Wide jumbotrons](images/layout/resized/wide_jumbotrons.png) | ![Full width layout](images/layout/resized/full_width.png) | ![Boxed layout](images/layout/resized/boxed.png)
+![Wide jumbotrons](/images/argento/pure2/configuration/layout/resized/wide_jumbotrons.png) | ![Full width layout](/images/argento/pure2/configuration/layout/resized/full_width.png) | ![Boxed layout](/images/argento/pure2/configuration/layout/resized/boxed.png)
 **Settings** | **Settings** | **Settings**
 Page width: 100% | Page width: 100% | Page width: 1024px
 Containers width: 100% | Containers width: 100% | Containers width: 100%
@@ -47,7 +46,7 @@ Containers max-width: 1024px | Containers max-width: 95% | Containers max-width:
 
 #### Background images and colors
 
-![Background settings](images/background.png)
+![Background settings](/images/argento/pure2/configuration/background.png)
 
 Pure 2.0 allows you to setup background for the following sections:
 
@@ -65,7 +64,7 @@ Footer container | Footer without cms part
 You can change font, color, background for the top level categories
 and rest of the levels separately.
 
-![Navigation settings](images/navigation.png)
+![Navigation settings](/images/argento/pure2/configuration/navigation.png)
 
 #### Button colors
 
@@ -76,14 +75,14 @@ There are settings for primary, alternate and "Add to cart" button on product pa
 - Font color
 - Hover state settings
 
-![Buttons settings](images/button.png)
+![Buttons settings](/images/argento/pure2/configuration/button.png)
 
 #### Product page tabs fonts and colors
 
 You can change font and color settings for the product page tabs. There are
 separate options for :hover and :active tab states also.
 
-![Tabs settings](images/tabs.png)
+![Tabs settings](/images/argento/pure2/configuration/tabs.png)
 
 #### Page title and sidebar fonts
 
@@ -96,11 +95,11 @@ There are separate options for the following titles:
 - Product collateral blocks font
 - Sidebar title
 
-![Font settings](images/font.png)
+![Font settings](/images/argento/pure2/configuration/font.png)
 
 #### Additional css styles and includes
 
 With additional css styles option, you can apply any css changes, that are not
 listed above.
 
-![Css settings](images/css.png)
+![Css settings](/images/argento/pure2/configuration/css.png)

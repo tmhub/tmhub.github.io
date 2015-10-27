@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Argento Pure 2.0 Header
-permalink: "/argento/pure2/header/"
 description: ArgentoPure 2.0 header configuration
 keywords: "ArgentoPure, pure, pure2, header, logo, search, navigation, sticky navigation"
 category: Argento
@@ -9,7 +8,7 @@ category: Argento
 
 # Argento Pure 2.0 Header
 
-![Pure 2.0 header](images/header.png)
+![Pure 2.0 header](/images/argento/pure2/header/header.png)
 
 ### Logo
 
