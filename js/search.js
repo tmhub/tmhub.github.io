@@ -1,7 +1,7 @@
 var Search = function(options) {
 
   if (!options.template) {
-    options.template = '<li><a href="{{url}}" title="{{description}}">{{title}}</a></li>';
+    options.template = '<li><a href="{{url}}" title="{{description}}">{{title}}</a><span class="category">{{category}}</span></li>';
   }
 
   var docs,
