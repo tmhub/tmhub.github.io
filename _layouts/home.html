@@ -13,10 +13,11 @@
     <script src="{{ "/bower_components/lunr.js/lunr.min.js" | prepend: site.baseurl }}"></script>
     <script src="{{ "/js/search.js" | prepend: site.baseurl }}"></script>
     <script>
-      new Search({
+      var search = new Search({
         searchInput: document.getElementById('search'),
         resultsContainer: document.getElementById('search-results'),
-        json: '{{ "/search.json" | prepend: site.baseurl }}'
+        json: '{{ "/search.json" | prepend: site.baseurl }}',
+        limit: 10
       });
     </script>
   </body>

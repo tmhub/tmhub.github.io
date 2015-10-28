@@ -104,10 +104,27 @@ blockquote p {
     }
 }
 #search-results {
-    display: none;
     margin: 0;
     padding: 10px 15px 12px;
     list-style: none;
+
+    li {
+        padding: 2px 0;
+    }
+
+    .category {
+        font-size: 11px;
+        background: #f1f1f1;
+        border-radius: 2px;
+        text-shadow: 1px 1px 0 #fff;
+        color: #888;
+        padding: 2px 4px;
+        margin: 0 0 0 5px;
+        vertical-align: middle;
+    }
+}
+.docs-search #search-results {
+    display: none;
     position: absolute;
     z-index: 10;
     left: 0;
@@ -117,12 +134,8 @@ blockquote p {
     box-sizing: border-box;
     box-shadow: 0 0 20px rgba(0,0,0,0.2);
     margin-top: -25px;
-
-    li {
-        padding: 2px 0;
-    }
 }
-.is-dirty + #search-results {
+#search-results.shown {
     display: block;
 }
 

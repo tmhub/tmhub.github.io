@@ -5,6 +5,7 @@ var Search = function(options) {
   }
 
   var docs,
+    loaded = false,
     idx = lunr(function () {
       this.field('title', {boost: 10});
       this.field('category', {boost: 3});
@@ -19,6 +20,7 @@ var Search = function(options) {
   xhr.open("GET", options.json, true);
   xhr.onreadystatechange = function() {
     if (xhr.status==200 && xhr.readyState==4) {
+      loaded = true;
       try {
         docs = JSON.parse(xhr.responseText);
         for (var i in docs) {
@@ -32,22 +34,47 @@ var Search = function(options) {
   };
   xhr.send();
 
-  options.searchInput.addEventListener('keyup', function() {
-    var results = idx.search(this.value).map(function(result) {
+  if (options.searchInput) {
+    options.searchInput.addEventListener('keyup', function() {
+      render(search(this.value, options.limit));
+    }, false);
+  }
+
+  var search = function(value, limit) {
+    if (!value) {
+      return false;
+    }
+    limit = limit || 10;
+    return idx.search(value).slice(0, limit).map(function(result) {
       return docs[parseInt(result.ref, 10)];
     });
-    render(results);
-  }, false);
+  };
 
   var render = function(records) {
     var result = '';
-    for (var i in records) {
-      result += Mustache.render(options.template, records[i]);
-    }
-    if (!result) {
-      result = 'No results found';
+    if (false !== records) {
+      for (var i in records) {
+        result += Mustache.render(options.template, records[i]);
+      }
+      if (!result) {
+        result = 'No results found';
+      }
+      options.resultsContainer.className = 'shown';
+    } else {
+      options.resultsContainer.className = '';
     }
     options.resultsContainer.innerHTML = result;
   };
 
+  return {
+    search: function(value, limit) {
+      var args = arguments;
+      if (!loaded) {
+        return setTimeout(function() {
+          args.callee(value, limit);
+        }, 200);
+      }
+      render(search(value, limit));
+    }
+  };
 };

@@ -4,7 +4,7 @@ title: 404
 permalink: 404.html
 ---
 
-<div class="jumbotron mdl-color--white">
+<div class="jumbotron mdl-color--grey-100">
   <div class="mdl-grid">
     <div class="mdl-cell mdl-cell--12-col">
       <div class="mdl-typography--font-light mdl-typography--display-3">
@@ -16,3 +16,21 @@ permalink: 404.html
     </div>
   </div>
 </div>
+
+<div class="">
+  <div class="mdl-grid">
+    <div class="mdl-cell mdl-cell--12-col">
+      <div class="clearfix suggestions-group">
+        <h4>Related Articles</h4>
+        <ul id="search-results"></ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function(event) {
+  var pathParts = window.location.pathname.slice(0, -1).split('/');
+  search.search(pathParts[pathParts.length - 1]);
+});
+</script>
