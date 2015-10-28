@@ -50,6 +50,19 @@ var Search = function(options) {
     });
   };
 
+  var searchByTwoTokens = function(value1, value2, limit) {
+    if (!value1 && !value2) {
+      return false;
+    }
+    limit = parseInt(limit / 2) || 5;
+    var result1 = idx.search(value1).slice(0, limit),
+      result2 = idx.search(value2).slice(0, limit);
+
+    return result1.concat(result2).map(function(result) {
+      return docs[parseInt(result.ref, 10)];
+    });
+  };
+
   var render = function(records) {
     var result = '';
     if (false !== records) {
@@ -75,6 +88,16 @@ var Search = function(options) {
         }, 200);
       }
       render(search(value, limit));
+    },
+
+    searchByTwoTokens: function(value1, value2, limit) {
+      var args = arguments;
+      if (!loaded) {
+        return setTimeout(function() {
+          args.callee(value1, value2, limit);
+        }, 200);
+      }
+      render(searchByTwoTokens(value1, value2, limit));
     }
   };
 };

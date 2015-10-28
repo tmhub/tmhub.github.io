@@ -30,7 +30,14 @@ permalink: 404.html
 
 <script>
 document.addEventListener("DOMContentLoaded", function(event) {
-  var pathParts = window.location.pathname.slice(0, -1).split('/');
-  search.search(pathParts[pathParts.length - 1]);
+  var pathParts = window.location.pathname.slice(0, -1).split('/'),
+    token = pathParts[pathParts.length - 1],
+    hash  = window.location.hash.slice(1);
+
+  if (hash.length > 1) {
+    search.searchByTwoTokens(hash, token, 16);
+  } else {
+    search.search(token);
+  }
 });
 </script>
