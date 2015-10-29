@@ -198,6 +198,11 @@ blockquote p {
         padding: 35px 20px;
     }
 }
+@media (max-width: 480px) {
+    #edit-page {
+        display: none;
+    }
+}
 
 /* Dev docs */
 .sortorder-wrapper {
