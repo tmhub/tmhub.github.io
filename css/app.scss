@@ -28,6 +28,7 @@ pre, code {
 code {
     display: inline-block;
     padding: 0 0.5em;
+    word-break: break-all;
 }
 pre, pre[class*="language-"] {
     font-size: 85%;
