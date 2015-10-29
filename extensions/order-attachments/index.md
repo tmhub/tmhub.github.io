@@ -2,7 +2,7 @@
 layout: default
 title: Order Attachments
 description: Magento Order Attachments documentation
-keywords: order attachments
+keywords: "order attachments, email integration"
 category: Firecheckout
 ---
 
@@ -66,8 +66,18 @@ Editable Mode | Read-Only Mode
 ### Email integration
 ![Email html template](https://cldup.com/nD7a_vl3Jz-2000x2000.png)
 
-You can add the attachment links to the email template using the following
-code:
+
+- - -
+
+###### Magento 1.9.2.2
+
+If you are using Magento 1.9.2.2 or newer, please check the `orderattachment/view`
+block at `System > Permissions > Blocks` page. If you don't see this block in the
+grid, you should add it manually, using `Add New Block` button.
+
+- - -
+
+You can add attachment links to the email template using the following code:
 
 ```
 {% raw %}{{block type='orderattachment/view' area='frontend' template='tm/orderattachment/email/view.phtml' order=$order}}{% endraw %}
