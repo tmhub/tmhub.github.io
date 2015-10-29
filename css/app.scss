@@ -48,6 +48,17 @@ blockquote p {
     display: inline;
 }
 
+@media (max-width: 480px) {
+    h1 {
+        font-size: 42px;
+        line-height: 1.2em;
+    }
+    h2 {
+        font-size: 38px;
+        line-height: 1.15em;
+    }
+}
+
 /* Badges */
 .mdl-badge.mdl-badge--no-border-radius[data-badge]::after {
     border-radius: 0;
