@@ -47,9 +47,27 @@ pre, pre[class*="language-"] {
     }
 }
 
-blockquote p {
+blockquote {
+    border-left: 4px solid #ddd;
+    color: #777;
+    padding: 0 15px;
+    font-style: normal;
+    line-height: normal;
+    margin: 0 0 15px;
+}
+blockquote:before,
+blockquote:after {
+    content: '';
+    position: static;
+    left: auto;
+    right: auto;
     margin: 0;
-    display: inline;
+}
+blockquote > *:last-child {
+    margin-bottom: 0;
+}
+blockquote > *:first-child {
+    margin-top: 0;
 }
 
 @media (max-width: 480px) {
