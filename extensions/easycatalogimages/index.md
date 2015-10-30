@@ -126,14 +126,10 @@ echo $this->getLayout()
 </block>
 ```
 
-##### Inline block for magento cms filter
+##### Inline call to use in magento cms blocks and pages
 
 ```
 {% raw %}{{widget type="easycatalogimg/widget_list" category_count="100" subcategory_count="5" column_count="4" show_image="1" image_width="200" image_height="200" template="tm/easycatalogimg/list.phtml"}}{% endraw %}
-```
-
-```
-{% raw %}{{block type="easycatalogimg/list" enabled_for_default="1" enabled_for_anchor="1" category_count="100" subcategory_count="5" column_count="4" show_image="1" image_width="200" image_height="200" template="tm/easycatalogimg/list.phtml"}}{% endraw %}
 ```
 
 ### Use cases
