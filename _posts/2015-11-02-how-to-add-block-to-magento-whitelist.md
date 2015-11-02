@@ -10,7 +10,7 @@ categories: "posts"
 # How to add blocks to Magento's whitelist
 
 > Magento 1.9.2.2 represented a new feature called "blocks and variable whitelist".
-> This feature may cause blank regions on the frontend, if theme was using inline
+> This feature may cause blank regions on the frontend, if theme is using inline
 blocks inside its content.
 
 ##### Issue: Blank regions are marked with grey rectanles:
