@@ -15,4 +15,16 @@
       {% endif %}
     } {% unless forloop.last %},{% endunless %}
   {% endfor %}
+  {% for page in site.posts %}
+    ,{
+      {% if page.title != nil %}
+        "id"         : "{% increment variable %}",
+        "title"      : "{{ page.title | escape }}",
+        "description": "{{ page.description | escape | strip_newlines }}",
+        "keywords"   : "{{ page.keywords | escape | strip_newlines }}",
+        "searchterms": "{{ page.searchterms | escape | strip_newlines }}",
+        "url"        : "{{ page.url | prepend: site.baseurl }}"
+      {% endif %}
+    }
+  {% endfor %}
 ]
