@@ -8,6 +8,21 @@ category: Argento
 
 # Argento Upgrade Instructions
 
+### Version 1.7.0 — 1.7.1
+
+ -  Backup all your changes
+ -  Put the store on maintenance mode.
+ -  Navigate to `System > Tools > Compilation` and disable compilation.
+ -  Unpack new Argento version over the old one.
+ -  Delete following files:
+
+    ```
+    app/code/local/TM/SoldTogether/controllers/Adminhtml/CustomerController.php
+    app/code/local/TM/SoldTogether/controllers/Adminhtml/OrderController.php
+    ```
+
+ -  Navigate to `System > Cache Management` flush cache storage and disable cache.
+
 ### Version 1.6.1 — 1.6.2
 
 - Backup all your changes

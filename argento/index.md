@@ -49,6 +49,7 @@ category: Argento
 
 #### [Upgrade Instructions](upgrade-instructions)
 
+- [1.7.0 — 1.7.1](upgrade-instructions/#version-170--171)
 - [1.6.1 — 1.6.2](upgrade-instructions/#version-161--162)
 - [1.6.0 — 1.6.1](upgrade-instructions/#version-160--161)
 - [1.5.4 — 1.6.0](upgrade-instructions/#version-154--160)
