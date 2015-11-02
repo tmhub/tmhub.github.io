@@ -1,8 +1,33 @@
----
-layout: default
----
-<div class="post">
-  <article class="post-content">
-    {{ content }}
-  </article>
-</div>
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+  {% include head.html %}
+  <body class="mdl-color--grey-100 mdl-color-text--grey-700">
+    <div class="mdl-layout">
+
+      <main class="mdl-layout__content">
+        <div class="mdl-grid">
+          <div class="page-content mdl-color--white mdl-shadow--2dp mdl-color-text--grey-800 mdl-cell mdl-cell--12-col">
+            {{ content }}
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <a id="edit-page"
+      href="{{site.github.repository_url}}/edit/master/{{page.path}}"
+      data-prose-href="http://prose.io/#{{site.github.repository_url | remove: "https://github.com/"}}/edit/master/{{page.path}}"
+      class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--accent mdl-color-text--accent-contrast"
+      target="_blank"
+    >Edit this Page</a>
+
+    <script src="{{ "/bower_components/material-design-lite/material.min.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/bower_components/prism/prism.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/bower_components/prism/components/prism-apacheconf.min.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/bower_components/prism/components/prism-diff.min.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/bower_components/prism/components/prism-ini.min.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/bower_components/prism/components/prism-javascript.min.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/bower_components/prism/components/prism-php.min.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/bower_components/anchor-js/anchor.min.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/js/app.js" | prepend: site.baseurl }}"></script>
+  </body>
+</html>
