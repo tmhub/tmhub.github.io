@@ -13,7 +13,7 @@ EasyCatalogImages allows you to show category listing of the specified parent ca
 It's very helpful to improve browsing experience in categories with a lot of
 child categories.
 
-_Nice image will be here_
+![EasyCatalogImages at category page](/images/easycatalogimages/category_page.png)
 
 ## Contents
 
@@ -31,7 +31,7 @@ _Nice image will be here_
 
 ### Configuration
 
-_image_
+![EasyCatalogImages configuration](/images/easycatalogimages/configuration.png)
 
 **General**
 
@@ -84,6 +84,14 @@ use_image_attribute         | boolean                   | Use image attribute, i
 
 Below you will find examples of custom usage of the module block with all available options.
 
+##### Inline call to use in magento cms blocks and pages
+
+![EasyCatalogImages widget](/images/easycatalogimages/widget.png)
+
+```
+{% raw %}{{widget type="easycatalogimg/widget_list" category_count="100" subcategory_count="5" column_count="4" show_image="1" image_width="200" image_height="200" template="tm/easycatalogimg/list.phtml"}}{% endraw %}
+```
+
 ##### Inline php code
 
 ```php
@@ -124,12 +132,6 @@ echo $this->getLayout()
     <action method="setCategoryToHide"><category>1,2,3</category></action>
     <action method="setCategoryToShow"><category>4,5,6</category></action>
 </block>
-```
-
-##### Inline call to use in magento cms blocks and pages
-
-```
-{% raw %}{{widget type="easycatalogimg/widget_list" category_count="100" subcategory_count="5" column_count="4" show_image="1" image_width="200" image_height="200" template="tm/easycatalogimg/list.phtml"}}{% endraw %}
 ```
 
 ### Use cases
