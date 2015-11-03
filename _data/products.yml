@@ -1,5 +1,9 @@
 - title: Extensions
   items:
+    - title: Attributepages
+      url: /extensions/attributepages/
+      hidden: true
+
     - title: Cache
       url: /extensions/cache/
 
