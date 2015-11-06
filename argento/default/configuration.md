@@ -18,14 +18,14 @@ Argento Default theme allows you to set up the background for the following sect
 
 Option | Description
 -------|------------
-Body | Visible, when boxed layout is used. Otherwise .container background covers body
-Page content |
+Body | Visible, when boxed layout is used. Otherwise container background covers body
+Page content | Different page font can be applied
 Top toolbar container | Black stripe at the top of the page
 Header container | Header itself, including navigation
-Navigation container |
-Navigation |
-Footer toolbar container |
-Footer CMS container |
+Navigation container | Top navigation stripe 
+Navigation | Top links navigation block
+Footer toolbar container | Footer stripe with newsletter block and social icons 
+Footer CMS container | Footer CMS block 
 Footer container | Footer without cms part
 
 #### Scroll up element
@@ -79,7 +79,6 @@ There are separate options for the following titles:
 - Sidebar title
 - Product name link in listing
 - Product collateral blocks font
-
 
 ![Font settings](/images/argento/default/configuration-fonts.jpg)
 
