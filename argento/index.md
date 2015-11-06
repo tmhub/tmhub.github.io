@@ -7,6 +7,16 @@ category: Argento
 
 # Argento
 
+#### [Argento Argento](default/)
+
+- [Backend Configuration](default/configuration/)
+- [Header](default/header/)
+- [Footer](default/footer/)
+- [Homepage](default/homepage/)
+- [Category Page](default/category-page/)
+- [Product Page](default/product-page/)
+- [Checkout Page](default/checkout-page/)
+
 #### [Argento Flat](flat/)
 
 - [Brand logo on product page](flat/#brand-logo-on-product-page)
