@@ -20,7 +20,7 @@ additional modifications.
 - 2Checkout_Payment
 - Adyen_Payment
 - [Billmate](billmate/)
-- Billpay
+- [Billpay](billpay/)
 - [Bitpay_Bitcoins](bitpay-bitcoins/)
 - [Braintree](braintree/)
 - Craig_Tco

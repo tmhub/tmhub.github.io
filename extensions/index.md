@@ -32,6 +32,9 @@ layout: home
           <ul class="list-products">
             {% assign products = group.items | sort: "title" %}
             {% for product in products %}
+              {% if product.hidden == true %}
+                {% continue %}
+              {% endif %}
               <li>
                 {% assign dataBadge = "" %}
                 {% if product.badge %}
