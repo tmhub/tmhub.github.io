@@ -40,8 +40,8 @@
 - title: Argento themes
   url: /argento/
   items:
-    # - title: Argento Argento
-    #   url: /argento/argento/
+    - title: Argento Default
+      url: /argento/default/
 
     - title: Argento Flat
       url: /argento/flat/
