@@ -60,7 +60,7 @@ Each link is created at corresponding module xml file. For example, `My account 
 
 ###### Step 1
 
-To replace demo logo with your own, please upload your image to
+In order to replace demo logo with your own, please upload your image to
 `skin/frontend/argento/argento/images/logo.gif` via ftp manager.
 
 If your image has different name or file format, you will need to proceed to step 2.
