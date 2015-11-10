@@ -1,19 +1,19 @@
 ---
 layout: default
-title: Argento Default theme documenation
-description: ArgentoArgento theme documentation
-keywords: "ArgentoArgento, argento"
+title: Argento Mall documenation
+description: Argento Mall documentation
+keywords: "Argento, mall, argento mall"
 category: Argento
 ---
 
-# Argento Default Theme
+# Argento Mall
 
 ##### [Configuration](configuration/)
 
 - [Background](configuration/#background)
 - [Scroll up element](configuration/#scroll-up-element)
-- [Top navigation styles](configuration/#top-navigation-styles)
-- [Button styles](configuration/#button-styles)
+- [Top navigation](configuration/#top-navigation)
+- [Sidebar](configuration/#sidebar)
 - [Product page tabs fonts and colors](configuration/#product-page-tabs-fonts-and-colors)
 - [Page title and sidebar fonts](configuration/#page-title-and-sidebar-fonts)
 - [Additional css styles and includes](configuration/#additional-css-styles-and-includes)
@@ -21,33 +21,31 @@ category: Argento
 ##### [Header](header/)
 
 - [Custom header links block](header/#custom-links)
-- [Language swither block](header/#language-switcher-block)
 - [Welcome message](header/#welcome-message)
 - [Default top links block](header/#default-top-links-block)
 - [Logo](header/#logo)
-- [Header Callout](header/#header-callout)
 - [Top Cart block](header/#top-cart-block)
 - [Search](header/#search)
 - [Navigation](header/#navigation)
 
 ##### [Footer](footer/)
 
-- [Newsletter block](footer/#newsletter-block)
-- [Social icons](footer/#social-icons)
 - [Company information](footer/#company-information)
-- [Contacts block](footer/#contacts-block)
-- [Copyright block](footer/#copyright-block)
 - [Additional links block](footer/#additional-links-block)
-- [Short footer layout](footer/#short-footer-layout)
+- [Copyright block](footer/#copyright-block)
 
 ##### [Homepage](homepage/)
 
 - [Slider](homepage/#slider)
-- [Vertical Banners](homepage/#vertical-banners)
-- [Categories block](homepage/#categories)
-- [Horizontal Banner](homepage/#horizontal-banner)
-- [Tabs](homepage/#tabs)
-- [Brands Slider](homepage/#brands-slider)
+- [Free shipping Banner](homepage/#free-shipping-banner)
+- [Newsletter subscribe](homepage/#newsletter-subscribe)
+- [Sidebar Navigation](homepage/#sidebar-navigation)
+- [Homepage content blocks](homepage/#homepage-content-blocks)
+	- [Deal of the week](homepage/#deal-of-the-week)
+	- [Editor choice](homepage/#editor-choice)
+	- [Video of the day](homepage/#video-of-the-day)
+	- [Featured Products](homepage/#featured-products)
+- [New Products Slider](homepage/#new-products-slider)
 
 
 ##### [Category Page](category-page/)
@@ -57,7 +55,6 @@ category: Argento
  -  [Product Listing](category-page/#products-listing)
     - [Columns count](category-page/#columns-count)
     - [Image size](category-page/#image-size)
-    - [Product labels](category-page/#product-labels)
 
 ##### [Product Page](product-page/)
 
@@ -65,6 +62,7 @@ category: Argento
  -  [Content](product-page/#content)
     - [Images](product-page/#images)
     - [Product labels](product-page/#product-labels)
+    - [Colorswatches](product-page/#colorswatches)
     - [Tabs](product-page/#tabs)
     - [Soldtogether blocks](product-page/#soldtogether-blocks)
         - [Frequently bought together](product-page/#frequently-bought-together)

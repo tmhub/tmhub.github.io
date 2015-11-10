@@ -37,7 +37,7 @@ You can add or remove additional links, change phone number and text in
 
 ### Short footer layout
 
-Short footer layout is used on checkout page to increse conversion rate.
+Short footer layout is used on checkout page to increase conversion rate.
 
 You can disable short footer using [custom layout update file](/argento/theme-customization/small-changes/#custom-layout-update-file)
 

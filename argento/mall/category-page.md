@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Argento Default theme Category Page
-description: Argento Default category page
-keywords: "Argento default, argento argento, category, listing, label, columns count"
+title: Argento Mall Category Page
+description: Argento Mall category page
+keywords: "Argento mall, argento, category, listing, label, columns count"
 category: Argento
 ---
 
-# Argento Default theme Category Page
+# Argento Mall Category Page
 
 ### Layout
 
@@ -46,7 +46,7 @@ code to [custom.xml][custom_xml]:
 
 ## Product Listing
 
-![Product Listing](/images/argento/default/category-page-product-list.jpg)
+![Product Listing](/images/argento/mall/category-page-product-listing.jpg)
 
 #### Columns count
 
@@ -127,6 +127,4 @@ Follow the steps below to change the image's size on the category view page:
 
     Remember to make the same operation for the image in grid and list modes.
 
-#### Product Labels
 
-The display of the label on product is powered by Prolabels module. You can add custom label or assign it to any items on the Category page at `Templates-Master > Prolabels` backend page.

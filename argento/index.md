@@ -17,6 +17,16 @@ category: Argento
 - [Product Page](default/product-page/)
 - [Checkout Page](default/checkout-page/)
 
+#### [Argento Mall](mall/)
+
+- [Backend Configuration](mall/configuration/)
+- [Header](mall/header/)
+- [Footer](mall/footer/)
+- [Homepage](mall/homepage/)
+- [Category Page](mall/category-page/)
+- [Product Page](mall/product-page/)
+- [Checkout Page](mall/checkout-page/)
+
 #### [Argento Flat](flat/)
 
 - [Brand logo on product page](flat/#brand-logo-on-product-page)

@@ -124,7 +124,7 @@ Please notice, that all links are collected from different xml files. For exampl
 
 ### Short footer layout
 
-Short footer layout is used on checkout page to increse conversion rate.
+Short footer layout is used on checkout page to increase conversion rate.
 
 You can disable short footer using [custom layout update file](/argento/theme-customization/small-changes/#custom-layout-update-file)
 
