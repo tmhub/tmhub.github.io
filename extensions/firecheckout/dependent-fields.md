@@ -76,30 +76,34 @@ Full Notation. (Fields are combined with `AND` operator)
 
 Example, that makes phone field required for `US` and hidden for other countries:
 
-```js
-FC.DependentFields.addRule(
-    'phone_to_country',                     // unique rule identifier
-    {
-        field: 'billing:country_id',        // field to watch
-        value: 'US',                        // value to compare with field value, can be an array
-        dependentField: 'billing:telephone',// dependent field, can be an array
-        match: 'required',                  // field status, when field.value equals value
-        unmatch: 'hidden'                   // field status, when field.value not equals value
-    }
-);
-```
+ 1. Create `custom.js` file. [Using custom.css and custom.js][custom_js]
+ 2. Add the following code into this file
+
+    ```js
+    document.observe('dom:loaded', function() {
+        FC.DependentFields.addRule(
+            'phone_to_country',                     // unique rule identifier
+            {
+                field: 'billing:country_id',        // field to watch
+                value: 'US',                        // value to compare with field value, can be an array
+                dependentField: 'billing:telephone',// dependent field, can be an array
+                match: 'required',                  // field status, when field.value equals value
+                unmatch: 'hidden'                   // field status, when field.value not equals value
+            }
+        );
+    });
+    ```
 
 #### Example 2. How to add Company vs Person radios
 
 In this tutorial we will add two radio inputs to the billing address form,
 that will trigger Company and VAT fields to be shown or hidden.
 
- 1. Create `skin/frontend/base/default/tm/firecheckout/js/custom.js`, if it does
-    not exist.
- 2. Add the following code
+ 1. Create `custom.js` file. [Using custom.css and custom.js][custom_js]
+ 2. Add the following code into this file
 
     ```js
-    document.observe('dom:loaded', function (){
+    document.observe('dom:loaded', function() {
         // code, that will add the radios on the top of the billing address
         $('billing:firstname').up('li').insert({
             before: [
@@ -130,3 +134,5 @@ that will trigger Company and VAT fields to be shown or hidden.
 #### Screenshot
 
 ![Company vs Person Radio buttons](/images/firecheckout/dependent-fields/radio_buttons.gif)
+
+[custom_js]: /extensions/firecheckout/using-customcss-and-customjs/#add-custom-javascript-at-firecheckout-page "How to use custom.js file"
