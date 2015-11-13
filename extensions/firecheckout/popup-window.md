@@ -24,7 +24,7 @@ onclick observer.
 </div>
 
 <script type="text/javascript">
-var deliveryInfo = new FireCheckout.Window({
+var deliveryInfo = new FC.Window({
     triggers: {
         information: {
             el    : $$('.delivery-information-link'),
