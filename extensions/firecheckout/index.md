@@ -32,5 +32,6 @@ and much more. See the [configuration](#configuration) section for more informat
  - [Third-party modules](supported-modules#third-party-modules)
 3. Additional possibilities
  - [House number field](housenumber/)
+ - [Dependent fields](dependent-fields/)
  - [Show custom popup window](popup-window/)
  - [Hide totals in review section](hide-totals-in-review-section/)
