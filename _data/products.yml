@@ -49,11 +49,8 @@
     - title: Argento Mall
       url: /argento/mall/
 
-    # - title: Argento Mall
-    #   url: /argento/mall/
-
-    # - title: Argento Pure
-    #   url: /argento/pure/
+    - title: Argento Pure
+      url: /argento/pure/
 
     - title: Argento Pure 2
       url: /argento/pure2/
