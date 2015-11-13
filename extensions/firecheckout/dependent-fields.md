@@ -74,7 +74,7 @@ Full Notation. (Fields are combined with `AND` operator)
 
 #### Example 1. How to add phone to country relation
 
-Example, that makes phone field required for `US` and hidden for other cuntries:
+Example, that makes phone field required for `US` and hidden for other countries:
 
 ```js
 FC.DependentFields.addRule(
