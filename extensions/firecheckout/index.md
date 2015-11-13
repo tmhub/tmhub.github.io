@@ -35,3 +35,4 @@ and much more. See the [configuration](#configuration) section for more informat
  - [Dependent fields](dependent-fields/)
  - [Show custom popup window](popup-window/)
  - [Hide totals in review section](hide-totals-in-review-section/)
+ - [Using custom.css and custom.js](using-customcss-and-customjs/)
