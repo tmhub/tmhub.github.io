@@ -1,16 +1,16 @@
 ---
 layout: default
-title: Argento Default theme Category Page
-description: Argento Default category page
-keywords: "Argento default, argento argento, category, listing, label, columns count"
+title: Argento Pure Category Page
+description: Argento Pure category page
+keywords: "Argento pure, argento, category, listing, label, columns count"
 category: Argento
 ---
 
-# Argento Default theme Category Page
+# Argento Pure Category Page
 
 ### Layout
 
-Argento default theme is using `page_two_columns_right` layout for the category page. In order to
+Argento Pure is using `page_two_columns_right` layout for the category page. In order to
 change it to another one you have to create [custom.xml][custom_xml] file with following
 instruction:
 
@@ -43,10 +43,17 @@ code to [custom.xml][custom_xml]:
 ```xml
 <remove name="collapsed_category_description"/>
 ```
+### Sidebar navigation
+
+The following code is used in order to display the sidebar navigation:
+
+```html
+{% raw %}{{block type="navigationpro/navigation" template="tm/navigationpro/sidebar.phtml" name_in_layout="navpro-homepage-left" menu_name="argento_mall_left" enabled="1"}}{% endraw %}
+```
 
 ## Product Listing
 
-![Product Listing](/images/argento/default/category-page-product-list.jpg)
+![Product Listing](/images/argento/pure/product-listing.jpg)
 
 #### Columns count
 
@@ -130,3 +137,4 @@ Follow the steps below to change the image's size on the category view page:
 #### Product labels
 
 The display of the label on product is powered by Prolabels module. You can add custom label or assign it to any items on the Category page at `Templates-Master > Prolabels` backend page.
+

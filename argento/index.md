@@ -33,6 +33,16 @@ category: Argento
 - [Services block on product page](flat/#services-block-on-product-page)
 - [Jumbotrons](flat/#jumbotrons)
 
+#### [Argento Pure](pure/)
+
+- [Backend Configuration](pure/configuration/)
+- [Header](pure/header/)
+- [Footer](pure/footer/)
+- [Homepage](pure/homepage/)
+- [Category Page](pure/category-page/)
+- [Product Page](pure/product-page/)
+- [Checkout Page](pure/checkout-page/)
+
 #### [Argento Pure 2.0](pure2/)
 
 - [Backend Configuration](pure2/configuration/)
