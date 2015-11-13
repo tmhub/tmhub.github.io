@@ -12,14 +12,14 @@ You can find theme settings at `System > Configuration > TM Argento Themes > Arg
 
 #### Background
 
-![Background settings](/images/argento/mall/configuration-background.jpg)
+![Background settings](/images/argento/pure/configuration-background.jpg)
 
 Argento Pure theme allows you to set up the background for the following sections:
 
 Option | Description
 -------|------------
 Body | Visible, when boxed layout is used. Otherwise container background covers body
-Page content | 
+Page content | Different page font can be applied
 
 #### Scroll up element
 
@@ -32,7 +32,7 @@ You can edit the background color and the hover state background color.
 You can change font, color, background for navigation container, top level categories
 and for the rest of levels separately.
 
-![Navigation settings](/images/argento/mall/configuration-top-navigation.jpg)
+![Navigation settings](/images/argento/pure/configuration-top-navigation.jpg)
 
 #### Buttons
 
@@ -41,6 +41,8 @@ There are settings for primary, alternate and "Add to cart" button on product pa
 - Background
 - Font color
 - Hover state settings
+
+![Button setting](/images/argento/pure/configuration-buttons.jpg)
 
 #### Button styles
 
@@ -67,7 +69,7 @@ button.button span {
 You can change font and color settings for the product page tabs. There are
 separate options for :hover and :active tab states also.
 
-![Tabs settings](/images/argento/mall/configuration-tabs.jpg)
+![Tabs settings](/images/argento/pure/configuration-tabs.jpg)
 
 #### Page title and sidebar fonts
 
@@ -78,7 +80,7 @@ You can apply the webfont to page titles. There are separate options for the fol
 - Product name link in listing
 - Product collateral blocks font
 
-![Font settings](/images/argento/mall/configuration-fonts.jpg)
+![Font settings](/images/argento/pure/configuration-fonts.jpg)
 
 #### Additional css styles and includes
 
