@@ -49,6 +49,7 @@ additional modifications.
 - Amasty_Deliverydate
 - Bpost_ShippingManager
 - Bysoft_Relaypoint
+- [Dhl_Account](dhl_account/)
 - DPD_Shipping
 - [Emjainteractive_ShippingOption](emjainteractive-shippingoption/)
 - [Fumo_JapanPost](fumo-japanpost/)
