@@ -11,7 +11,7 @@ permalink: 404.html
         Page Not Found.
       </div>
       <div class="mdl-typography--font-light mdl-color-text--grey-700 mdl-typography--headline">
-        <a href="{{ "/" | prepend: site.baseurl }}" onclick="history.back(); return false;" title="Go Back">&#8656;</a> Go Back
+        <a href="{{ "/" | prepend: site.baseurl }}" id="back" title="Go Back">&#8656;</a> Go Back
       </div>
     </div>
   </div>
@@ -30,6 +30,13 @@ permalink: 404.html
 
 <script>
 document.addEventListener("DOMContentLoaded", function(event) {
+  document.getElementById('back').addEventListener('click', function(e) {
+    if (history.length > 1) {
+      e.preventDefault();
+      history.back();
+    }
+  });
+
   var pathParts = window.location.pathname.slice(0, -1).split('/'),
     token = pathParts[pathParts.length - 1],
     hash  = window.location.hash.slice(1);
