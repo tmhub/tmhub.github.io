@@ -23,11 +23,14 @@ additional modifications.
 - [Billpay](billpay/)
 - [Bitpay_Bitcoins](bitpay-bitcoins/)
 - [Braintree](braintree/)
+- Braintree_Payments (Updated Braintree)
 - Craig_Tco
 - [Customweb_PayUnityCw](customweb-payunitycw/)
 - Ebizmarts_SagepaymentsPro
 - Ebizmarts_SagepaySuite
+- HeidelpayCD_Edition
 - IntellectLabs_Stripe
+- Itabs_Debit
 - [Iways_PayPalPlus](iways-paypalplus/)
 - IWD_OPC_Signature
 - Klarna_KlarnaPaymentModule
@@ -60,8 +63,10 @@ additional modifications.
 - IrvineSystems_Sagawa
 - IrvineSystems_Seino
 - IrvineSystems_Yamato
+- JRD_Paczkomaty
 - Kiala_LocateAndSelect
 - Magestore_Storepickup
+- Man4x_MondialRelay
 - PostcodeNl_Api
 - [SmartPost](smartpost/)
 - Storepickup
