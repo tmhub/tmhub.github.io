@@ -28,6 +28,7 @@ additional modifications.
 - Ebizmarts_SagepaymentsPro
 - Ebizmarts_SagepaySuite
 - IntellectLabs_Stripe
+- [Iways_PayPalPlus](iways-paypalplus/)
 - IWD_OPC_Signature
 - Klarna_KlarnaPaymentModule
 - [MultiSafePay_Msp](multisafepay-msp/)
