@@ -11,7 +11,7 @@ category: Navigationpro
 *We assume that you already created some pages at
 `Templates Master > Attributepages > Manage Pages` page.*
 
-![Attribute based pages](https://i.cloudup.com/YRPzjkT16K-3000x3000.png)
+![Attribute based pages dropdown](/images/navigationpro/siblings/browse_by_attributepages_dropdown.png)
 
 1.  Navigate to NavigationPro backend interface and select menu to edit
 2.  Select last visible category
