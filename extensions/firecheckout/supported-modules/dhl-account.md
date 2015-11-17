@@ -13,7 +13,10 @@ Apply the following patch to `js/dhl/account.js`
 ```diff
 --- a/js/dhl/account.js
 +++ b/js/dhl/account.js
-@@ -3,21 +3,27 @@
+@@ -1,23 +1,29 @@
+ document.observe("dom:loaded", function() {
+-
++    togglePackstation();
      checkAnnouncementBox(null, null);
      var elementsToObserve = new Array('billing:country_id',
          'billing:use_for_shipping_yes',
