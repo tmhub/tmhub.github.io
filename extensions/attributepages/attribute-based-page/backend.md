@@ -94,3 +94,6 @@ Exclude from Display | Do not shown this option(brand) at the Attributepage and 
 Url Key | Frontend url, where the page will be available (PAGE_URL/OPTION_URL)
 Image | Image to show at the Attributepage and widgets
 Thumbnail | Image to show, when tiny logo size is needed. See [Use cases](/extensions/attributepages/use-cases/) page.
+
+##### Related Articles
+- [Attribute based page frontend screenshots](/extensions/attributepages/attribute-based-page/frontend/)
