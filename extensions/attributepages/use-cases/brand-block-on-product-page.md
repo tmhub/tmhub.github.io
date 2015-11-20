@@ -30,34 +30,32 @@ You can add the code below in any template, that is shown on product page.
 To add block right after product name, you'll need to edit
 `app/design/frontend/YOUR_PACKAGE/YOUR_THEME/template/catalog/product/view.phtml`
 
-<!-- See the [list of available attributepages/product helper methods][product_helper_methods] -->
+See the [list of available attributepages/product helper methods][product_helper_methods]
 
 ```php
-<?php
-    echo Mage::helper('attributepages/product')
-        ->setProduct($_product)
-        ->setAttributeCode(array(
-            'brand',
-            'gender'
-        ))
-        ->setImageType('thumbnail')
-        ->setCssClass('list-block')
-        ->setParentPageLinkTitle(array(
-            'brand'  => 'Browse all brands',
-            'gender' => false
-        ))
-        ->setUseImage(array(
-            'brand'  => true,
-            'gender' => false
-        ))
-        ->setUseLink(array(
-            'brand'  => true,
-            'gender' => false
-        ))
-        ->setSize(38, 17)
-        ->setKeepFrame(false)
-        ->toHtml();
-?>
+echo Mage::helper('attributepages/product')
+    ->setProduct($_product)
+    ->setAttributeCode(array(
+        'brand',
+        'gender'
+    ))
+    ->setImageType('thumbnail')
+    ->setCssClass('list-block')
+    ->setParentPageLinkTitle(array(
+        'brand'  => 'Browse all brands',
+        'gender' => false
+    ))
+    ->setUseImage(array(
+        'brand'  => true,
+        'gender' => false
+    ))
+    ->setUseLink(array(
+        'brand'  => true,
+        'gender' => false
+    ))
+    ->setSize(38, 17)
+    ->setKeepFrame(false)
+    ->toHtml();
 ```
 
 ### Inline block directive
@@ -68,7 +66,7 @@ are rendered on the product page.
 That is how the brand block is shown on [ArgentoFlat](/argento/flat/#brand-logo-on-product-page) and
 [ArgentoPure2](/argento/pure2/product-page/#brand-information) themes.
 
-<!-- See the [list of available product_option block parameters][product_option_widget_parameters] -->
+See the [list of available product_option block methods][product_option_block_methods]
 
 ```
 {% raw %}{{block type="attributepages/product_option" attribute_code="brand" css_class="hidden-label" width="180" height="90" use_image="1" image_type="image" use_link="1" template="tm/attributepages/product/options.phtml"}}{% endraw %}
@@ -76,7 +74,7 @@ That is how the brand block is shown on [ArgentoFlat](/argento/flat/#brand-logo-
 
 ### Layout update xml
 
-<!-- See the [list of available product_option block parameters][product_option_widget_parameters] -->
+See the [list of available product_option block methods][product_option_block_methods]
 
 ```xml
 <reference name="product.info.extrahint">
@@ -105,9 +103,9 @@ following layout update instructions:
 
 ##### Related Articles
 - [Attributepages product helper][product_helper]
-- [Product option widget][product_option_widget]
+- [Product option block][product_option_block]
 
-[product_helper]: /extensions/attributepages/product-helper/ "'attributepages/product' helper"
-[product_helper_methods]: /extensions/attributepages/product-helper/#methods "List of available 'attributepages/product' helper methods"
-[product_option_widget]: /extensions/attributepages/product-option-widget/ "'Product option' widget"
-[product_option_widget_parameters]: /extensions/attributepages/product-option-widget/#parameters "List of available 'Product option' parameters"
+[product_helper]: /extensions/attributepages/widgets-and-blocks/product-option-helper/ "'attributepages/product' helper"
+[product_helper_methods]: /extensions/attributepages/widgets-and-blocks/product-option-helper/#helper-methods "List of available 'attributepages/product' helper methods"
+[product_option_block]: /extensions/attributepages/widgets-and-blocks/product-option-block/ "'Product option' block"
+[product_option_block_methods]: /extensions/attributepages/widgets-and-blocks/product-option-block/#block-methods "List of available 'Product option' methods"

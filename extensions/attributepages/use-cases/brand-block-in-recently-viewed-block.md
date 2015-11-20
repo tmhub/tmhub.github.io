@@ -8,17 +8,6 @@ category: Attributepages
 
 # Display brand block in recently viewed products block
 
-#### Table of Contents
-
-- [Screenshot](#screenshot)
-- [Inline php code](#inline-php-code)
-
-### Screenshot
-
-![Brand block in recently viewed products block](/images/attributepages/use-cases/brand_block_in_recently_viewed_block.png)
-
-### Inline php code
-
 You should add the code below in recently viewed list template.
 
 Usually you can find it at
@@ -27,7 +16,11 @@ Usually you can find it at
 If you can't find the template to edit, you can always find it with
 `System > Configuration > Developer > Debug > Template Path Hints` option.
 
-<!-- See the [list of available attributepages/product helper methods][product_helper_methods] -->
+### Screenshot
+
+![Brand block in recently viewed products block](/images/attributepages/use-cases/brand_block_in_recently_viewed_block.png)
+
+### Code
 
 ```php
 <?php
@@ -44,8 +37,10 @@ If you can't find the template to edit, you can always find it with
 ?>
 ```
 
+See the [list of available attributepages/product helper methods][product_helper_methods]
+
 ##### Related Articles
 - [Attributepages product helper][product_helper]
 
-[product_helper]: /extensions/attributepages/product-helper/ "'attributepages/product' helper"
-[product_helper_methods]: /extensions/attributepages/product-helper/#methods "List of available 'attributepages/product' helper methods"
+[product_helper]: /extensions/attributepages/widgets-and-blocks/product-option-helper/ "'attributepages/product' helper"
+[product_helper_methods]: /extensions/attributepages/widgets-and-blocks/product-option-helper/#helper-methods "List of available 'attributepages/product' helper methods"

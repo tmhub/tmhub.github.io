@@ -17,6 +17,11 @@ dropdowns, [product page][block_on_product_page], [category page][block_on_categ
 or any other page customization.
 
 ##### [Attribute based page](attribute-based-page/) (All brands page)
+
+Top Fashion Brands | Browse by Author
+:------------------|:----------------
+<img src="/images/attributepages/attribute-based-page/frontend/top_fashion_brands.png" alt="Top Fashion Brands" height="250"/> | <img src="/images/attributepages/attribute-based-page/frontend/book_authors.png" alt="Browse by Authors" height="250"/>
+
 - [Frontend screenshots](attribute-based-page/frontend/)
 - [Backend](attribute-based-page/backend/)
     - [Attribute based pages grid](attribute-based-page/backend/#attribute-based-pages-grid)
@@ -24,16 +29,21 @@ or any other page customization.
     - [Attribute page form](attribute-based-page/backend/#attribute-page-form)
 
 ##### [Option based Page](option-based-page/) (Specific brand page)
+
+Product listing filtered by option | Brand landing page
+:----------------------------------|:------------------
+<img src="/images/attributepages/option-based-page/frontend/white_color.png" alt="Product listing page" height="250"/> | <img src="/images/attributepages/option-based-page/frontend/brand_history_page.png" alt="Brand landing page" height="250"/>
+
 - [Frontend screenshots](option-based-page/frontend/)
 - [Backend](option-based-page/backend/)
     - [Option based pages grid](option-based-page/backend/#grid)
     - [Option page form](option-based-page/backend/#form)
 
-<!-- ##### Widgets and Blocks
-- [Product Option helper](frontend/product-option-helper/) (Show product brand)
-- [Product Option block](frontend/product-option-block/)
-- [Attribute based pages widget](frontend/attribute-based-pages-widget/)
-- [Option based pages widget](frontend/option-based-pages-widget/) -->
+##### Widgets and Blocks
+- [Product Option helper](widgets-and-blocks/product-option-helper/)
+- [Product Option block](widgets-and-blocks/product-option-block/)
+- [Attribute based pages widget](widgets-and-blocks/attribute-based-pages-widget/)
+- [Option based pages widget](widgets-and-blocks/option-based-pages-widget/)
 
 ##### [Use Cases](use-cases/)
 - [Display brand block on product page](use-cases/brand-block-on-product-page/)
