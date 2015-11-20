@@ -39,11 +39,11 @@ Product listing filtered by option | Brand landing page
     - [Option based pages grid](option-based-page/backend/#grid)
     - [Option page form](option-based-page/backend/#form)
 
-##### Widgets and Blocks
-- [Product Option helper](widgets-and-blocks/product-option-helper/)
-- [Product Option block](widgets-and-blocks/product-option-block/)
-- [Attribute based pages widget](widgets-and-blocks/attribute-based-pages-widget/)
-- [Option based pages widget](widgets-and-blocks/option-based-pages-widget/)
+##### [Widgets and Blocks](widgets-and-blocks/)
+- [Product option helper](widgets-and-blocks/product-option-helper/) (Used for Product brand images for a product collection)
+- [Product option block](widgets-and-blocks/product-option-block/) (Used for Product brand image on a product page)
+- [Attribute based pages widget](widgets-and-blocks/attribute-based-pages-widget/) (Eg. Browse by list: Brands, Colors, Authors, etc)
+- [Option based pages widget](widgets-and-blocks/option-based-pages-widget/) (Eg. Brands list: Dior, Burberry, Chanel, etc)
 
 ##### [Use Cases](use-cases/)
 - [Display brand block on product page](use-cases/brand-block-on-product-page/)

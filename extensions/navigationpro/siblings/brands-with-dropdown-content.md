@@ -24,3 +24,7 @@ category: Navigationpro
     Dropdown Content:    Insert Attributepages Option List widget using WYSISYG editor
     Dropdown css styles: width: 600px; padding: 10px;
     ```
+
+##### Related Articles
+
+- [Attributepage: Option based pages list widget](/extensions/attributepages/widgets-and-blocks/option-based-pages-widget/)
