@@ -40,16 +40,16 @@ You can add icon of any other site or service (instagram, wikipedia, vimeo etc).
 .footer-cms .block-social .icons .custom_class_name a:before { content: '\<fa_hex_code>'; }
 ```
 
-`custom_class_name` - replace with your CSS class name;
+`custom_class_name` - replace with your CSS class name.
 
-`<default_color>` - color of icon;
+`<default_color>` - color of icon.
 
-`<hover_color>` - color of icon when cursor points on it;
+`<hover_color>` - color of icon when cursor points on it.
 
-`\<fa_hex_code>` - hex code of font-awesome symbol (if hex code is `[&#xf259;]`, then `<fa_hex_code>` = `f259`). Font-awesome symbols with its codes you can find at [Font-Awesome Cheatsheet](https://fortawesome.github.io/Font-Awesome/cheatsheet/)
+`\<fa_hex_code>` - hex code of font-awesome symbol (if hex code is `[&#xf259;]`, then `<fa_hex_code>` = `f259`). Font-awesome symbols with its codes you can find at [Font-Awesome Cheatsheet](https://fortawesome.github.io/Font-Awesome/cheatsheet/).
 
 
-Add modified [custom CSS](../theme-customization/small-changes/#custom-styles-and-javascript) to your theme. And add html to footer_social block.
+Add modified [custom CSS](../../theme-customization/small-changes/#custom-styles-and-javascript) to your theme. And add html to footer_social block.
 
 ```html
 <li class="custom_class_name"><a href="someurl">icon title</a></li>
