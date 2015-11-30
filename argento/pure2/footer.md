@@ -14,7 +14,7 @@ category: Argento
 
 You can add or remove additional links in `Cms > Static Blocks > footer_social` block.
 
-Here is a full list of supported icons:
+Here is a full list of supported icons right "from the box":
 
 ```html
 <div class="block block-social">
@@ -28,6 +28,46 @@ Here is a full list of supported icons:
         <li class="pinterest"><a href="pinterest.com">Pinterest</a></li>
     </ul>
 </div>
+```
+
+You can add icon of any other site or service (instagram, wikipedia, vimeo etc). Use custom CSS code below to do this:
+
+```css
+.footer-cms .block-social .icons .custom_class_name { background: <default_color>; }
+.footer-cms .block-social .icons .custom_class_name:hover { background: <hover_color>; }
+.footer-cms .block-social .icons .custom_class_name a:before { content: '\<fa_hex_code>'; }
+```
+
+`custom_class_name` - replace with your CSS class name.
+
+`<default_color>` - color of icon.
+
+`<hover_color>` - color of icon when cursor points on it.
+
+`\<fa_hex_code>` - hex code of font-awesome symbol (if hex code is `[&#xf259;]`, then `<fa_hex_code>` = `f259`). Font-awesome symbols with its codes you can find at [Font-Awesome Cheatsheet](https://fortawesome.github.io/Font-Awesome/cheatsheet/).
+
+Add modified [custom CSS](../../theme-customization/small-changes/#custom-styles-and-javascript) to your theme. And add html to footer_social block.
+
+```html
+<li class="custom_class_name"><a href="someurl">icon title</a></li>
+```
+
+#### Add instagram to social icons
+
+Here is ready to use CSS and HTML code according to instruction above.
+
+Custom CSS:
+
+```css
+.footer-cms .block-social .icons .instagram { background: #ccc; }
+.footer-cms .block-social .icons .instagram:hover { background: #325b83; }
+.footer-cms .block-social .icons .instagram a:before { content: '\f16d'; }
+```
+
+HTML for footer_social:
+
+```html
+<li class="instagram"><a href="instagram.com">Instagram</a></li>
 ```
 
 ### Company information, Call Us
