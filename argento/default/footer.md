@@ -41,11 +41,15 @@ You can add icon of any other site or service (instagram, wikipedia, vimeo etc).
 ```
 
 `custom_class_name` - replace with your CSS class name;
+
 `<default_color>` - color of icon;
+
 `<hover_color>` - color of icon when cursor points on it;
+
 `\<fa_hex_code>` - hex code of font-awesome symbol (if hex code is `[&#xf259;]`, then `<fa_hex_code>` = `f259`). Font-awesome symbols with its codes you can find at [Font-Awesome Cheatsheet](https://fortawesome.github.io/Font-Awesome/cheatsheet/)
 
-[Add this modified custom CSS](argento/theme-customization/small-changes/#custom-styles-and-javascript) to your theme. And add html to footer_social block.
+
+Add modified [custom CSS](../theme-customization/small-changes/#custom-styles-and-javascript) to your theme. And add html to footer_social block.
 
 ```html
 <li class="custom_class_name"><a href="someurl">icon title</a></li>
@@ -56,13 +60,15 @@ You can add icon of any other site or service (instagram, wikipedia, vimeo etc).
 Here is ready to use CSS and HTML code according to instruction above.
 
 Custom CSS:
+
 ```css
 .footer-cms .block-social .icons .instagram { background: #ccc; }
 .footer-cms .block-social .icons .instagram:hover { background: #325b83; }
 .footer-cms .block-social .icons .instagram a:before { content: '\f16d'; }
 ```
 
-HTML for footer_social
+HTML for footer_social:
+
 ```html
 <li class="instagram"><a href="instagram.com">Instagram</a></li>
 ```
