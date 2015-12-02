@@ -79,6 +79,7 @@ additional modifications.
 
 ### Shipping and Payment related modules
 
+- Amasty_Methods
 - [Amasty_Payrestriction](amasty-payrestriction/)
 - [Amasty_Shiprestriction](amasty-shiprestriction/)
 - [Ship and pay combo](mymonki-ship2pay/)
