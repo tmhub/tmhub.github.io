@@ -119,7 +119,7 @@ additional modifications.
 ### Tax/Vat extensions
 
 - Emja_Taxrelief
-- Geissweb_Euvatgrouper
+- [Geissweb_Euvatgrouper](geissweb-euvatgrouper/)
 - [OnePica_AvaTax](onepica-avatax/)
 - Webgriffe_TaxIdPro
 
