@@ -27,7 +27,8 @@ child categories.
     1. [Show block below the category title](#show-block-below-the-category-title)
     2. [Show block for certain category only](#show-block-for-certain-category-only)
     3. [Remove block from certain category](#remove-block-from-certain-category)
-    3. [Display images near subcategories](#display-images-near-subcategories)
+    4. [Display images near subcategories](#display-images-near-subcategories)
+5. [Compatibility issues](#compatibility-issues)
 
 ### Configuration
 
@@ -270,8 +271,8 @@ Extension option 'Hidden, when filter or pagination is used' does not work prope
 
 Solving - remove few lines at `app/code/local/Amasty/Shopby/Block/Catalog/Layer/View.php` in method `_prepareLayout()`. Below is code that has to be removed/commented:
 
-    ``` php
-    if($productsBlock = Mage::app()->getLayout()->getBlock('category.products')) {
-        $productsBlock->getCmsBlockHtml();
-    }
-    ```
+```php
+if($productsBlock = Mage::app()->getLayout()->getBlock('category.products')) {
+    $productsBlock->getCmsBlockHtml();
+}
+```
