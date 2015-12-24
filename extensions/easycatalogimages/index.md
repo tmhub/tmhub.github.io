@@ -261,3 +261,17 @@ disable the following options:
         margin-right: 4px !important;
     }
     ```
+
+### Compatibility issues
+
+#### Amasty Shopby extension
+
+Extension option 'Hidden, when filter or pagination is used' does not work properly with Shopby extension from Amasty.
+
+Solving - remove few lines at `app/code/local/Amasty/Shopby/Block/Catalog/Layer/View.php` in method `_prepareLayout()`. Below is code that has to be removed/commented:
+
+    ``` php
+    if($productsBlock = Mage::app()->getLayout()->getBlock('category.products')) {
+        $productsBlock->getCmsBlockHtml();
+    }
+    ```
