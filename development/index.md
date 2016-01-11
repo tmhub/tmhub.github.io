@@ -295,7 +295,7 @@ Firecheckout         | fir | 635
     folder, use the following command:
 
     ```
-    ./vendor/bin/composerCommandIntegrator.php magento-module-deploy
+    composer run-script post-install-cmd -vvv -- --redeploy
     ```
 
 #### Updating TM packages repository
