@@ -51,7 +51,8 @@ additional modifications.
 - Advox_Inpost
 - Aicod_Italy
 - Amasty_Deliverydate
-- Bpost_ShippingManager
+- [Bpost_ShippingManager](bpost-shm/)
+- [Bpost_ShM](bpost-shm/)
 - Bysoft_Relaypoint
 - [Dhl_Account](dhl_account/)
 - DPD_Shipping
