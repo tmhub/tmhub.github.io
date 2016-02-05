@@ -84,3 +84,36 @@ category: m001
 
 #### That's all. Navigate to your home page and check how your new store looks.
  If you have any problems with templates installtion please contact us at [templates-master.com/contacts/](http://templates-master.com/contacts/) and we will help you with template installation for free.
+
+## Use cases
+
+#### Toggle menu on category link click
+
+![Mobile navigation](/images/m001-mobile-star/mobile-nav.gif)
+
+By default when you click on category link it opens category page. If you want to disable it and only expand subcategories, follow these steps:
+
+ 1. Go to `CMS > Static Blocks > Homepage mobile`.
+ 2. In `Content` field fine the code
+
+    ```html
+    <script type="text/javascript">
+     new MobileNavigation();
+    </script>
+    ```
+
+    and replace it with the next code
+
+    ```html
+    <script type="text/javascript">
+        var mobileNav = new MobileNavigation();
+        $('nav').select('.level-top').each(function(el) {
+            el.observe('click', function(e) {
+                if (el.next('ul')) {
+                    e.stop();
+                    mobileNav.toggle(el.next('ul'));
+                }
+            });
+        });
+    </script>
+    ```
