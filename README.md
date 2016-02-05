@@ -21,5 +21,5 @@ bundle update
 ### Runing Locally
 
 ```bash
-jekyll serve
+bundle exec jekyll serve
 ```
