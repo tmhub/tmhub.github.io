@@ -6,6 +6,16 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: ""
 url: "http://tmhub.github.io"
 
+permalink: pretty
+
+safe: true
+lsi: false
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
 exclude:
   - bower_components/lunr.js/example/
   - bower_components/lunr.js/lib/
@@ -16,10 +26,6 @@ exclude:
   - bower_components/mustache/hooks/
   - bower_components/mustache/spec/
   - bower_components/mustache/wrappers/
-  - bower_components/prism/examples/
-  - bower_components/prism/plugins/
-  - bower_components/prism/tests/
-  - bower_components/prism/vendor/
 
 github:
   repository_url: https://github.com/tmhub/tmhub.github.io
@@ -36,29 +42,3 @@ prose:
     - /_layouts
     - /_posts
     - /bower_components
-
-# Outputting
-permalink: pretty
-
-# Build settings
-safe: true
-lsi: false
-# highlighter: pygments
-
-markdown: kramdown
-kramdown:
-  input: GFM
-  hard_wrap: false
-  # syntax_highlighter: pygments
-  enable_coderay: false
-
-# markdown: redcarpet
-# redcarpet:
-#   extensions:
-#     - no_intra_emphasis
-#     - tables
-#     - fenced_code_blocks
-#     - autolink
-#     - strikethrough
-#     - superscript
-#     - with_toc_data
