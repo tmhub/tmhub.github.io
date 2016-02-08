@@ -193,3 +193,20 @@ OR
 skin/frontend/argento/argento_custom/images/storeLogo.png
 skin/frontend/argento/argento_custom/images/storeLogo@2x.png
 ```
+
+### How to create full width block at CMS page
+
+ 1. Find your CMS page unique classname i. e. `.cms-about` (usually it's located
+    in <body class="CMS-ABOUT"> tag).
+ 2. Go to your [custom.css](../theme-customization/small-changes/#custom-styles-and-javascript)
+    file and add following code using your CMS page selector:
+
+    ```css
+    .cms-about .main {
+       max-width: 100%;
+       padding: 0;
+    }
+    ```
+
+ 3. It will make your page content expand to full page width.
+ 4. In case you want to leave some blocks the **fixed width**, wrap them with `<div class="container">BLOCK CONTENT HERE</div>`
