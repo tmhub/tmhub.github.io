@@ -101,3 +101,4 @@ category: Argento
 - [How to change layout for specific category?](faq/#how-to-change-layout-for-specific-category)
 - [Magento 1.7 and older](faq/#magento-17-and-older)
 - [Prepare logo image for mobile device](faq/#prepare-logo-image-for-mobile-device)
+- [How to create full width block at CMS page](faq/#how-to-create-full-width-block-at-cms-page)
