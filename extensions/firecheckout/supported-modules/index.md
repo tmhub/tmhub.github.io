@@ -122,6 +122,7 @@ additional modifications.
 - Emja_Taxrelief
 - [Geissweb_Euvatgrouper](geissweb-euvatgrouper/)
 - [OnePica_AvaTax](onepica-avatax/)
+- [Vonnda_Taxify](vonnda-taxify/)
 - Webgriffe_TaxIdPro
 
 ### ShoppingCart and OrderTotals modules
