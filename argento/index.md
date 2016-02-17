@@ -102,3 +102,4 @@ category: Argento
 - [Magento 1.7 and older](faq/#magento-17-and-older)
 - [Prepare logo image for mobile device](faq/#prepare-logo-image-for-mobile-device)
 - [How to create full width block at CMS page](faq/#how-to-create-full-width-block-at-cms-page)
+- [How to disable Questions tab on product page?](faq/#how-to-disable-questions-tab-on-product-page)

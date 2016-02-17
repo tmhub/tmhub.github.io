@@ -16,12 +16,13 @@ category: Argento
 6. [How to change layout for specific category?](#how-to-change-layout-for-specific-category)
 7. [Magento 1.7 and older](#magento-17-and-older)
 8. [Prepare logo image for mobile device](#prepare-logo-image-for-mobile-device)
+9. [How to disable Questions tab on product page?](#how-to-disable-questions-tab-on-product-page)
 
 ### How to disable short header and footer layout?
 
 *This feature is available since Argento 1.5.2.*
 
- 1. [Create](small-changes/#custom-layout-update-file) `custom.xml` layout file
+ 1. [Create](../theme-customization/small-changes/#custom-layout-update-file) `custom.xml` layout file
  2. Add the following code:
 
     ```xml
@@ -37,7 +38,7 @@ category: Argento
 
 ### How to add additional item to the floatbar navigation?
 
- 1. [Create](small-changes/#custom-layout-update-file) `custom.xml` layout file
+ 1. [Create](../theme-customization/small-changes/#custom-layout-update-file) `custom.xml` layout file
  2. Add the following code:
 
     ```xml
@@ -77,7 +78,7 @@ document.observe('bottomnavbar:init', function() {
 
 ### How to disable category description collapse?
 
- 1. [Create](small-changes/#custom-layout-update-file) `custom.xml` layout file
+ 1. [Create](../theme-customization/small-changes/#custom-layout-update-file) `custom.xml` layout file
  2. Add the following code inside:
 
     ```xml
@@ -210,3 +211,20 @@ skin/frontend/argento/argento_custom/images/storeLogo@2x.png
 
  3. It will make your page content expand to full page width.
  4. In case you want to leave some blocks the **fixed width**, wrap them with `<div class="container">BLOCK CONTENT HERE</div>`
+
+### How to disable Questions tab on product page
+
+ 1. [Create](../theme-customization/small-changes/#custom-layout-update-file) or edit existing `custom.xml` layout file of your theme.
+ 2. Add the following code inside:
+
+    ```xml
+    <catalog_product_view>
+        <reference name="product.info.tabs">
+            <action method="unsetChild" module="askit" ifconfig="askit/general/enabled">
+                <alias>askit_tabbed</alias>
+            </action>
+        </reference>
+    </catalog_product_view>
+    ```
+
+ 3. Flush cache
