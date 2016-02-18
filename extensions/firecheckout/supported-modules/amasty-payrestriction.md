@@ -9,4 +9,5 @@ category: Firecheckout
 # Amasty Payrestriction
 
 The module uses `Amasty_Rules`, and you should
-[apply the fixes](/firecheckout/supported-modules/amasty-rules/) for that module.
+[apply the fixes](/extensions/firecheckout/supported-modules/amasty-rules/) for 
+that module.
