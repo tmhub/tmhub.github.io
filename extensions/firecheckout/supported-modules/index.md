@@ -24,6 +24,7 @@ additional modifications.
 - [Bitpay_Bitcoins](bitpay-bitcoins/)
 - [Braintree](braintree/)
 - Braintree_Payments (Updated Braintree)
+- [CheckoutApi_ChargePayment](checkoutapi-chargepayment/)
 - Craig_Tco
 - [Customweb_PayUnityCw](customweb-payunitycw/)
 - Ebizmarts_SagepaymentsPro
