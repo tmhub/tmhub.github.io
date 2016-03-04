@@ -46,6 +46,7 @@ additional modifications.
 - SVMPayment
 - TemplateTag_Stripe
 - Vaimo_Klarna
+- [Xonu_Directdebit](xonu-directdebit/)
 
 ### Shipping methods
 
