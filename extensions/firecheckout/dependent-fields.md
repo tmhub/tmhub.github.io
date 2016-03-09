@@ -99,7 +99,7 @@ Example, that makes phone field required for `US` and hidden for other countries
 In this tutorial we will add two radio inputs to the billing address form,
 that will trigger Company and VAT fields to be shown or hidden.
 
- 1. Create `custom.js` file. [Using custom.css and custom.js][custom_js]
+ 1. Create `custom.js` file - [Using custom.css and custom.js][custom_js]
  2. Add the following code into this file
 
     ```js
@@ -109,9 +109,9 @@ that will trigger Company and VAT fields to be shown or hidden.
             before: [
                 '<li class="control" style="padding: 5px 0;">',
                     '<input type="radio" id="radio_company" name="radio_company_person"/>',
-                    '<label for="radio_company" style="margin: 0 4px">Company</label>',
+                    '<label for="radio_company" style="margin: 0 4px">' + Translator.translate('Company') + '</label>',
                     '<input type="radio" id="radio_person" checked="checked" name="radio_company_person"/>',
-                    '<label for="radio_person" style="margin: 0 4px">Person</label>',
+                    '<label for="radio_person" style="margin: 0 4px">' + Translator.translate('Person') + '</label>',
                 '</li>'
             ].join('')
         });
@@ -131,8 +131,28 @@ that will trigger Company and VAT fields to be shown or hidden.
     });
     ```
 
+ 3. Let's translate the fields! Create `custom.phtml` file -
+    [Using custom.phtml][custom_phtml]
+ 4. Add the following content into this file:
+
+    ```html
+    <script>
+        Translator.add('Company', "<?php echo $this->__('Company') ?>");
+        Translator.add('Person', "<?php echo $this->__('Person') ?>");
+    </script>
+    ```
+
+ 5. Add translations to your theme csv file -
+    `app/design/frontend/argento/default/locale/de_DE/translate.csv`:
+
+    ```csv
+    "Company","Unternehmen"
+    "Person","Person"
+    ```
+
 #### Screenshot
 
 ![Company vs Person Radio buttons](/images/firecheckout/dependent-fields/radio_buttons.gif)
 
 [custom_js]: /extensions/firecheckout/using-customcss-and-customjs/#add-custom-javascript-at-firecheckout-page "How to use custom.js file"
+[custom_phtml]: /extensions/firecheckout/using-customphtml/ "How to use custom.phtml file"

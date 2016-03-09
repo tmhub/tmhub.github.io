@@ -2,7 +2,7 @@
 layout: default
 title: Using custom.css and custom.js
 description: "Using custom.css and custom.js for small modifications"
-keywords: "firecheckout modifications, custom.css, custom.js"
+keywords: "firecheckout modifications, custom, css, js"
 category: Firecheckout
 ---
 
