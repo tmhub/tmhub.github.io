@@ -8,7 +8,7 @@ category: Firecheckout
 
 # Using custom.phtml template
 
-> This feature is available since Firecheckout 3.4.1
+> This feature is available since Firecheckout 3.4.0
 
 To add additional php code at firecheckout page, you can create `custom.phtml`
 file at `app/design/frontend/[PACKAGE/THEME]/template/tm/firecheckout` folder.
