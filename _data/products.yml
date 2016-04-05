@@ -54,6 +54,12 @@
     - title: Argento Pure 2
       url: /argento/pure2/
 
+- title: Argento 2 themes
+  url: /argento2/
+  items:
+     - title: Argento Essence
+       url: /argento2/essence/
+
 - title: Themes
   items:
     - title: Absolute Theme
