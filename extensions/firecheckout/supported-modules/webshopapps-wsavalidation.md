@@ -8,21 +8,10 @@ category: Firecheckout
 
 # Webshopapps Wsavalidation
 
- 1. Open `app/code/community/Webshopapps/Wsavalidation/Model/Observer.php`
- and find the following lines:
+ 1. Open `app/code/community/Webshopapps/Wsavalidation/Model/Observer.php`,
+    find `hookToControllerActionPreDispatch` method and add the following lines:
 
     ```php
-    case 'checkout_onepage_saveShipping':
-        $this->_saveShippingQuote($observer);
-        break;
-    ```
-
-    Replace them with:
-
-    ```php
-    case 'checkout_onepage_saveShipping':
-        $this->_saveShippingQuote($observer);
-        break;
     case 'firecheckout_index_saveOrder':
         $this->_validateFirecheckoutAddress($observer);
         break;
@@ -33,8 +22,12 @@ category: Firecheckout
     ```php
     protected function _validateFirecheckoutAddress($observer)
     {
+        $paymentData = $observer->getControllerAction()->getRequest()->getPost('payment', array());
+        Mage::getSingleton('firecheckout/type_standard')
+            ->applyPaymentMethod(isset($paymentData['method']) ? $paymentData['method'] : null);
+
         // validate billing address
-        $this->_saveBillingQuote($observer);
+        //$this->_saveBillingQuote($observer);
         $this->_saveBillingQuoteAfter($observer);
 
         $controller = $observer->getControllerAction();
@@ -48,7 +41,7 @@ category: Firecheckout
             }
 
             Mage::unregister('candidate_addresses');
-            $this->_saveShippingQuote($observer);
+            //$this->_saveShippingQuote($observer);
             $this->_saveShippingQuoteAfter($observer);
             if ($controller->getResponse()->getBody()) { // validatiopn window is in response
                 $controller->setFlag('', Mage_Core_Controller_Varien_Action::FLAG_NO_DISPATCH, true);
@@ -57,107 +50,142 @@ category: Firecheckout
     }
     ```
 
- 2. Open `/app/design/frontend/base/default/template/webshopapps/wsavalidation/checkout/onepage/choose_billing.phtml`
- and find the following lines (~133-135):
+ 2. Open `/app/design/frontend/base/default/template/webshopapps/addressvalidation/checkout/onepage/choose_billing.phtml`
+    and find the following lines:
 
-    ```javascript
-    "Use Original Address": function() {
-        $("billing:address_valid").value = 1;
+    ```js
+    "Use The Address I've Entered": function() {
+        $("billing:address_valid").value =  '<?php echo Webshopapps_Wsavalidation_Model_Validator_Result::CUSTOMER_OVERRIDE; ?>';
         $j( this ).dialog( "close" );
-        $("billing:dest_type").value = 1;
-
-        //get_save_billing_function(url_save_billing, url_set_methods, true, true)();
-        billing.save();
-        $j("#billing-continue").trigger("click");
+    },
+    "Use Validated Address": function() {
+        if(candidateSwitcherBilling()) {
+            if($("billing-address-select")) {
+                changeSelectByValue('billing-address-select','',true);
+            }
+            $j( this ).dialog( "close" );
+        }
     }
     ```
 
     Replace them with:
 
-    ```javascript
-    "Use Original Address": function() {
-        $("billing:address_valid").value = 1;
+    ```js
+    "Use The Address I've Entered": function() {
+        $("billing:address_valid").value =  '<?php echo Webshopapps_Wsavalidation_Model_Validator_Result::CUSTOMER_OVERRIDE; ?>';
         $j( this ).dialog( "close" );
-        $("billing:dest_type").value = 1;
-
         if (typeof FireCheckout !== 'undefined') {
             checkout.save();
-        } else {
-            //get_save_billing_function(url_save_billing, url_set_methods, true, true)();
-            billing.save();
-            $j("#billing-continue").trigger("click");
+        }
+    },
+    "Use Validated Address": function() {
+        if(candidateSwitcherBilling()) {
+            if($("billing-address-select")) {
+                changeSelectByValue('billing-address-select','',true);
+            }
+            $j( this ).dialog( "close" );
+            if (typeof FireCheckout !== 'undefined') {
+                checkout.save();
+            }
         }
     }
     ```
 
     Find the following lines:
 
-    ```javascript
-    "Continue": function() {
-        if(candidateSwitcherBilling()) {
-            if($("billing-address-select")) {
-                changeSelectByValue('billing-address-select','',true);
-            }
-            $j( this ).dialog( "close" );
-
-            //get_save_billing_function(url_save_billing, url_set_methods, true, true)();
-            billing.save();
-            $j("#billing-continue").trigger("click");
-        }
-    },
-    ```
-
-    Replace them with:
-
-    ```javascript
-    "Continue": function() {
-        if(candidateSwitcherBilling()) {
-            if($("billing-address-select")) {
-                changeSelectByValue('billing-address-select','',true);
-            }
-            $j( this ).dialog( "close" );
-
-            //get_save_billing_function(url_save_billing, url_set_methods, true, true)();
-            if (typeof FireCheckout !== 'undefined') {
-                if($("billing-address-select")) {
-                    candidateSwitcherBilling(); // firecheckout resets address on changeSelectByValue
-                }
-                $('shipping-method').scrollTo();
-            }
-            billing.save();
-            $j("#billing-continue").trigger("click");
-        }
-    },
-    ```
-
- 3. Open `/app/design/frontend/base/default/template/webshopapps/wsavalidation/checkout/onepage/choose_shipping.phtml`
- and find the following lines (~147-149):
-
-    ```javascript
-    "Use Original Address": function() {
-        $("shipping:address_valid").value = 1;
+    ```js
+    "Edit Address": function() {
+        $("billing:address_valid").value = not_validated;
         $j( this ).dialog( "close" );
-        $("billing:dest_type").value = 1;
-        //get_save_billing_function(url_save_billing, url_set_methods, true, true)();
-        shipping.save();
-        $j("#shipping-continue").trigger("click");
+    },
+    "Use Address I've Entered": function() {
+        $("billing:address_valid").value =  '<?php echo Webshopapps_Wsavalidation_Model_Validator_Result::CUSTOMER_OVERRIDE; ?>';
+        $j( this ).dialog( "close" );
     }
     ```
 
     Replace them with:
 
-    ```javascript
-    "Use Original Address": function() {
-        $("shipping:address_valid").value = 1;
+    ```js
+    "Edit Address": function() {
+        $("billing:address_valid").value = not_validated;
         $j( this ).dialog( "close" );
-        $("billing:dest_type").value = 1;
-
+    },
+    "Use Address I've Entered": function() {
+        $("billing:address_valid").value =  '<?php echo Webshopapps_Wsavalidation_Model_Validator_Result::CUSTOMER_OVERRIDE; ?>';
+        $j( this ).dialog( "close" );
         if (typeof FireCheckout !== 'undefined') {
             checkout.save();
-        } else {
-            //get_save_billing_function(url_save_billing, url_set_methods, true, true)();
-            shipping.save();
-            $j("#shipping-continue").trigger("click");
+        }
+    }
+    ```
+
+ 3. Open `/app/design/frontend/base/default/template/webshopapps/addressvalidation/checkout/onepage/choose_shipping.phtml`
+ and find the following lines:
+
+    ```js
+    "Use The Address I've Entered": function() {
+        $("shipping:address_valid").value =  '<?php echo Webshopapps_Wsavalidation_Model_Validator_Result::CUSTOMER_OVERRIDE; ?>';
+        $j( this ).dialog( "close" );
+    },
+    "Use Validated Address": function() {
+        if(candidateSwitcherShipping()) {
+            if($("shipping-address-select")) {
+                changeSelectByValueShip('shipping-address-select','',true);
+            }
+            $j( this ).dialog( "close" );
+        }
+    }
+    ```
+
+    Replace them with:
+
+    ```js
+    "Use The Address I've Entered": function() {
+        $("shipping:address_valid").value =  '<?php echo Webshopapps_Wsavalidation_Model_Validator_Result::CUSTOMER_OVERRIDE; ?>';
+        $j( this ).dialog( "close" );
+        if (typeof FireCheckout !== 'undefined') {
+            checkout.save();
+        }
+    },
+    "Use Validated Address": function() {
+        if(candidateSwitcherShipping()) {
+            if($("shipping-address-select")) {
+                changeSelectByValueShip('shipping-address-select','',true);
+            }
+            $j( this ).dialog( "close" );
+            if (typeof FireCheckout !== 'undefined') {
+                checkout.save();
+            }
+        }
+    }
+    ```
+
+    Find the following lines:
+
+    ```js
+    "Edit Address": function() {
+        $("shipping:address_valid").value = not_validated;
+        $j( this ).dialog( "close" );
+    },
+    "Use Address I've Entered": function() {
+        $("shipping:address_valid").value =  '<?php echo Webshopapps_Wsavalidation_Model_Validator_Result::CUSTOMER_OVERRIDE; ?>';
+        $j( this ).dialog( "close" );
+    }
+    ```
+
+    Replace them with:
+
+    ```js
+    "Edit Address": function() {
+        $("shipping:address_valid").value = not_validated;
+        $j( this ).dialog( "close" );
+    },
+    "Use Address I've Entered": function() {
+        $("shipping:address_valid").value =  '<?php echo Webshopapps_Wsavalidation_Model_Validator_Result::CUSTOMER_OVERRIDE; ?>';
+        $j( this ).dialog( "close" );
+        if (typeof FireCheckout !== 'undefined') {
+            checkout.save();
         }
     }
     ```
