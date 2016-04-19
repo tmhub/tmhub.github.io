@@ -1,6 +1,38 @@
+// Redirect to the new docs site
+function redirectToNewDocs() {
+  var newDocs = 'http://docs.swissuplabs.com',
+    mapping   = {
+      '/extensions/' : '/m1/extensions/',
+      '/argento/'    : '/m1/argento/',
+      '/argento2/'   : '/m2/argento/',
+      '/development/': '/m1/dev/',
+      '/themes/f001-absolute/'    : '/m1/themes/absolute/',
+      '/themes/f002-classic/'     : '/m1/themes/classic/',
+      '/themes/m001-mobile-star/' : '/m1/themes/mobile-star/',
+      '/themes/'                  : '/m1/themes/',
+      '/': '/'
+    },
+    location = window.location;
+
+  for (var i in mapping) {
+    if (location.pathname.indexOf(i) === 0) {
+      window.location = newDocs +
+        location.pathname.replace(i, mapping[i]) +
+        location.hash;
+      break;
+    }
+  }
+}
+var oldDocs = 'documentation.argentotheme.com';
+if (location.href.indexOf(oldDocs) > -1) {
+  redirectToNewDocs();
+}
+
 document.addEventListener("readystatechange", function () {
   if (this.readyState === "complete") {
-    anchors.add();
+    if (typeof anchors !== 'undefined') {
+      anchors.add();
+    }
   }
 });
 
